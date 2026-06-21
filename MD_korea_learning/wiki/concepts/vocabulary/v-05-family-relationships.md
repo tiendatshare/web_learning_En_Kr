@@ -20,43 +20,43 @@ Các danh từ chỉ quan hệ gia đình thân thuộc, xưng hô và các mố
 > Export sang **Anki** để nhận notification ôn tập trên điện thoại.
 
 ### 📊 Level 1 — #TOPIK-1
-- 가족 (**ga-jok**) :: gia đình | #TOPIK-1
-- 가족사진 (**ga-jok-xa-jin**) :: ảnh gia đình | #TOPIK-1
-- 결혼식 (**gyơl-hôn-xik**) :: lễ cưới | #TOPIK-1
-- 결혼하다 (**gyơl-hôn-ha-da**) :: kết hôn | #TOPIK-1
-- 기혼 (**gi-hôn**) :: đã kết hôn | #TOPIK-1
-- 남동생 (**nam-dông-xeng**) :: em trai | #TOPIK-1
-- 남자 친구 (**nam-ja chin-gu**) :: bạn trai | #TOPIK-1
-- 남편 (**nam-phyơn**) :: chồng | #TOPIK-1
-- 누na (**nu-na**) :: chị gái - em trai gọi | #TOPIK-1
-- 누나 (**nu-na**) :: chị gái (**em trai gọi**) | #TOPIK-1
-- 동생 (**dông-xeng**) :: em nói chung | #TOPIK-1
-- 딸 (**ttal**) :: con gái | #TOPIK-1
-- 미혼 (**mi-hôn**) :: độc thân/chưa cưới | #TOPIK-1
-- 배우자 (**bae-u-ja**) :: bạn đời/phối ngẫu | #TOPIK-1
-- 부모님 (**bu-mo-nim**) :: bố mẹ | #TOPIK-1
-- 부부 (**bu-bu**) :: vợ chồng | #TOPIK-1
-- 생일 (**xaeng-il**) :: sinh nhật | #TOPIK-1
-- 선배 (**xơn-bae**) :: tiền bối/người đi trước | #TOPIK-1
-- 식구 (**xik-gu**) :: thành viên gia đình/người ăn cùng mâm | #TOPIK-1
-- 아내 (**a-nae**) :: vợ | #TOPIK-1
-- 아들 (**a-dưl**) :: con trai | #TOPIK-1
-- 아버지 (**a-bơ-ji**) :: bố/cha | #TOPIK-1
-- 어머니 (**ơ-mơ-ni**) :: mẹ | #TOPIK-1
-- 언니 (**ơn-ni**) :: chị gái (**em gái gọi**) | #TOPIK-1
-- 여동생 (**yơ-dong-xaeng**) :: em gái | #TOPIK-1
-- 여자 친구 (**yơ-ja chin-gu**) :: bạn gái | #TOPIK-1
-- 오빠 (**o-ppa**) :: anh trai (**em gái gọi**) | #TOPIK-1
-- 외동딸 (**we-dông-ttal**) :: con gái một | #TOPIK-1
-- 외동아들 (**we-dông-a-dưl**) :: con trai độc nhất | #TOPIK-1
-- 외할머니 (**we-hal-mơ-ni**) :: bà ngoại | #TOPIK-1
-- 외할아버지 (**we-hal-a-bơ-ji**) :: ông ngoại | #TOPIK-1
-- 우리 (**u-ri**) :: chúng tôi/chúng ta | #TOPIK-1
-- 이웃 (**i-ut**) :: hàng xóm | #TOPIK-1
-- 친척 (**chin-chơk**) :: họ hàng | #TOPIK-1
-- 할머니 (**hal-mơ-ni**) :: bà nội | #TOPIK-1
-- 할아버지 (**hal-a-bơ-ji**) :: ông nội | #TOPIK-1
-- 형 (**hyơng**) :: anh trai (**em trai gọi**) | #TOPIK-1
+- 가족 (**ga-jok**) :: gia đình | #TOPIK-1 <!-- cognitive: {"ex": "Trí 씨, 저의 가족사진을 보세요. 우리 아버지는 은행원이고 어머니는 병원 의사이십니다.", "vi": "Bạn Trí ơi, hãy xem bức ảnh gia đình của tôi này. Bố tôi là nhân viên ngân hàng còn mẹ tôi là bác sĩ bệnh viện đấy.", "pos": "danh từ", "syn": "친교 (học bổng), 집 (nhà)", "ant": "", "rel": "1인당 (đầu người), 날개 길이 (sải cánh), 풍토병 (đặc hữu)"} -->
+- 가족사진 (**ga-jok-xa-jin**) :: ảnh gia đình | #TOPIK-1 <!-- cognitive: {"ex": "Trí 씨, 저의 가족사진을 보세요. 우리 아버지는 은행원이고 어머니는 병원 의사이십니다.", "vi": "Bạn Trí ơi, hãy xem bức ảnh gia đình của tôi này. Bố tôi là nhân viên ngân hàng còn mẹ tôi là bác sĩ bệnh viện đấy.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 결혼식 (**gyơl-hôn-xik**) :: lễ cưới | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 결혼식", "vi": "**gyơl-hôn-xik: lễ cưới**", "pos": "động từ", "syn": "결혼식 (lễ cưới), 결혼식 파티 (tiệc cưới)", "ant": "", "rel": "신랑 (chú rể), 신부 (cô dâu), 신부 (cô dâu)"} -->
+- 결혼하다 (**gyơl-hôn-ha-da**) :: kết hôn | #TOPIK-1 <!-- cognitive: {"ex": "결혼이라는 주제에 집중해보자.", "vi": "Hãy tập trung vào chủ đề kết hôn.", "pos": "động từ/tính từ", "syn": "", "ant": "", "rel": ""} -->
+- 기혼 (**gi-hôn**) :: đã kết hôn | #TOPIK-1 <!-- cognitive: {"ex": "일과 결혼했습니다.", "vi": "kết hôn với công việc của một người.", "pos": "danh từ", "syn": "결혼 (hôn nhân), 결혼 (hôn nhân)", "ant": "싱글 (độc thân), 미혼 (chưa kết hôn)", "rel": "집주인 (chủ nhà), 커플 (cặp đôi), 이혼하다 (đã ly hôn)"} -->
+- 남동생 (**nam-dông-xeng**) :: em trai | #TOPIK-1 <!-- cognitive: {"ex": "남동생은 대학교에서 한국어를 전공하는 학생이에요. 그리고 여동생은 경찰입니다.", "vi": "Em trai tôi là sinh viên đang chuyên ngành tiếng Hàn ở trường đại học. Còn em gái tôi là cảnh sát.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 남자 친구 (**nam-ja chin-gu**) :: bạn trai | #TOPIK-1 <!-- cognitive: {"ex": "남자친구 주제에 집중해보자.", "vi": "Hãy tập trung vào chủ đề bạn trai.", "pos": "danh từ", "syn": "동료 (đồng nghiệp), 스웨인 (kẻ lừa đảo)", "ant": "", "rel": "부정 행위 (gian lận), 여자친구 (bạn gái), 질투하는 (ghen tuông)"} -->
+- 남편 (**nam-phyơn**) :: chồng | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 남편", "vi": "**nam-phyơn: chồng**", "pos": "danh từ", "syn": "절약하다 (bảo tồn), 남편 (chồng)", "ant": "낭비하다 (phung phí), 낭비 (chất thải)", "rel": "누군가 (ai đó), 가구 (hộ gia đình), 혼자 (một mình)"} -->
+- 누na (**nu-na**) :: chị gái - em trai gọi | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 누na", "vi": "**nu-na: chị gái - em trai gọi**", "pos": "danh từ", "syn": "동료 (đồng nghiệp), 아기 (em bé)", "ant": "의형제 (anh em ruột thịt), 형제 (anh trai)", "rel": "분류군 (đơn vị phân loại), 클레이드 (nhánh), 수녀 (nữ tu)"} -->
+- 누나 (**nu-na**) :: chị gái (em trai gọi) | #TOPIK-1 <!-- cognitive: {"ex": "누나라는 주제에 집중해보자.", "vi": "Hãy tập trung vào chủ đề của chị gái.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 동생 (**dông-xeng**) :: em nói chung | #TOPIK-1 <!-- cognitive: {"ex": "와! 부모님께서 아주 훌륭한 일을 하시는군요. 동생은 무엇을 합니까?", "vi": "Ồ! Bố mẹ bạn đang làm những công việc thực sự rất tuyệt vời. Còn em bạn thì làm gì vậy?", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 딸 (**ttal**) :: con gái | #TOPIK-1 <!-- cognitive: {"ex": "B: `수박은 좋아해요. 하지만 딸기는 안 좋아해요.`", "vi": "**Dưa hấu thì tôi thích. Nhưng dâu tây thì không.**", "pos": "danh từ", "syn": "소녀 (cô gái)", "ant": "소년 (cậu bé), 아들 (con trai)", "rel": "상속녀 (người thừa kế), 손녀 (cháu gái), 둘째로 (thứ hai)"} -->
+- 미혼 (**mi-hôn**) :: độc thân/chưa cưới | #TOPIK-1 <!-- cognitive: {"ex": "The Offspring은 최신 앨범에서 4개의 싱글을 발표했습니다.", "vi": "The Offspring đã phát hành bốn đĩa đơn trong album gần đây nhất của họ.", "pos": "danh từ", "syn": "에이스 (quân át), 개인 (cá nhân)", "ant": "더블 (gấp đôi), 결혼했다 (kết hôn)", "rel": "정점에 도달한 (đạt đến đỉnh điểm), 피킹 (lên tới đỉnh điểm), 차트로 작성된 (biểu đồ)"} -->
+- 배우자 (**bae-u-ja**) :: bạn đời/phối ngẫu | #TOPIK-1 <!-- cognitive: {"ex": "사람들은 배우자를 존중해야 합니다.", "vi": "Mọi người nên đối xử với vợ/chồng của mình một cách tôn trọng.", "pos": "danh từ", "syn": "친구 (bạn đời), 파트너 (đối tác)", "ant": "", "rel": "장내 (ruột), 배우자 (người phối ngẫu), 손자 (cháu nội)"} -->
+- 부모님 (**bu-mo-nim**) :: bố mẹ | #TOPIK-1 <!-- cognitive: {"ex": "와! 부모님께서 아주 훌륭한 일을 하시는군요. 동생은 무엇을 합니까?", "vi": "Ồ! Bố mẹ bạn đang làm những công việc thực sự rất tuyệt vời. Còn em bạn thì làm gì vậy?", "pos": "danh từ", "syn": "", "ant": "", "rel": "조부모 (ông bà), 이혼하다 (đã ly hôn), 형제자매 (anh chị em ruột)"} -->
+- 부부 (**bu-bu**) :: vợ chồng | #TOPIK-1 <!-- cognitive: {"ex": "나는 우리 시스템을 그들의 시스템에 연결했습니다.", "vi": "Tôi đã kết hợp hệ thống của chúng tôi với hệ thống của họ.", "pos": "danh từ", "syn": "스팬 (nhịp), 멍에 (cái ách)", "ant": "커플 해제 (tách rời)", "rel": "이혼하다 (đã ly hôn), 신혼여행 (tuần trăng mật), 딸들 (con gái)"} -->
+- 생일 (**xaeng-il**) :: sinh nhật | #TOPIK-1 <!-- cognitive: {"ex": "A: `내일이 생일이지요? 무슨 선물을 받고 싶어요?`", "vi": "**Ngày mai là sinh nhật cậu nhỉ? Cậu muốn nhận quà gì?**", "pos": "danh từ", "syn": "출생일 (ngày sinh)", "ant": "", "rel": "명예 (danh dự), 케이크 (bánh ngọt), 강타 (đánh đập)"} -->
+- 선배 (**xơn-bae**) :: tiền bối/người đi trước | #TOPIK-1 <!-- cognitive: {"ex": "그는 그녀보다 4살 선배였습니다.", "vi": "Anh hơn cô bốn tuổi.", "pos": "danh từ", "syn": "늙은 (cũ), 장로 (người lớn tuổi)", "ant": "후배 (đàn em)", "rel": "던지기 (vượt rào), 렌스터 (dây xích), 강사 (giảng viên)"} -->
+- 식구 (**xik-gu**) :: thành viên gia đình/người ăn cùng mâm | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 식구", "vi": "**xik-gu: thành viên gia đình/người ăn cùng mâm**", "pos": "danh từ", "syn": "친교 (học bổng), 집 (nhà)", "ant": "", "rel": "1인당 (đầu người), 날개 길이 (sải cánh), 풍토병 (đặc hữu)"} -->
+- 아내 (**a-nae**) :: vợ | #TOPIK-1 <!-- cognitive: {"ex": "거더의 새 아내가 펜에 소개됩니다.", "vi": "Một người vợ mới của giang hồ được đưa vào chuồng.", "pos": "danh từ", "syn": "결혼한 여자 (người phụ nữ đã có chồng)", "ant": "남편 (chồng), 남편 (chồng)", "rel": "손자 (cháu), 미혼 (chưa kết hôn), 딸들 (con gái)"} -->
+- 아들 (**a-dưl**) :: con trai | #TOPIK-1 <!-- cognitive: {"ex": "남자의 아이가 태어나기도 전에 그는 \"나는 딸이 아닌 아들을 원한다\"고 말했다.", "vi": "Trước khi sinh con, người đàn ông nói: “Tôi muốn có con trai chứ không phải con gái”.", "pos": "danh từ", "syn": "단어 (từ), 소년 (cậu bé)", "ant": "소녀 (cô gái), 딸 (con gái)", "rel": "남작 (nam tước), 손자 (cháu trai), 상속인 (người thừa kế)"} -->
+- 아버지 (**a-bơ-ji**) :: bố/cha | #TOPIK-1 <!-- cognitive: {"ex": "Trí 씨, 저의 가족사진을 보세요. 우리 아버지는 은행원이고 어머니는 병원 의사이십니다.", "vi": "Bạn Trí ơi, hãy xem bức ảnh gia đình của tôi này. Bố tôi là nhân viên ngân hàng còn mẹ tôi là bác sĩ bệnh viện đấy.", "pos": "danh từ", "syn": "일으키다 (sinh ra), 생성하다 (tạo ra)", "ant": "어머니 (mẹ), 여성 부모 (phụ huynh nữ)", "rel": "할아버지 (ông nội), 어머니 (mẹ), 삼촌 (chú)"} -->
+- 어머니 (**ơ-mơ-ni**) :: mẹ | #TOPIK-1 <!-- cognitive: {"ex": "Trí 씨, 저의 가족사진을 보세요. 우리 아버지는 은행원이고 어머니는 병원 의사이십니다.", "vi": "Bạn Trí ơi, hãy xem bức ảnh gia đình của tôi này. Bố tôi là nhân viên ngân hàng còn mẹ tôi là bác sĩ bệnh viện đấy.", "pos": "danh từ", "syn": "일으키다 (sinh ra), 생성하다 (tạo ra)", "ant": "아버지 (cha), 낳는 사람 (tốt hơn)", "rel": "계부 (cha dượng), 혀 (lưỡi), 할머니 (bà nội)"} -->
+- 언니 (**ơn-ni**) :: chị gái (em gái gọi) | #TOPIK-1 <!-- cognitive: {"ex": "B: `산 게 아니에요. 언니한테서 생일 선물로 받았어요.`", "vi": "**Tớ không có mua. Tớ nhận được từ chị gái làm quà sinh nhật đấy.**", "pos": "danh từ", "syn": "동료 (đồng nghiệp), 아기 (em bé)", "ant": "의형제 (anh em ruột thịt), 형제 (anh trai)", "rel": "분류군 (đơn vị phân loại), 클레이드 (nhánh), 수녀 (nữ tu)"} -->
+- 여동생 (**yơ-dong-xaeng**) :: em gái | #TOPIK-1 <!-- cognitive: {"ex": "남동생은 대학교에서 한국어를 전공하는 학생이에요. 그리고 여동생은 경찰입니다.", "vi": "Em trai tôi là sinh viên đang chuyên ngành tiếng Hàn ở trường đại học. Còn em gái tôi là cảnh sát.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 여자 친구 (**yơ-ja chin-gu**) :: bạn gái | #TOPIK-1 <!-- cognitive: {"ex": "마크는 여자친구와 함께 공원에 가서 그녀와 함께 일몰을 감상했습니다.", "vi": "Marc đi đến công viên với bạn gái và cùng cô ấy ngắm hoàng hôn.", "pos": "danh từ", "syn": "소녀 (cô gái), 여자 친구 (bạn gái)", "ant": "", "rel": "남자친구 (bạn trai), 질투하는 (ghen tuông), 임신 (mang thai)"} -->
+- 오빠 (**o-ppa**) :: anh trai (em gái gọi) | #TOPIK-1 <!-- cognitive: {"ex": "방금 이야기를 나눈 형제에게 감사 인사를 전하고 싶습니다.", "vi": "Tôi xin cảm ơn người anh em vừa nói chuyện.", "pos": "danh từ", "syn": "동료 (đồng nghiệp), 동지 (đồng chí)", "ant": "언니 (chị gái), 여동생 (chị gái)", "rel": "조카 (cháu trai), 여동생 (chị gái), 남작 (nam tước)"} -->
+- 외동딸 (**we-dông-ttal**) :: con gái một | #TOPIK-1 <!-- cognitive: {"ex": "외동딸이라는 주제에 집중해보자.", "vi": "Hãy tập trung vào chủ đề con gái duy nhất.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 외동아들 (**we-dông-a-dưl**) :: con trai độc nhất | #TOPIK-1 <!-- cognitive: {"ex": "외아들이라는 주제에 집중해보자.", "vi": "Hãy tập trung vào chủ đề con trai duy nhất.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 외할머니 (**we-hal-mơ-ni**) :: bà ngoại | #TOPIK-1 <!-- cognitive: {"ex": "외할머니라는 주제에 집중해보자.", "vi": "Hãy tập trung vào chủ đề của bà ngoại.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 외할아버지 (**we-hal-a-bơ-ji**) :: ông ngoại | #TOPIK-1 <!-- cognitive: {"ex": "외할아버지의 주제에 집중합시다.", "vi": "Hãy tập trung vào chủ đề về ông ngoại.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 우리 (**u-ri**) :: chúng tôi/chúng ta | #TOPIK-1 <!-- cognitive: {"ex": "Trí 씨, 저의 가족사진을 보세요. 우리 아버지는 은행원이고 어머니는 병원 의사이십니다.", "vi": "Bạn Trí ơi, hãy xem bức ảnh gia đình của tôi này. Bố tôi là nhân viên ngân hàng còn mẹ tôi là bác sĩ bệnh viện đấy.", "pos": "đại từ", "syn": "미국 (nước Mỹ), 미국 (Hoa Kỳ)", "ant": "", "rel": ""} -->
+- 이웃 (**i-ut**) :: hàng xóm | #TOPIK-1 <!-- cognitive: {"ex": "내 이웃에는 시끄러운 고양이 두 마리가 있습니다.", "vi": "Hàng xóm của tôi có hai con mèo ồn ào.", "pos": "danh từ", "syn": "닫기 (đóng), 가까운 (gần)", "ant": "", "rel": "너의 (của bạn), 이웃 (hàng xóm), 너 자신 (chính bạn)"} -->
+- 친척 (**chin-chơk**) :: họ hàng | #TOPIK-1 <!-- cognitive: {"ex": "왜 내 친척들은 항상성에 대해 이야기합니까?", "vi": "Tại sao người thân của tôi luôn nói về tình dục?", "pos": "danh từ", "syn": "관계 (quan hệ), 비교 (so sánh)", "ant": "절대 (tuyệt đối)", "rel": "습도 (độ ẩm), 음자리표 (khóa của âm nhạc), 모호함 (sự tối tăm)"} -->
+- 할머니 (**hal-mơ-ni**) :: bà nội | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 할머니", "vi": "**hal-mơ-ni: bà nội**", "pos": "danh từ", "syn": "할머니 (bà nội), 할머니 (bà ngoại)", "ant": "", "rel": "할머니 (bà), 미망인 (bà quả phụ), 아버지의 (người cha)"} -->
+- 할아버지 (**hal-a-bơ-ji**) :: ông nội | #TOPIK-1 <!-- cognitive: {"ex": "할아버지의 주제에 집중합시다.", "vi": "Hãy tập trung vào chủ đề của ông nội.", "pos": "danh từ", "syn": "할아버지 (ông ngoại), 할아버지 (ông ngoại)", "ant": "", "rel": "할머니 (bà nội), 아버지의 (người cha), 모성 (bà mẹ)"} -->
+- 형 (**hyơng**) :: anh trai (em trai gọi) | #TOPIK-1 <!-- cognitive: {"ex": "❌ 형은 크고 저는 작고.", "vi": "**Sai**", "pos": "danh từ", "syn": "동료 (đồng nghiệp), 동지 (đồng chí)", "ant": "언니 (chị gái), 여동생 (chị gái)", "rel": "조카 (cháu trai), 여동생 (chị gái), 남작 (nam tước)"} -->
 
 > 📊 **Tổng: 37 flashcards** trong chủ đề này.
 

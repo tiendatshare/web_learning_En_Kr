@@ -20,53 +20,53 @@ Các từ vựng về món ăn Hàn Quốc tiêu biểu, đồ uống và hoạt
 > Export sang **Anki** để nhận notification ôn tập trên điện thoại.
 
 ### 📊 Level 1 — #TOPIK-1
-- 김밥 (**gim-bap**) :: cơm cuộn | #TOPIK-1
-- 김치 (**gim-chi**) :: kim chi | #TOPIK-1
-- 김치볶음밥 (**gim-chi-bok-kưm-bap**) :: cơm rang kim chi | #TOPIK-1
-- 김치찌개 (**gim-chi-jji-gae**) :: canh kim chi | #TOPIK-1
-- 냉면 (**naeng-myơn**) :: mì lạnh | #TOPIK-1
-- 달다 (**dal-da**) :: ngọt | #TOPIK-1
-- 닭갈비 (**dak-gal-bi**) :: gà xào cay | #TOPIK-1
-- 닭볶음탕 (**dak-bok-kưm-thang**) :: gà kho cay | #TOPIK-1
-- 된장찌개 (**dwen-jang-jji-gae**) :: canh tương đậu | #TOPIK-1
-- 떡볶이 (**tteok-bok-i**) :: bánh gạo cay | #TOPIK-1
-- 라면 (**ra-myơn**) :: mì gói ramen | #TOPIK-1
-- 맛없다 (**mad-ơp-da**) :: dở/không ngon | #TOPIK-1
-- 맛있다 (**ma-xít-da**) :: ngon miệng | #TOPIK-1
-- 맛집 (**mat-jip**) :: quán ăn ngon nổi tiếng | #TOPIK-1
-- 맵다 (**maep-da**) :: cay | #TOPIK-1
-- 물 (**mul**) :: nước | #TOPIK-1
-- 밥 (**bap**) :: cơm/bữa ăn | #TOPIK-1
-- 보리밥 (**bo-ri-bap**) :: cơm lúa mạch | #TOPIK-1
-- 볶음밥 (**bok-ưm-bap**) :: cơm chiên | #TOPIK-1
-- 분식집 (**bun-xik-jip**) :: tiệm ăn vặt | #TOPIK-1
-- 불고기 (**bul-go-gi**) :: thịt nướng bulgogi | #TOPIK-1
-- 비빔밥 (**bi-bim-bap**) :: cơm trộn bibimbap | #TOPIK-1
-- 삼겹살 (**xam-gyơp-xal**) :: ba chỉ nướng | #TOPIK-1
-- 생수 (**xaeng-xu**) :: nước lọc tinh khiết | #TOPIK-1
-- 생일 파티 (**xaeng-il pha-thi**) :: tiệc sinh nhật | #TOPIK-1
-- 순두부찌개 (**xun-du-bu-jji-gae**) :: canh đậu phụ non | #TOPIK-1
-- 술 (**xul**) :: rượu | #TOPIK-1
-- 식당 (**xik-dang**) :: nhà hàng/quán ăn | #TOPIK-1
-- 식혜 (**xik-hye**) :: nước gạo lên men | #TOPIK-1
-- 아메리카노 (**a-me-ri-kha-no**) :: cà phê Americano | #TOPIK-1
-- 아침 (**a-chim**) :: bữa sáng/buổi sáng | #TOPIK-1
-- 아침밥 (**a-chim-bap**) :: cơm sáng | #TOPIK-1
-- 음료 (**ưm-ryo**) :: đồ uống | #TOPIK-1
-- 음료수 (**ưm-ryo-xu**) :: nước giải khát | #TOPIK-1
-- 음식 (**ưm-xik**) :: thức ăn/món ăn | #TOPIK-1
-- 인분 (**in-bun**) :: phần (**1인분 = 1 suất**) | #TOPIK-1
-- 일식집 (**il-xik-jip**) :: quán ăn Nhật | #TOPIK-1
-- 잡채 (**jap-chae**) :: miến xào japchae | #TOPIK-1
-- 저녁 (**jơ-nyơk**) :: bữa tối/buổi tối | #TOPIK-1
-- 제육볶음 (**je-yuk-bok-kưm**) :: thịt heo xào cay | #TOPIK-1
-- 주문하다 (**ju-mun-ha-da**) :: gọi món | #TOPIK-1
-- 짜다 (**jja-da**) :: mặn | #TOPIK-1
-- 찌개 (**jji-gae**) :: món canh/lẩu | #TOPIK-1
-- 카페 (**kha-phe**) :: quán cà phê | #TOPIK-1
-- 커피 (**khơ-phi**) :: cà phê | #TOPIK-1
-- 커피숍 (**khơ-phi-xyop**) :: tiệm cà phê | #TOPIK-1
-- 한식당 (**han-xik-dang**) :: nhà hàng đồ Hàn | #TOPIK-1
+- 김밥 (**gim-bap**) :: cơm cuộn | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 김밥", "vi": "**gim-bap: cơm cuộn**", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 김치 (**gim-chi**) :: kim chi | #TOPIK-1 <!-- cognitive: {"ex": "네, 아주 좋습니다! 맛있는 김치찌개와 불고기를 주문합시다. 그런데 저는 매운 음식을 잘 못 먹어요.", "vi": "Vâng, tuyệt vời quá! Hãy cùng gọi món canh kim chi ngon và thịt nướng Bulgo-gi đi. Thế nhưng tôi không ăn tốt được món cay lắm.", "pos": "danh từ", "syn": "", "ant": "", "rel": "무 (củ cải), 들깨 (tía tô), 볶은 (xào)"} -->
+- 김치볶음밥 (**gim-chi-bok-kưm-bap**) :: cơm rang kim chi | #TOPIK-1 <!-- cognitive: {"ex": "김치볶음밥이라는 주제를 집중적으로 살펴보겠습니다.", "vi": "Hãy tập trung vào chủ đề Cơm chiên Kim chi.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 김치찌개 (**gim-chi-jji-gae**) :: canh kim chi | #TOPIK-1 <!-- cognitive: {"ex": "네, 아주 좋습니다! 맛있는 김치찌개와 불고기를 주문합시다. 그런데 저는 매운 음식을 잘 못 먹어요.", "vi": "Vâng, tuyệt vời quá! Hãy cùng gọi món canh kim chi ngon và thịt nướng Bulgo-gi đi. Thế nhưng tôi không ăn tốt được món cay lắm.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 냉면 (**naeng-myơn**) :: mì lạnh | #TOPIK-1 <!-- cognitive: {"ex": "B: `날씨가 더우니까 냉면을 먹읍시다.`", "vi": "**Thời tiết nóng thế này thì tụi mình ăn mì lạnh đi.**", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 달다 (**dal-da**) :: ngọt | #TOPIK-1 <!-- cognitive: {"ex": "달콤한 메뉴 좀 보실래요?", "vi": "Vui lòng cho chúng tôi xem thực đơn đồ ngọt được không?", "pos": "danh từ", "syn": "사카린 (đường hóa học), 둔한 (êm dịu)", "ant": "신맛 (chua), 건조한 (khô)", "rel": "짭짤한 (thơm ngon), 브라이어 (cây tầm xuân), 짭짤한 (thơm ngon)"} -->
+- 닭갈비 (**dak-gal-bi**) :: gà xào cay | #TOPIK-1 <!-- cognitive: {"ex": "닭갈비라는 주제에 집중해보자.", "vi": "Hãy tập trung vào chủ đề Dakgalbi.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 닭볶음탕 (**dak-bok-kưm-thang**) :: gà kho cay | #TOPIK-1 <!-- cognitive: {"ex": "치킨볶음탕이라는 주제를 집중적으로 살펴보겠습니다.", "vi": "Hãy tập trung vào chủ đề Gà Bokkeumtang.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 된장찌개 (**dwen-jang-jji-gae**) :: canh tương đậu | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 된장찌개", "vi": "**dwen-jang-jji-gae: canh tương đậu**", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 떡볶이 (**tteok-bok-i**) :: bánh gạo cay | #TOPIK-1 <!-- cognitive: {"ex": "떡볶이라는 주제에 집중해보자.", "vi": "Hãy tập trung vào chủ đề Tteokbokki.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 라면 (**ra-myơn**) :: mì gói ramen | #TOPIK-1 <!-- cognitive: {"ex": "라면이라는 주제에 집중해보자.", "vi": "Hãy tập trung vào chủ đề Ramen.", "pos": "danh từ", "syn": "", "ant": "", "rel": "교자 (gyoza), 소바 (mì soba), 국수 (mì sợi)"} -->
+- 맛없다 (**mad-ơp-da**) :: dở/không ngon | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 맛없다", "vi": "**mad-ơp-da: dở/không ngon**", "pos": "động từ/tính từ", "syn": "", "ant": "", "rel": ""} -->
+- 맛있다 (**ma-xít-da**) :: ngon miệng | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 맛있다", "vi": "**ma-xit-da: ngon**", "pos": "tính từ", "syn": "아름다운 (ngon), 유쾌한 (thú vị)", "ant": "", "rel": "진미 (món ngon), 맛있는 (ngon), 영양가 있는 (bổ dưỡng)"} -->
+- 맛집 (**mat-jip**) :: quán ăn ngon nổi tiếng | #TOPIK-1 <!-- cognitive: {"ex": "레스토랑 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề Nhà hàng.", "pos": "danh từ", "syn": "식사 장소 (nơi ăn uống), 먹는 집 (nhà ăn)", "ant": "", "rel": "요리사 (đầu bếp), 그릴 (nướng), 메뉴 (thực đơn)"} -->
+- 맵다 (**maep-da**) :: cay | #TOPIK-1 <!-- cognitive: {"ex": "매콤한 전골을 준비했어요.", "vi": "Anh ấy đã chuẩn bị một món thịt hầm cay.", "pos": "tính từ", "syn": "매운 (cay), 섹시한 (gợi cảm)", "ant": "", "rel": "삼발 (sambal), 조미료 (gia vị), 처트니 (tương ớt)"} -->
+- 물 (**mul**) :: nước | #TOPIK-1 <!-- cognitive: {"ex": "감사합니다. 이 식당 물도 진짜 시원하고 밥도 맛있네요. 밥 한 그릇 더 주세요!", "vi": "Xin cảm ơn bạn. Nước lọc của nhà hàng này cũng thật mát mẻ và cơm cũng ngon ghê. Cho tôi xin thêm một bát cơm nữa nhé!", "pos": "danh từ", "syn": "땀 (mùi hôi), 피들 (vũng nước)", "ant": "", "rel": "폴로 (polo), 위생 (vệ sinh), 펌핑 (bơm)"} -->
+- 밥 (**bap**) :: cơm/bữa ăn | #TOPIK-1 <!-- cognitive: {"ex": "감사합니다. 이 식당 물도 진짜 시원하고 밥도 맛있네요. 밥 한 그릇 더 주세요!", "vi": "Xin cảm ơn bạn. Nước lọc của nhà hàng này cũng thật mát mẻ và cơm cũng ngon ghê. Cho tôi xin thêm một bát cơm nữa nhé!", "pos": "danh từ", "syn": "", "ant": "", "rel": "오리자 (oryza), 찹쌀 같은 (nếp), 카사바 (sắn)"} -->
+- 보리밥 (**bo-ri-bap**) :: cơm lúa mạch | #TOPIK-1 <!-- cognitive: {"ex": "보리밥이라는 주제에 집중해보자.", "vi": "Hãy tập trung vào chủ đề lúa mạch.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 볶음밥 (**bok-ưm-bap**) :: cơm chiên | #TOPIK-1 <!-- cognitive: {"ex": "볶음밥 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề cơm chiên.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 분식집 (**bun-xik-jip**) :: tiệm ăn vặt | #TOPIK-1 <!-- cognitive: {"ex": "스낵바 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề về quán ăn nhanh.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 불고기 (**bul-go-gi**) :: thịt nướng bulgogi | #TOPIK-1 <!-- cognitive: {"ex": "네, 아주 좋습니다! 맛있는 김치찌개와 불고기를 주문합시다. 그런데 저는 매운 음식을 잘 못 먹어요.", "vi": "Vâng, tuyệt vời quá! Hãy cùng gọi món canh kim chi ngon và thịt nướng Bulgo-gi đi. Thế nhưng tôi không ăn tốt được món cay lắm.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 비빔밥 (**bi-bim-bap**) :: cơm trộn bibimbap | #TOPIK-1 <!-- cognitive: {"ex": "B: `비빔밥이 맛있어요. 저는 항상 비빔밥만 먹어요.`", "vi": "**Cơm trộn ngon. Tôi lúc nào cũng CHỈ ăn cơm trộn thôi.**", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 삼겹살 (**xam-gyơp-xal**) :: ba chỉ nướng | #TOPIK-1 <!-- cognitive: {"ex": "Phân tích: 삼겹살은", "vi": "**thịt ba chỉ - thì**", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 생수 (**xaeng-xu**) :: nước lọc tinh khiết | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 생수", "vi": "**xaeng-xu: nước lọc tinh khiết**", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 생일 파티 (**xaeng-il pha-thi**) :: tiệc sinh nhật | #TOPIK-1 <!-- cognitive: {"ex": "생일 파티 주제에 집중해 봅시다.", "vi": "Hãy tập trung vào chủ đề của bữa tiệc sinh nhật.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 순두부찌개 (**xun-du-bu-jji-gae**) :: canh đậu phụ non | #TOPIK-1 <!-- cognitive: {"ex": "순두부찌개라는 주제를 집중적으로 살펴보겠습니다.", "vi": "Hãy tập trung vào chủ đề Đậu phụ hầm mềm.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 술 (**xul**) :: rượu | #TOPIK-1 <!-- cognitive: {"ex": "알코올 주제에 집중합시다.", "vi": "Hãy tập trung vào chủ đề về rượu.", "pos": "danh từ", "syn": "취한 (say sưa), 마시다 (uống)", "ant": "", "rel": "중독 (sự say sưa), 폭식 (say sưa), atf (atf)"} -->
+- 식당 (**xik-dang**) :: nhà hàng/quán ăn | #TOPIK-1 <!-- cognitive: {"ex": "감사합니다. 이 식당 물도 진짜 시원하고 밥도 맛있네요. 밥 한 그릇 더 주세요!", "vi": "Xin cảm ơn bạn. Nước lọc của nhà hàng này cũng thật mát mẻ và cơm cũng ngon ghê. Cho tôi xin thêm một bát cơm nữa nhé!", "pos": "danh từ", "syn": "식사 장소 (nơi ăn uống), 먹는 집 (nhà ăn)", "ant": "", "rel": "요리사 (đầu bếp), 그릴 (nướng), 메뉴 (thực đơn)"} -->
+- 식혜 (**xik-hye**) :: nước gạo lên men | #TOPIK-1 <!-- cognitive: {"ex": "식혜라는 주제에 집중해보자.", "vi": "Hãy tập trung vào chủ đề sikhye.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 아메리카노 (**a-me-ri-kha-no**) :: cà phê Americano | #TOPIK-1 <!-- cognitive: {"ex": "B: `아메리카노 두 잔하고 조각 케이크 한 개 주세요.`", "vi": "**Cho tôi 2 ly Americano và 1 cái bánh kem cắt lát.**", "pos": "danh từ", "syn": "", "ant": "", "rel": "데미 (hạ bệ), 에스프레소 (cà phê espresso), 까페 (cà phê)"} -->
+- 아침 (**a-chim**) :: bữa sáng/buổi sáng | #TOPIK-1 <!-- cognitive: {"ex": "좋습니다. 아침 일찍 지하철을 타고 만납시다!", "vi": "Được đấy. Hãy thức dậy sớm buổi sáng đi tàu điện ngầm rồi gặp nhau nhé!", "pos": "danh từ", "syn": "새벽 (bình minh), 일출 (mặt trời mọc)", "ant": "일몰 (mặt trời lặn), 일몰 (hoàng hôn)", "rel": "뉴스 방송 (bản tin), 오후 (buổi chiều), 전령 (báo trước)"} -->
+- 아침밥 (**a-chim-bap**) :: cơm sáng | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 아침밥", "vi": "**a-chim-bap: cơm sáng**", "pos": "danh từ", "syn": "쁘띠 디제너 (nhỏ nhắn)", "ant": "", "rel": "시리얼 (ngũ cốc), 점심 (bữa trưa), 시리얼 (ngũ cốc)"} -->
+- 음료 (**ưm-ryo**) :: đồ uống | #TOPIK-1 <!-- cognitive: {"ex": "A: `음료수는 안 드세요?`", "vi": "**Quý khách không dùng nước ngọt ạ?**", "pos": "động từ", "syn": "마시다 (thấm nhuần), 서약 (cam kết)", "ant": "", "rel": "탄산 (có ga), 음료수 (đồ uống), 보드카 (rượu vodka)"} -->
+- 음료수 (**ưm-ryo-xu**) :: nước giải khát | #TOPIK-1 <!-- cognitive: {"ex": "A: `음료수는 안 드세요?`", "vi": "**Quý khách không dùng nước ngọt ạ?**", "pos": "động từ", "syn": "", "ant": "", "rel": "탄산 (có ga), 간식 (đồ ăn nhẹ), 카페인 (cà phê)"} -->
+- 음식 (**ưm-xik**) :: thức ăn/món ăn | #TOPIK-1 <!-- cognitive: {"ex": "Trí 씨, 저녁 시간에 친구와 같이 한국 음식을 먹고 싶습니까?", "vi": "Bạn Trí ơi, vào giờ ăn tối bạn có muốn cùng bạn bè đi ăn món ăn Hàn Quốc không?", "pos": "danh từ", "syn": "영양소 (chất dinh dưỡng)", "ant": "", "rel": "FDA (fda), 음료수 (đồ uống), 영양 (dinh dưỡng)"} -->
+- 인분 (**in-bun**) :: phần (1인분 = 1 suất) | #TOPIK-1 <!-- cognitive: {"ex": "서빙(Serving)이라는 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề Phục vụ.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 일식집 (**il-xik-jip**) :: quán ăn Nhật | #TOPIK-1 <!-- cognitive: {"ex": "일식 레스토랑 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề nhà hàng Nhật Bản.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 잡채 (**jap-chae**) :: miến xào japchae | #TOPIK-1 <!-- cognitive: {"ex": "잡채라는 주제에 집중해보자.", "vi": "Hãy tập trung vào chủ đề của Japchae.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 저녁 (**jơ-nyơk**) :: bữa tối/buổi tối | #TOPIK-1 <!-- cognitive: {"ex": "Trí 씨, 저녁 시간에 친구와 같이 한국 음식을 먹고 싶습니까?", "vi": "Bạn Trí ơi, vào giờ ăn tối bạn có muốn cùng bạn bè đi ăn món ăn Hàn Quốc không?", "pos": "danh từ", "syn": "저녁 파티 (bữa tiệc tối)", "ant": "", "rel": "디저트 (món tráng miệng), 식사 (bữa ăn), 저녁 식사 (bữa tối)"} -->
+- 제육볶음 (**je-yuk-bok-kưm**) :: thịt heo xào cay | #TOPIK-1 <!-- cognitive: {"ex": "돼지고기 볶음이라는 주제를 집중적으로 살펴보겠습니다.", "vi": "Hãy tập trung vào chủ đề Thịt lợn xào.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 주문하다 (**ju-mun-ha-da**) :: gọi món | #TOPIK-1 <!-- cognitive: {"ex": "집은 정돈되어 있습니다. 기계가 고장났어요.", "vi": "Ngôi nhà ngăn nắp; máy móc bị hỏng.", "pos": "danh từ", "syn": "범위 (phạm vi), 말하다 (nói)", "ant": "혼란 (sự hỗn loạn), 무질서 (rối loạn)", "rel": "행인 (người qua đường), 우선순위 (sự ưu tiên), 장점 (công lao)"} -->
+- 짜다 (**jja-da**) :: mặn | #TOPIK-1 <!-- cognitive: {"ex": "그 러그는 아주 촘촘하게 짜여져 있어요.", "vi": "Tấm thảm đó được dệt rất chặt chẽ.", "pos": "danh từ", "syn": "실 (chủ đề), 바람 (gió)", "ant": "풀다 (cởi ra)", "rel": "능직 (chéo), 씨실 (sợi ngang), 직기 (khung cửi)"} -->
+- 찌개 (**jji-gae**) :: món canh/lẩu | #TOPIK-1 <!-- cognitive: {"ex": "네, 아주 좋습니다! 맛있는 김치찌개와 불고기를 주문합시다. 그런데 저는 매운 음식을 잘 못 먹어요.", "vi": "Vâng, tuyệt vời quá! Hãy cùng gọi món canh kim chi ngon và thịt nướng Bulgo-gi đi. Thế nhưng tôi không ăn tốt được món cay lắm.", "pos": "danh từ", "syn": "무리 (bố mẹ), 초조해하다 (băn khoăn)", "ant": "", "rel": "친애하는 (hominy), 조림 (món hầm), 캐서롤 (món thịt hầm)"} -->
+- 카페 (**kha-phe**) :: quán cà phê | #TOPIK-1 <!-- cognitive: {"ex": "두 시 삼십 분에 만납시다. 도서관 옆 카페에서 커피도 같이 마셔요.", "vi": "Chúng ta hãy gặp nhau lúc 2 giờ 30 phút nhé. Ở quán cà phê bên cạnh thư viện, chúng ta cũng cùng uống cà phê nữa.", "pos": "danh từ", "syn": "다방 (quán cà phê), 커피 바 (quán cà phê)", "ant": "", "rel": "뭐 (cái gì), 그릴 (nướng), 레스토랑 (nhà hàng)"} -->
+- 커피 (**khơ-phi**) :: cà phê | #TOPIK-1 <!-- cognitive: {"ex": "두 시 삼십 분에 만납시다. 도서관 옆 카페에서 커피도 같이 마셔요.", "vi": "Chúng ta hãy gặp nhau lúc 2 giờ 30 phút nhé. Ở quán cà phê bên cạnh thư viện, chúng ta cũng cùng uống cà phê nữa.", "pos": "danh từ", "syn": "엄버 (màu nâu sẫm), 자바 (java)", "ant": "", "rel": "로스터 (người rang xay), 아라비카 (cà phê Arabica), 에스프레소 (cà phê espresso)"} -->
+- 커피숍 (**khơ-phi-xyop**) :: tiệm cà phê | #TOPIK-1 <!-- cognitive: {"ex": "A: `우리 커피숍에 가서 커피를 마실까요?`", "vi": "**Tụi mình đến quán cà phê rồi uống cà phê nhé?**", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 한식당 (**han-xik-dang**) :: nhà hàng đồ Hàn | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 한식당", "vi": "**han-xik-dang: nhà hàng đồ Hàn**", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
 
 > 📊 **Tổng: 47 flashcards** trong chủ đề này.
 

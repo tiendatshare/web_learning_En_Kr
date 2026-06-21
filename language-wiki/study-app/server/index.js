@@ -172,7 +172,8 @@ function syncCache(lang = 'korean') {
             word: parsed.word,
             pronunciation: parsed.pronunciation,
             meaning: parsed.meaning,
-            sr: parsed.sr
+            sr: parsed.sr,
+            cognitive: parsed.cognitive
           });
         }
       });
@@ -237,9 +238,8 @@ app.get('/api/cards/due', async (req, res) => {
         const activeSr = dbProgressMap[card.word] || card.sr || { due: null, interval: 1, ease: 250, streak: 0 };
         const isDue = !activeSr.due || activeSr.due <= todayStr;
         if (isDue) {
-          // Provide cognitive context sections
-          // Find paragraphs related to the word in the full markdown file
           const paragraphContext = extractWordContext(card.word, fileData.fullContent, lang);
+          const cog = card.cognitive || {};
 
           dueCards.push({
             filePath: relPath,
@@ -249,8 +249,14 @@ app.get('/api/cards/due', async (req, res) => {
             sr: activeSr,
             cognitiveData: {
               phonetics: `Phát âm gợi ý: ${card.pronunciation}`,
-              hanja: paragraphContext.hanja || (lang === 'korean' ? "Không tìm thấy thông tin gốc Hán-Hàn." : "Không có thông tin từ nguyên."),
-              dialogue: paragraphContext.dialogue || (lang === 'korean' ? "Không có kịch bản đàm thoại mẫu." : "Không có ngữ cảnh hội thoại mẫu.")
+              ex: cog.ex || "",
+              vi: cog.vi || "",
+              pos: cog.pos || "",
+              syn: cog.syn || "",
+              ant: cog.ant || "",
+              rel: cog.rel || "",
+              hanja: cog.pos ? `Từ loại: ${cog.pos}` : (paragraphContext.hanja || (lang === 'korean' ? "Không tìm thấy thông tin gốc Hán-Hàn." : "Không có thông tin từ nguyên.")),
+              dialogue: cog.ex ? `${cog.ex}\n(${cog.vi})` : (paragraphContext.dialogue || (lang === 'korean' ? "Không có kịch bản đàm thoại mẫu." : "Không có ngữ cảnh hội thoại mẫu."))
             }
           });
         }
@@ -689,6 +695,7 @@ app.get('/api/cards/by-topic', async (req, res) => {
     const cards = fileData.cards.map(card => {
       const activeSr = dbProgressMap[card.word] || card.sr || { due: null, interval: 1, ease: 250, streak: 0 };
       const paragraphContext = extractWordContext(card.word, fileData.fullContent, lang);
+      const cog = card.cognitive || {};
       return {
         filePath: relPath,
         word: card.word,
@@ -697,8 +704,14 @@ app.get('/api/cards/by-topic', async (req, res) => {
         sr: activeSr,
         cognitiveData: {
           phonetics: `Phát âm gợi ý: ${card.pronunciation}`,
-          hanja: paragraphContext.hanja || (lang === 'korean' ? "Không tìm thấy thông tin gốc Hán-Hàn." : "Không có thông tin từ nguyên."),
-          dialogue: paragraphContext.dialogue || (lang === 'korean' ? "Không có kịch bản đàm thoại mẫu." : "Không có ngữ cảnh hội thoại mẫu.")
+          ex: cog.ex || "",
+          vi: cog.vi || "",
+          pos: cog.pos || "",
+          syn: cog.syn || "",
+          ant: cog.ant || "",
+          rel: cog.rel || "",
+          hanja: cog.pos ? `Từ loại: ${cog.pos}` : (paragraphContext.hanja || (lang === 'korean' ? "Không tìm thấy thông tin gốc Hán-Hàn." : "Không có thông tin từ nguyên.")),
+          dialogue: cog.ex ? `${cog.ex}\n(${cog.vi})` : (paragraphContext.dialogue || (lang === 'korean' ? "Không có kịch bản đàm thoại mẫu." : "Không có ngữ cảnh hội thoại mẫu."))
         }
       };
     });

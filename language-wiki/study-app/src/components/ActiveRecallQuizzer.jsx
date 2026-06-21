@@ -224,51 +224,127 @@ export default function ActiveRecallQuizzer({ card, onReviewSubmitted, mode, set
             </div>
           </div>
 
-          {/* Cognitive Context Section */}
-          <div style={{ 
-            background: 'rgba(255,255,255,0.02)', 
-            border: '1px solid var(--border-color)', 
-            borderRadius: '12px', 
-            padding: '1.25rem',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '1rem'
-          }}>
-            <h4 style={{ fontSize: '0.95rem', color: 'var(--accent-color)', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.4rem' }}>
-              🧠 Gợi ý liên tưởng & Ngữ cảnh Sư phạm
-            </h4>
-            
-            {/* Phonetic guide */}
-            <div>
-              <span style={{ fontWeight: '600', fontSize: '0.85rem', display: 'block', color: 'var(--text-secondary)' }}>
-                {currentLang === 'english' ? 'Phiên âm & Phát âm gợi ý:' : 'Bẫy biến âm:'}
-              </span>
-              <p style={{ fontSize: '0.9rem', marginTop: '0.25rem' }}>
-                {card.cognitiveData && card.cognitiveData.phonetics ? card.cognitiveData.phonetics : (currentLang === 'english' ? "Không có phiên âm." : "Không có lưu ý biến âm.")}
-              </p>
-            </div>
+          {/* Upgraded Premium Cognitive Context Section */}
+          {card.cognitiveData && (
+            <div style={{ 
+              background: 'rgba(255,255,255,0.02)', 
+              border: '1px solid var(--border-color)', 
+              borderRadius: '12px', 
+              padding: '1.25rem',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '0.75rem',
+              textAlign: 'left',
+              boxShadow: 'inset 0 0 12px rgba(255,255,255,0.01)'
+            }}>
+              <h4 style={{ fontSize: '0.95rem', color: 'var(--accent-color)', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.4rem', display: 'flex', alignItems: 'center', gap: '0.4rem', fontWeight: 'bold' }}>
+                🧠 Liên Tưởng & Ngữ Cảnh Nhận Thức
+              </h4>
+              
+              {/* Phonetic guide */}
+              {card.cognitiveData.phonetics && (
+                <div>
+                  <span style={{ fontSize: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)', display: 'block', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                    {currentLang === 'english' ? 'Phiên âm & Phát âm gợi ý:' : 'Lưu ý biến âm:'}
+                  </span>
+                  <p style={{ fontSize: '0.9rem', color: 'var(--text-primary)', marginTop: '0.15rem' }}>
+                    {card.cognitiveData.phonetics}
+                  </p>
+                </div>
+              )}
 
-            {/* Hanja / Word Family */}
-            <div>
-              <span style={{ fontWeight: '600', fontSize: '0.85rem', display: 'block', color: 'var(--text-secondary)' }}>
-                {currentLang === 'english' ? 'Mạng Liên tưởng Nơ-ron (Word Family / Synonyms / Antonyms):' : 'Gốc Hán-Hàn (Hanja Root Tree):'}
-              </span>
-              <p style={{ fontSize: '0.9rem', marginTop: '0.25rem', whiteSpace: 'pre-wrap' }}>
-                {card.cognitiveData && card.cognitiveData.hanja ? card.cognitiveData.hanja : (currentLang === 'english' ? "Không có phân tích từ vựng liên tưởng." : "Không có phân tích gốc Hán.")}
-              </p>
-            </div>
+              {/* Example sentence */}
+              {card.cognitiveData.ex && (
+                <div>
+                  <span style={{ fontSize: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)', display: 'block', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                    Câu ví dụ ({currentLang === 'english' ? 'English' : 'Korean'}):
+                  </span>
+                  <p style={{ fontSize: '1.05rem', color: 'var(--text-primary)', marginTop: '0.15rem', lineHeight: '1.4' }}>
+                    {card.cognitiveData.ex}
+                  </p>
+                </div>
+              )}
+              
+              {/* Vietnamese translation of example */}
+              {card.cognitiveData.vi && (
+                <div>
+                  <span style={{ fontSize: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)', display: 'block', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                    Dịch nghĩa ví dụ:
+                  </span>
+                  <p style={{ fontSize: '0.95rem', color: 'var(--warning-color)', marginTop: '0.15rem', fontStyle: 'italic', lineHeight: '1.4' }}>
+                    {card.cognitiveData.vi}
+                  </p>
+                </div>
+              )}
 
-            {/* Dialogue / Chunking */}
-            <div>
-              <span style={{ fontWeight: '600', fontSize: '0.85rem', display: 'block', color: 'var(--text-secondary)' }}>
-                {currentLang === 'english' ? 'Phát triển Cụm từ (Chunking Progression):' : 'Độc thoại Phản xạ (Output Shadowing Scenario):'}
-              </span>
-              <p style={{ fontSize: '0.9rem', marginTop: '0.25rem', whiteSpace: 'pre-wrap', fontStyle: 'italic', color: '#ffd60a' }}>
-                {card.cognitiveData && card.cognitiveData.dialogue ? card.cognitiveData.dialogue : (currentLang === 'english' ? "Không có kịch bản cụm từ." : "Không có kịch bản hội thoại.")}
-              </p>
-            </div>
+              {/* Part of speech / vai trò */}
+              {card.cognitiveData.pos && (
+                <div>
+                  <span style={{ fontSize: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)', display: 'block', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                    Từ loại / Vai trò:
+                  </span>
+                  <p style={{ fontSize: '0.9rem', color: 'var(--text-primary)', marginTop: '0.15rem' }}>
+                    <span style={{ background: 'rgba(255,255,255,0.06)', padding: '0.15rem 0.5rem', borderRadius: '4px', display: 'inline-block' }}>
+                      {card.cognitiveData.pos}
+                    </span>
+                  </p>
+                </div>
+              )}
 
-          </div>
+              {/* Synonyms & Antonyms row */}
+              {(card.cognitiveData.syn || card.cognitiveData.ant) && (
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginTop: '0.2rem' }}>
+                  {card.cognitiveData.syn && (
+                    <div>
+                      <span style={{ fontSize: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)', display: 'block', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                        Từ đồng nghĩa (Synonyms):
+                      </span>
+                      <p style={{ fontSize: '0.9rem', color: 'var(--success-color)', marginTop: '0.15rem' }}>
+                        {card.cognitiveData.syn}
+                      </p>
+                    </div>
+                  )}
+                  {card.cognitiveData.ant && (
+                    <div>
+                      <span style={{ fontSize: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)', display: 'block', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                        Từ trái nghĩa (Antonyms):
+                      </span>
+                      <p style={{ fontSize: '0.9rem', color: 'var(--error-color)', marginTop: '0.15rem' }}>
+                        {card.cognitiveData.ant}
+                      </p>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* Related words */}
+              {card.cognitiveData.rel && (
+                <div style={{ marginTop: '0.2rem' }}>
+                  <span style={{ fontSize: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)', display: 'block', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.3rem' }}>
+                    Từ liên quan (Related):
+                  </span>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+                    {card.cognitiveData.rel.split(',').map((item, idx) => {
+                      const trimmed = item.trim();
+                      if (!trimmed) return null;
+                      return (
+                        <span key={idx} style={{
+                          background: 'rgba(10, 132, 255, 0.08)',
+                          border: '1px solid rgba(10, 132, 255, 0.15)',
+                          borderRadius: '6px',
+                          padding: '0.2rem 0.5rem',
+                          fontSize: '0.8rem',
+                          color: '#82b1ff'
+                        }}>
+                          {trimmed}
+                        </span>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
 
         </div>
       )}

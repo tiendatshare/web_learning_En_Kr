@@ -20,45 +20,45 @@ Từ vựng về các địa điểm mua sắm, giá cả, tiền tệ và cách
 > Export sang **Anki** để nhận notification ôn tập trên điện thoại.
 
 ### 📊 Level 1 — #TOPIK-1
-- 가게 (**ga-ge**) :: cửa hàng | #TOPIK-1
-- 가격 (**ga-gyơk**) :: giá bán | #TOPIK-1
-- 값 (**gap**) :: giá cả/trị giá | #TOPIK-1
-- 거스름돈 (**gơ-xư-rưm-don**) :: tiền thừa | #TOPIK-1
-- 계산서 (**gye-xan-xơ**) :: phiếu thanh toán | #TOPIK-1
-- 교환하다 (**gyo-hwan-ha-da**) :: đổi hàng | #TOPIK-1
-- 구경하다 (**gu-gyơng-ha-da**) :: ngắm nghía | #TOPIK-1
-- 대형마트 (**dae-hyơng-ma-thư**) :: siêu thị cực lớn | #TOPIK-1
-- 돈 (**don**) :: tiền | #TOPIK-1
-- 동대문시장 (**dong-dae-mun xi-jang**) :: chợ Dongdaemun | #TOPIK-1
-- 동전 (**dông-jơn**) :: tiền xu | #TOPIK-1
-- 마트 (**ma-thư**) :: siêu thị nhỏ/mart | #TOPIK-1
-- 매장 (**mae-jang**) :: quầy hàng/gian hàng | #TOPIK-1
-- 면세점 (**myơn-xe-jơm**) :: cửa hàng miễn thuế | #TOPIK-1
-- 비싸다 (**bi-ssa-da**) :: đắt | #TOPIK-1
-- 사다 (**xa-da**) :: mua | #TOPIK-1
-- 선물 (**xơn-mul**) :: quà tặng | #TOPIK-1
-- 선물하다 (**xơn-mul-ha-da**) :: tặng quà | #TOPIK-1
-- 세일 (**xe-il**) :: giảm giá | #TOPIK-1
-- 쇼핑 (**xyo-phing**) :: mua sắm | #TOPIK-1
-- 쇼핑몰 (**xyo-phing-mol**) :: trung tâm mua sắm | #TOPIK-1
-- 슈퍼마켓 (**xyu-phơ-ma-khet**) :: siêu thị nhỏ | #TOPIK-1
-- 시장 (**xi-jang**) :: chợ | #TOPIK-1
-- 시장 구경 (**xi-jang gu-gyơng**) :: đi tham quan chợ | #TOPIK-1
-- 신용카드 (**xin-yong-kha-dư**) :: thẻ tín dụng | #TOPIK-1
-- 영수증 (**yơng-xu-jưng**) :: hóa đơn/biên lai | #TOPIK-1
-- 영수증을 받다 (**yơng-xu-jưng-ưl bat-da**) :: nhận hóa đơn | #TOPIK-1
-- 요금 (**yo-gưm**) :: cước phí/tiền xe | #TOPIK-1
-- 재래시장 (**jae-rae-xi-jang**) :: chợ truyền thống | #TOPIK-1
-- 제품 (**je-phum**) :: sản phẩm | #TOPIK-1
-- 주차장 (**ju-cha-jang**) :: bãi đậu xe | #TOPIK-1
-- 체크카드 (**che-khư-kha-dư**) :: thẻ check/debit | #TOPIK-1
-- 판매원 (**phan-mae-wơn**) :: nhân viên bán hàng | #TOPIK-1
-- 팔다 (**phal-da**) :: bán | #TOPIK-1
-- 편의점 (**phyơ-ny-jơm**) :: cửa hàng tiện lợi | #TOPIK-1
-- 할인 (**ha-rin**) :: chiết khấu | #TOPIK-1
-- 현금 (**hyơn-gưm**) :: tiền mặt | #TOPIK-1
-- 확인하다 (**hwak-in-ha-da**) :: xác nhận | #TOPIK-1
-- 환불하다 (**hwan-bul-ha-da**) :: hoàn tiền | #TOPIK-1
+- 가게 (**ga-ge**) :: cửa hàng | #TOPIK-1 <!-- cognitive: {"ex": "아니요, 고기는 고기 가게에서 팝니다. 야채 가게 옆에 있습니다.", "vi": "Không, thịt thì bán ở cửa hàng thịt cơ. Nó nằm ở bên cạnh cửa hàng rau củ kia kìa.", "pos": "danh từ", "syn": "복숭아 (đào), 비난하다 (tố cáo)", "ant": "보이콧 (tẩy chay)", "rel": "대장장이 (thợ rèn), 빵집 (tiệm bánh), 판매하다 (bán)"} -->
+- 가격 (**ga-gyơk**) :: giá bán | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 가격", "vi": "**ga-gyơk: giá bán**", "pos": "danh từ", "syn": "손상 (thiệt hại), 용어 (điều khoản)", "ant": "", "rel": "고정 (sửa chữa), 가격 책정 (định giá), 센트 (xu)"} -->
+- 값 (**gap**) :: giá cả/trị giá | #TOPIK-1 <!-- cognitive: {"ex": "셰익스피어의 샤일록은 현대 세계에서 가치가 의심스럽습니다.", "vi": "Shakespearean Shylock có giá trị đáng ngờ trong thế giới hiện đại.", "pos": "danh từ", "syn": "존경 (quý trọng), 평가하다 (đánh giá)", "ant": "멸시 (coi thường), 무례하다 (thiếu tôn trọng)", "rel": "곱한 (nhân lên), 같음 (bằng), 매개변수 (tham số)"} -->
+- 거스름돈 (**gơ-xư-rưm-don**) :: tiền thừa | #TOPIK-1 <!-- cognitive: {"ex": "B: `네, 거스름돈 500원", "vi": "**오백 원**", "pos": "danh từ", "syn": "교대 (sự thay đổi), 바꾸다 (thay đổi)", "ant": "휴식 (nghỉ ngơi), 남아있다 (ở lại)", "rel": "기후 (khí hậu), 마음 (tâm trí), 변화하는 (thay đổi)"} -->
+- 계산서 (**gye-xan-xơ**) :: phiếu thanh toán | #TOPIK-1 <!-- cognitive: {"ex": "법안 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề của dự luật.", "pos": "danh từ", "syn": "요금 (tính phí), 계정 (tài khoản)", "ant": "", "rel": "멜린다 (melinda), 동의 (đồng ý), 클린턴 (clinton)"} -->
+- 교환하다 (**gyo-hwan-ha-da**) :: đổi hàng | #TOPIK-1 <!-- cognitive: {"ex": "전체적으로 공평한 교환이었습니다.", "vi": "Nhìn chung, đó là một cuộc trao đổi công bằng.", "pos": "danh từ", "syn": "개종하다 (chuyển đổi), 변화 (thay đổi)", "ant": "", "rel": "티커 (máy đánh dấu), 니세 (nyse), 선물 (tương lai)"} -->
+- 구경하다 (**gu-gyơng-ha-da**) :: ngắm nghía | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 구경하다", "vi": "**gu-gyơng-ha-da: ngắm nghía**", "pos": "động từ/tính từ", "syn": "", "ant": "", "rel": ""} -->
+- 대형마트 (**dae-hyơng-ma-thư**) :: siêu thị cực lớn | #TOPIK-1 <!-- cognitive: {"ex": "대형 슈퍼마켓이라는 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề siêu thị lớn.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 돈 (**don**) :: tiền | #TOPIK-1 <!-- cognitive: {"ex": "안녕하십니까, 환전을 하고 싶습니다. 달러를 한국 돈 원으로 바꿀 수 있습니까?", "vi": "Xin kính chào quý khách, tôi muốn đổi tiền ạ. Tôi có thể đổi tiền đô la sang tiền Won Hàn Quốc được không ạ?", "pos": "danh từ", "syn": "", "ant": "", "rel": "세탁 (giặt giũ), 자선 단체 (tổ chức từ thiện), 사다 (mua)"} -->
+- 동대문시장 (**dong-dae-mun xi-jang**) :: chợ Dongdaemun | #TOPIK-1 <!-- cognitive: {"ex": "동대문시장을 주제로 집중해보자.", "vi": "Hãy tập trung vào chủ đề Chợ Dongdaemun.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 동전 (**dông-jơn**) :: tiền xu | #TOPIK-1 <!-- cognitive: {"ex": "그녀는 그 차에 상당한 돈을 썼습니다!", "vi": "Cô ấy đã chi một số tiền lớn cho chiếc xe đó!", "pos": "danh từ", "syn": "파업 (đình công), 민트 (cây bạc hà)", "ant": "", "rel": "주조된 (đúc), 주조 (sự đúc kết), 던지다 (quăng)"} -->
+- 마트 (**ma-thư**) :: siêu thị nhỏ/mart | #TOPIK-1 <!-- cognitive: {"ex": "마트라는 주제에 집중해보자.", "vi": "Hãy tập trung vào chủ đề của mart.", "pos": "danh từ", "syn": "시장 (thị trường)", "ant": "", "rel": "네즈 (nez), 피에로 (dữ dội), 코르트 (vỏ cây)"} -->
+- 매장 (**mae-jang**) :: quầy hàng/gian hàng | #TOPIK-1 <!-- cognitive: {"ex": "이 건물은 예전에 오래된 타이어를 판매하던 곳이었습니다.", "vi": "Tòa nhà này từng là cửa hàng bán lốp xe cũ.", "pos": "danh từ", "syn": "주식 (kho), 창고 (kho hàng)", "ant": "", "rel": "식료품 (cửa hàng tạp hóa), 대장장이 (thợ rèn), 상점 (cửa hàng)"} -->
+- 면세점 (**myơn-xe-jơm**) :: cửa hàng miễn thuế | #TOPIK-1 <!-- cognitive: {"ex": "면세점 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề cửa hàng miễn thuế.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 비싸다 (**bi-ssa-da**) :: đắt | #TOPIK-1 <!-- cognitive: {"ex": "불필요하게 비용이 많이 드는 알고리즘 선택", "vi": "một sự lựa chọn thuật toán tốn kém không cần thiết", "pos": "tính từ", "syn": "비용이 많이 드는 (tốn kém), 비싼 (quá đắt)", "ant": "싼 (giá rẻ), 저렴하다 (không tốn kém)", "rel": "원가 계산 (tính chi phí), 더 저렴하다 (rẻ hơn), 치안 (cảnh sát)"} -->
+- 사다 (**xa-da**) :: mua | #TOPIK-1 <!-- cognitive: {"ex": "🧱 물건을 사다", "vi": "**Mua đồ**", "pos": "danh từ", "syn": "부패한 (tham nhũng), 흥정하다 (mặc cả)", "ant": "팔다 (bán)", "rel": "최적화하다 (tối ưu hóa), 노트북 (máy tính xách tay), 팔다 (bán)"} -->
+- 선물 (**xơn-mul**) :: quà tặng | #TOPIK-1 <!-- cognitive: {"ex": "A: `내일이 생일이지요? 무슨 선물을 받고 싶어요?`", "vi": "**Ngày mai là sinh nhật cậu nhỉ? Cậu muốn nhận quà gì?**", "pos": "danh từ", "syn": "현재 (hiện tại), 주다 (cho)", "ant": "", "rel": "가게 (cửa hàng), 예언 (lời tiên tri), 선물 (quà tặng)"} -->
+- 선물하다 (**xơn-mul-ha-da**) :: tặng quà | #TOPIK-1 <!-- cognitive: {"ex": "야만적인 관행은 오늘날까지 계속되고 있습니다.", "vi": "Việc thực hành man rợ vẫn tiếp tục cho đến ngày nay.", "pos": "danh từ", "syn": "어디에나 있는 (khắp mọi nơi), 전시하다 (triển lãm)", "ant": "결석 (vắng mặt)", "rel": "누군가 (ai đó), 가구 (hộ gia đình), 혼자 (một mình)"} -->
+- 세일 (**xe-il**) :: giảm giá | #TOPIK-1 <!-- cognitive: {"ex": "판매 주제에 중점을 두겠습니다.", "vi": "Hãy tập trung vào chủ đề bán hàng.", "pos": "danh từ", "syn": "판매 계약 (thỏa thuận mua bán), 할인 판매 (bán giảm giá)", "ant": "", "rel": "완성된 (viên mãn), 구매자 (người mua), 확정 (đã hoàn thành)"} -->
+- 쇼핑 (**xyo-phing**) :: mua sắm | #TOPIK-1 <!-- cognitive: {"ex": "남자가 옷을 쇼핑해요.", "vi": "Anh ấy đang đi mua quần áo.", "pos": "động từ", "syn": "", "ant": "", "rel": "쇼핑몰 (trung tâm mua sắm), 슈퍼마켓 (siêu thị), 센터 (trung tâm)"} -->
+- 쇼핑몰 (**xyo-phing-mol**) :: trung tâm mua sắm | #TOPIK-1 <!-- cognitive: {"ex": "쇼핑몰이라는 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề trung tâm mua sắm.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 슈퍼마켓 (**xyu-phơ-ma-khet**) :: siêu thị nhỏ | #TOPIK-1 <!-- cognitive: {"ex": "나는 음식을 사러 슈퍼마켓에 갔다.", "vi": "Tôi đi siêu thị mua một ít đồ ăn.", "pos": "danh từ", "syn": "", "ant": "", "rel": "알디 (aldi), 아스다 (asda), 대형마트 (đại siêu thị)"} -->
+- 시장 (**xi-jang**) :: chợ | #TOPIK-1 <!-- cognitive: {"ex": "아니요, 아직 없어서 오늘 시장에 옷을 사러 가고 싶습니다. 같이 가요!", "vi": "Chưa, mình vẫn chưa có nên hôm nay muốn đi ra chợ mua quần áo. Đi cùng nhau nhé!", "pos": "danh từ", "syn": "시장 (thị trường), 식료품 (cửa hàng tạp hóa)", "ant": "", "rel": "대문자 사용 (viết hoa), 노점 (quầy hàng), 공유하다 (chia sẻ)"} -->
+- 시장 구경 (**xi-jang gu-gyơng**) :: đi tham quan chợ | #TOPIK-1 <!-- cognitive: {"ex": "시장 투어 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề tham quan Chợ.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 신용카드 (**xin-yong-kha-dư**) :: thẻ tín dụng | #TOPIK-1 <!-- cognitive: {"ex": "신용카드 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề thẻ tín dụng.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 영수증 (**yơng-xu-jưng**) :: hóa đơn/biên lai | #TOPIK-1 <!-- cognitive: {"ex": "네, 카드 결제 가능합니다. 여기 영수증하고 물건 있습니다. 감사합니다.", "vi": "Vâng, thanh toán thẻ được ạ. Xin gửi quý khách hóa đơn và đồ dùng ở đây ạ. Xin cảm ơn quý khách.", "pos": "danh từ", "syn": "인정하다 (thừa nhận), 리셉션 (tiếp tân)", "ant": "", "rel": "국고원 (kho bạc), 영수증 (biên lai), 강제 (sự ép buộc)"} -->
+- 영수증을 받다 (**yơng-xu-jưng-ưl bat-da**) :: nhận hóa đơn | #TOPIK-1 <!-- cognitive: {"ex": "영수증 받기 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề nhận biên lai.", "pos": "động từ/tính từ", "syn": "", "ant": "", "rel": ""} -->
+- 요금 (**yo-gưm**) :: cước phí/tiền xe | #TOPIK-1 <!-- cognitive: {"ex": "Phân tích: 요금은", "vi": "**tiền cước - thì**", "pos": "danh từ", "syn": "", "ant": "", "rel": "초과됨 (vượt quá), 사망률 (tỷ lệ tử vong), 예비 (sơ bộ)"} -->
+- 재래시장 (**jae-rae-xi-jang**) :: chợ truyền thống | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 재래시장", "vi": "**jae-rae-xi-jang: chợ truyền thống**", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 제품 (**je-phum**) :: sản phẩm | #TOPIK-1 <!-- cognitive: {"ex": "그 가게는 다양한 제품을 팔고 있어요.  우리는 이달 말까지 많은 제품을 판매해야 합니다.", "vi": "Cửa hàng đó cung cấp nhiều loại sản phẩm.  Chúng ta phải bán được nhiều sản phẩm vào cuối tháng.", "pos": "danh từ", "syn": "교차로 (ngã tư), 생산 (sản xuất)", "ant": "", "rel": "GDP (gdp), 포장 (bao bì), 벡터 (vectơ)"} -->
+- 주차장 (**ju-cha-jang**) :: bãi đậu xe | #TOPIK-1 <!-- cognitive: {"ex": "저 주차장에 주차할까요, 아니면 길가에 있는 차고에 주차할까요?", "vi": "Chúng ta nên đỗ xe ở bãi đậu xe đó hay trong gara trên phố?", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 체크카드 (**che-khư-kha-dư**) :: thẻ check/debit | #TOPIK-1 <!-- cognitive: {"ex": "체크카드에 대해 집중적으로 살펴보겠습니다.", "vi": "Hãy tập trung vào chủ đề thẻ kiểm tra.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 판매원 (**phan-mae-wơn**) :: nhân viên bán hàng | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 판매원", "vi": "**phan-mae-wơn: nhân viên bán hàng**", "pos": "danh từ", "syn": "", "ant": "", "rel": "대리점 (đại lý), 주부 (bà nội trợ), 도매 (bán buôn)"} -->
+- 팔다 (**phal-da**) :: bán | #TOPIK-1 <!-- cognitive: {"ex": "이것은 힘든 판매가 될 것입니다.", "vi": "Đây sẽ là một cuộc bán hàng khó khăn.", "pos": "danh từ", "syn": "거래 (thỏa thuận), 배신하다 (phản bội)", "ant": "구매 (mua hàng), 사다 (mua)", "rel": "구매자 (người mua), FCC (fcc), 티켓 (vé)"} -->
+- 편의점 (**phyơ-ny-jơm**) :: cửa hàng tiện lợi | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 편의점", "vi": "**phyơ-ny-jơm: cửa hàng tiện lợi**", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 할인 (**ha-rin**) :: chiết khấu | #TOPIK-1 <!-- cognitive: {"ex": "이 매장에서는 모든 상품에 대해 할인 혜택을 제공합니다. 그 가게도 할인 상품을 전문으로 해요.", "vi": "Cửa hàng này cung cấp giảm giá cho tất cả các sản phẩm của mình. Cửa hàng đó cũng chuyên về đồ giảm giá.", "pos": "danh từ", "syn": "무시하다 (coi thường), 해고하다 (bác bỏ)", "ant": "", "rel": "알디 (aldi), 중개 (môi giới), 운임 (giá vé)"} -->
+- 현금 (**hyơn-gưm**) :: tiền mặt | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 현금", "vi": "**hyơn-gưm: tiền mặt**", "pos": "danh từ", "syn": "현금으로 (rút tiền mặt), 즉시 지불 (thanh toán ngay lập tức)", "ant": "후불 (trả chậm), 신용 (tín dụng)", "rel": "대박 (giải độc đắc), 상금 (giải thưởng), 고려사항 (cân nhắc)"} -->
+- 확인하다 (**hwak-in-ha-da**) :: xác nhận | #TOPIK-1 <!-- cognitive: {"ex": "확인이라는 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề xác nhận.", "pos": "động từ", "syn": "유지하다 (duy trì), 긍정하다 (khẳng định)", "ant": "부정하다 (phủ nhận), 모순되다 (mâu thuẫn)", "rel": "부정하다 (phủ nhận), 반박하다 (bác bỏ), 진단 (chẩn đoán)"} -->
+- 환불하다 (**hwan-bul-ha-da**) :: hoàn tiền | #TOPIK-1 <!-- cognitive: {"ex": "카메라에 결함이 있는 경우, 구입한 매장에 반품하시면 전액 환불받을 수 있습니다.", "vi": "Nếu máy ảnh bị lỗi, bạn có thể trả lại cho cửa hàng nơi bạn đã mua để được hoàn lại toàn bộ số tiền.", "pos": "danh từ", "syn": "반환 (trở về), 상환 (trả nợ)", "ant": "", "rel": "에스크로 (ký quỹ), GST (gst), 국세청 (IRS)"} -->
 
 > 📊 **Tổng: 39 flashcards** trong chủ đề này.
 

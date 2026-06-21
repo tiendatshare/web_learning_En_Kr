@@ -333,13 +333,128 @@ export default function VocabLearner({ currentLang }) {
             )}
 
             {/* Meaning reveal */}
-            <div style={{ textAlign: 'center', minHeight: '50px', display: 'flex', alignItems: 'center' }}>
+            <div style={{ textAlign: 'center', minHeight: '50px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem', width: '100%' }}>
               {showMeaning ? (
-                <div className="fade-in">
-                  <p style={{ fontSize: '1.4rem', fontWeight: 600, color: 'var(--accent-color)' }}>
+                <div className="fade-in" style={{ width: '100%' }}>
+                  <p style={{ fontSize: '1.6rem', fontWeight: 600, color: 'var(--accent-color)', marginBottom: '1.25rem' }}>
                     {currentCard.meaning}
                   </p>
-                  {currentCard.cognitiveData?.hanja && currentCard.cognitiveData.hanja !== "Không tìm thấy thông tin gốc Hán-Hàn." && (
+                  
+                  {/* Premium Cognitive Box */}
+                  {currentCard.cognitiveData && (currentCard.cognitiveData.ex || currentCard.cognitiveData.pos || currentCard.cognitiveData.syn || currentCard.cognitiveData.ant || currentCard.cognitiveData.rel) && (
+                    <div style={{
+                      background: 'rgba(255, 255, 255, 0.02)',
+                      border: '1px solid var(--border-color)',
+                      borderRadius: '12px',
+                      padding: '1.25rem',
+                      textAlign: 'left',
+                      width: '100%',
+                      maxWidth: '600px',
+                      margin: '0 auto',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: '0.75rem',
+                      boxShadow: 'inset 0 0 12px rgba(255,255,255,0.01)'
+                    }}>
+                      <h4 style={{ fontSize: '0.9rem', fontWeight: 'bold', color: 'var(--accent-color)', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.4rem', marginBottom: '0.2rem', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                        🧠 Liên Tưởng & Ngữ Cảnh Nhận Thức
+                      </h4>
+                      
+                      {/* Example sentence */}
+                      {currentCard.cognitiveData.ex && (
+                        <div>
+                          <span style={{ fontSize: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)', display: 'block', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                            Câu ví dụ ({currentLang === 'english' ? 'English' : 'Korean'}):
+                          </span>
+                          <p style={{ fontSize: '1.05rem', color: 'var(--text-primary)', marginTop: '0.15rem', lineHeight: '1.4' }}>
+                            {currentCard.cognitiveData.ex}
+                          </p>
+                        </div>
+                      )}
+                      
+                      {/* Vietnamese translation of example */}
+                      {currentCard.cognitiveData.vi && (
+                        <div>
+                          <span style={{ fontSize: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)', display: 'block', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                            Dịch nghĩa ví dụ:
+                          </span>
+                          <p style={{ fontSize: '0.95rem', color: 'var(--warning-color)', marginTop: '0.15rem', fontStyle: 'italic', lineHeight: '1.4' }}>
+                            {currentCard.cognitiveData.vi}
+                          </p>
+                        </div>
+                      )}
+
+                      {/* Part of speech / vai trò */}
+                      {currentCard.cognitiveData.pos && (
+                        <div>
+                          <span style={{ fontSize: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)', display: 'block', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                            Từ loại / Vai trò:
+                          </span>
+                          <p style={{ fontSize: '0.9rem', color: 'var(--text-primary)', marginTop: '0.15rem' }}>
+                            <span style={{ background: 'rgba(255,255,255,0.06)', padding: '0.15rem 0.5rem', borderRadius: '4px', display: 'inline-block' }}>
+                              {currentCard.cognitiveData.pos}
+                            </span>
+                          </p>
+                        </div>
+                      )}
+
+                      {/* Synonyms & Antonyms row */}
+                      {(currentCard.cognitiveData.syn || currentCard.cognitiveData.ant) && (
+                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginTop: '0.2rem' }}>
+                          {currentCard.cognitiveData.syn && (
+                            <div>
+                              <span style={{ fontSize: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)', display: 'block', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                                Từ đồng nghĩa (Synonyms):
+                              </span>
+                              <p style={{ fontSize: '0.9rem', color: 'var(--success-color)', marginTop: '0.15rem' }}>
+                                {currentCard.cognitiveData.syn}
+                              </p>
+                            </div>
+                          )}
+                          {currentCard.cognitiveData.ant && (
+                            <div>
+                              <span style={{ fontSize: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)', display: 'block', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                                Từ trái nghĩa (Antonyms):
+                              </span>
+                              <p style={{ fontSize: '0.9rem', color: 'var(--error-color)', marginTop: '0.15rem' }}>
+                                {currentCard.cognitiveData.ant}
+                              </p>
+                            </div>
+                          )}
+                        </div>
+                      )}
+
+                      {/* Related words */}
+                      {currentCard.cognitiveData.rel && (
+                        <div style={{ marginTop: '0.2rem' }}>
+                          <span style={{ fontSize: '0.75rem', fontWeight: '600', color: 'var(--text-secondary)', display: 'block', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.3rem' }}>
+                            Từ liên quan (Related):
+                          </span>
+                          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+                            {currentCard.cognitiveData.rel.split(',').map((item, idx) => {
+                              const trimmed = item.trim();
+                              if (!trimmed) return null;
+                              return (
+                                <span key={idx} style={{
+                                  background: 'rgba(10, 132, 255, 0.08)',
+                                  border: '1px solid rgba(10, 132, 255, 0.15)',
+                                  borderRadius: '6px',
+                                  padding: '0.2rem 0.5rem',
+                                  fontSize: '0.8rem',
+                                  color: '#82b1ff'
+                                }}>
+                                  {trimmed}
+                                </span>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  )}
+
+                  {/* Fallback to Hanja (Korean only) if no rich cognitiveData is present */}
+                  {(!currentCard.cognitiveData || (!currentCard.cognitiveData.ex && !currentCard.cognitiveData.pos)) && currentCard.cognitiveData?.hanja && currentCard.cognitiveData.hanja !== "Không tìm thấy thông tin gốc Hán-Hàn." && (
                     <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.5rem' }}>
                       🏛️ {currentCard.cognitiveData.hanja}
                     </p>
