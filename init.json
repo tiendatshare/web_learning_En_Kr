@@ -328,6 +328,7 @@
       "steps": [
         "Thêm script build vào package.json để Vite có thể đóng gói trên Vercel",
         "Cập nhật vercel.json với includeFiles trỏ đến các thư mục chứa file Markdown",
+        "Sửa lỗi định dạng includeFiles từ mảng thành chuỗi glob khớp đặc tả Vercel",
         "Đẩy thay đổi lên GitHub để Vercel tự động xây dựng lại dự án thành công"
       ]
     }
