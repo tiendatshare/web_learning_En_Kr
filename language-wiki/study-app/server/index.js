@@ -19,7 +19,10 @@ const VAULT_MAP = {
   korean: 'MD_korea_learning',
   english: 'MD_english_learning'
 };
-const vaultPath = path.resolve(workspaceRoot, VAULT_MAP[LANG] || VAULT_MAP.korean);
+let vaultPath = path.resolve(workspaceRoot, VAULT_MAP[LANG] || VAULT_MAP.korean);
+if (!fs.existsSync(vaultPath)) {
+  vaultPath = path.resolve(__dirname, '../', VAULT_MAP[LANG] || VAULT_MAP.korean);
+}
 const cacheDir = path.resolve(workspaceRoot, '.superpowers');
 const cachePath = path.resolve(cacheDir, `.study-cache-${LANG}.json`);
 

@@ -5,7 +5,7 @@
   ],
   "functions": {
     "api/index.js": {
-      "includeFiles": "../../MD_*_learning/wiki/**/*.md"
+      "includeFiles": "MD_*_learning/wiki/**/*.md"
     }
   }
 }
