@@ -330,6 +330,7 @@
         "Tạo build-copier.js để sao chép Markdown vào thư mục dự án cục bộ khi build",
         "Cấu hình lại vercel.json đóng gói tệp Markdown trong phạm vi thư mục gốc",
         "Cập nhật server/index.js hỗ trợ đường dẫn dự phòng khi chạy online",
+        "Bổ sung cơ chế bảo vệ try-catch ngăn chặn sập serverless khi phân giải thư mục và ghi đĩa",
         "Đẩy thay đổi lên GitHub để Vercel tự động xây dựng lại dự án thành công"
       ]
     }
