@@ -5,12 +5,7 @@
   ],
   "functions": {
     "api/index.js": {
-      "includeFiles": [
-        "../../MD_korea_learning/wiki/concepts/vocabulary/**",
-        "../../MD_english_learning/wiki/concepts/vocabulary/**",
-        "../../MD_korea_learning/wiki/situations/**",
-        "../../MD_english_learning/wiki/situations/**"
-      ]
+      "includeFiles": "../../MD_*_learning/wiki/**/*.md"
     }
   }
 }
