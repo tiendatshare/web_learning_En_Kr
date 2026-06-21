@@ -2,5 +2,15 @@
   "version": 2,
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/index.js" }
-  ]
+  ],
+  "functions": {
+    "api/index.js": {
+      "includeFiles": [
+        "../../MD_korea_learning/wiki/concepts/vocabulary/**",
+        "../../MD_english_learning/wiki/concepts/vocabulary/**",
+        "../../MD_korea_learning/wiki/situations/**",
+        "../../MD_english_learning/wiki/situations/**"
+      ]
+    }
+  }
 }
