@@ -1,0 +1,7 @@
+{
+  "name": "language-wiki",
+  "version": "1.0.0",
+  "description": "Language learning wiki plugin with spaced repetition, STT and exam modules.",
+  "author": { "name": "User" },
+  "license": "MIT"
+}

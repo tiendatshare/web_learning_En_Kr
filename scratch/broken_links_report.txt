@@ -1,0 +1,4 @@
+Found 3 broken links:
+  In 'grammar_guide.md': Broken link [[g-46-동사 + 지 mal다 (Đừng làm gì)|Unit 46: V + 지 말다 (Đừng làm gì...)]] -> target 'g-46-동사 + 지 mal다 (Đừng làm gì)'
+  In 'wiki/index.md': Broken link [[g-46-동사 + 지 mal다 (Đừng làm gì)|Unit 46: V + 지 말다 (Đừng làm gì...)]] -> target 'g-46-동사 + 지 mal다 (Đừng làm gì)'
+  In 'wiki/situations/s-02-dining-restaurant-daily-life.md': Broken link [[g-46-동사 + 지 mal다 (Đừng làm gì)|Ngữ pháp 46]] -> target 'g-46-동사 + 지 mal다 (Đừng làm gì)'

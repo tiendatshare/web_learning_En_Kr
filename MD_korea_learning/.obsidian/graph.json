@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:wiki/situations  ",
+      "color": {
+        "a": 1,
+        "rgb": 15532546
+      }
+    },
+    {
+      "query": "path:wiki/concepts  ",
+      "color": {
+        "a": 1,
+        "rgb": 16755200
+      }
+    },
+    {
+      "query": "file:index ",
+      "color": {
+        "a": 1,
+        "rgb": 459772
+      }
+    },
+    {
+      "query": "grammar_guide",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.88214814814815,
+  "lineSizeMultiplier": 0.749703703703704,
+  "collapse-forces": false,
+  "centerStrength": 0.473333333333333,
+  "repelStrength": 19.837037037037,
+  "linkStrength": 1,
+  "linkDistance": 96,
+  "scale": 0.15527148078145947,
+  "close": false
+}

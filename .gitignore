@@ -1,0 +1,14 @@
+node_modules/
+.superpowers/
+.vscode/
+*.log
+*.tmp
+temp/
+dist/
+build/
+mp3/
+pdf english/
+pdf korea/
+*.pdf
+*.pptx
+img/

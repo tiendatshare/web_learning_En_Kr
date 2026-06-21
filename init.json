@@ -1,0 +1,313 @@
+{
+  "session": "2026-05-27",
+  "tasks": [
+    {
+      "id": "T01",
+      "goal": "Initialize LLM Wiki folder structure, state files, and AGENTS.md",
+      "status": "done",
+      "completed_at": "2026-05-27",
+      "steps": [
+        "Create MD directory",
+        "Create AGENTS.md rule file",
+        "Initialize log.md and index.md in wiki folder"
+      ]
+    },
+    {
+      "id": "T02",
+      "goal": "Scan and extract the table of contents and grammar list from Scanned PDF",
+      "status": "done",
+      "completed_at": "2026-05-27",
+      "steps": [
+        "Create OCR extraction python script",
+        "Extract TOC from the PDF file",
+        "Synthesize the official 50 grammar list"
+      ]
+    },
+    {
+      "id": "T03",
+      "goal": "Write the official Design Document",
+      "status": "done",
+      "completed_at": "2026-05-27",
+      "steps": [
+        "Draft the design document under MD/docs/specs/"
+      ]
+    },
+    {
+      "id": "T04",
+      "goal": "Generate the Grammar Guide concepts",
+      "status": "done",
+      "completed_at": "2026-05-27",
+      "steps": [
+        "Create grammar concepts files in wiki/concepts/"
+      ]
+    },
+    {
+      "id": "T05",
+      "goal": "Generate the Vocabulary Topic concepts",
+      "status": "done",
+      "completed_at": "2026-05-27",
+      "steps": [
+        "Create vocabulary topic files with flashcards, pronunciations, chunking, and gloss paragraphs"
+      ]
+    },
+    {
+      "id": "T06",
+      "goal": "Compile central Index and link everything",
+      "status": "done",
+      "completed_at": "2026-05-27",
+      "steps": [
+        "Ensure all cross-links and wiki index entries are complete and functional"
+      ]
+    },
+    {
+      "id": "T07",
+      "goal": "System verification and final log",
+      "status": "done",
+      "completed_at": "2026-05-27",
+      "steps": [
+        "Self-review against all success criteria",
+        "Update logs and complete tasks"
+      ]
+    },
+    {
+      "id": "T08",
+      "goal": "Overhaul vocabulary using bulk OCR extraction, apply semantic extension, and generate situations",
+      "status": "done",
+      "completed_at": "2026-05-27",
+      "steps": [
+        "Run native Windows OCR on pages 16 to 293",
+        "Clean, translate, and apply 1-to-3 semantic extension to 4300+ unique words",
+        "Compile 15 structured vocabulary files with natural Vietnamese phonetics",
+        "Compile 5 situational communication dialogues combining multiple topics",
+        "Synchronize wiki index and log"
+      ]
+    },
+    {
+      "id": "T09",
+      "goal": "Re-expand vocabulary concepts to 22 topics with 1-to-3 extension for 1,000+ words",
+      "status": "done",
+      "completed_at": "2026-05-27",
+      "steps": [
+        "Create generate_massive_vocabulary.py script with huge dataset",
+        "Generate 22 massive concept markdown files with 989 standardized words",
+        "Update index.md to link all 22 concepts and 13 situations",
+        "Remove obsolete v-05-family-jobs.md and synchronize logs"
+      ]
+    },
+    {
+      "id": "T10",
+      "goal": "Cực đại hóa từ vựng (1.406 từ), hoàn thiện Phần 2 (Full Chunking 100% từ chính) và Phần 3 (Interlinear Gloss Essay chi tiết) cho 23 chủ đề khái niệm.",
+      "status": "done",
+      "completed_at": "2026-05-27",
+      "steps": [
+        "Overhaul generate_ultimate_vocabulary.py script",
+        "Generate 23 massive concept files (total 1,406 terms) with full chunking for 100% core words",
+        "Build deep sentence-by-sentence interlinear gloss analysis in parentheses for all essays",
+        "Synchronize wiki index.md and log.md"
+      ]
+    },
+    {
+      "id": "T11",
+      "goal": "Tái thiết lập 23 tệp chủ đề từ vựng tiếng Hàn sạch tiểu từ, bảo tồn phần 2 & 3 và tích hợp Phần 4 gồm bài tập đọc/nghe thực tế song ngữ Việt - Hàn có phiên âm liên âm.",
+      "status": "done",
+      "completed_at": "2026-05-27",
+      "steps": [
+        "Clean grammatical nominal particles from Part 1 vocabulary tables",
+        "Preserve Part 2 Chunking and Part 3 teacher-authored Essay",
+        "Inject Part 4 containing 2 authentic Kyung Hee passages per file with Natural Vietnamese phonetic guide and parenthetical glossing",
+        "Validate and synchronize vocabulary databases and links"
+      ]
+    },
+    {
+      "id": "T12",
+      "goal": "Biên soạn tài liệu ôn thi nói Kyung Hee 1 bài 6-9 sát sườn phòng thi với định lượng 6 câu hỏi phỏng vấn mỗi chương và kịch bản đối đáp theo cặp 12 lượt câu kèm phiên âm và từ vựng bổ trợ.",
+      "status": "done",
+      "completed_at": "2026-06-04",
+      "steps": [
+        "Create speaking prep Design Spec and get user approval",
+        "Extract raw dialogues and questions from listening textbook pages 95-176",
+        "Draft speaking_exam_prep_6_9.md with phonetic guides and parallel Vietnamese translations",
+        "Synchronize wiki index.md and clean folder structures"
+      ]
+    },
+    {
+      "id": "T13",
+      "goal": "Audit vocabulary indexes at the end of both books, correct spelling typos, and insert missing words.",
+      "status": "done",
+      "completed_at": "2026-06-07",
+      "steps": [
+        "Scan and clean vocabularies from Reading pages 158-162 and Listening pages 173-176",
+        "Correct spelling typos in existing wiki markdown files",
+        "Create new countries and nationalities vocabulary topic file",
+        "Update main wiki index to link new files"
+      ]
+    },
+    {
+      "id": "T14",
+      "goal": "Rebuild Obsidian Korean Wiki: split grammar into 50 files, upgrade vocabulary to neural network association, and fix links.",
+      "status": "done",
+      "completed_at": "2026-06-07",
+      "steps": [
+        "Create migration script and split grammar guide into 50 files with warnings and comparisons",
+        "Convert old grammar_guide.md to functional directory index",
+        "Create vocabulary upgrade script and parse all 22 v-*.md files",
+        "Generate Active Recall Spaced Repetition cards (:: syntax) and build Neural Association Networks",
+        "Fix all references in index.md, situations s-*, and prep queries, validating with link checker"
+      ]
+    },
+    {
+      "id": "T15",
+      "goal": "Tái cấu trúc thư mục concepts thành grammar/ và vocabulary/ riêng biệt, đổi tên file ngữ pháp sang tiếng Hàn + nghĩa tiếng Việt an toàn, làm giàu nội dung ngữ pháp siêu chi tiết và nâng cấp mạng liên tưởng từ vựng lên '1 suy 10' toàn diện.",
+      "status": "done",
+      "completed_at": "2026-06-07",
+      "steps": [
+        "Tạo thư mục con grammar/ và vocabulary/ dưới concepts/",
+        "Di chuyển và đổi tên 50 file ngữ pháp sang tiếng Hàn + nghĩa tiếng Việt, làm giàu nội dung chi tiết",
+        "Di chuyển 24 file từ vựng và nâng cấp mạng liên tưởng nơ-ron lên 1 suy 10",
+        "Cập nhật và sửa toàn bộ wikilinks trong toàn bộ vault, đảm bảo 0 broken links"
+      ]
+    },
+    {
+      "id": "T16",
+      "goal": "Khởi tạo Cấu trúc Plugin & Lệnh Command",
+      "status": "done",
+      "completed_at": "2026-06-21",
+      "steps": [
+        "Khởi tạo tệp manifest của plugin language-wiki/plugin.json",
+        "Đăng ký lệnh điều hành CLI language-wiki/commands/wiki.md",
+        "Khởi tạo SKILL.md hướng dẫn Agent language-wiki/skills/wiki/SKILL.md",
+        "Commit lên git"
+      ]
+    },
+    {
+      "id": "T17",
+      "goal": "Quản lý Advisory Lockfile & Tự tìm kiếm tài liệu (Auto-Sourcing)",
+      "status": "done",
+      "completed_at": "2026-06-21",
+      "steps": [
+        "Tạo Script quản lý khóa đồng thì lock-manager.py",
+        "Tạo package.json cho máy chủ MCP",
+        "Thiết lập lệnh discover trong MCP Server",
+        "Commit lên git"
+      ]
+    },
+    {
+      "id": "T18",
+      "goal": "Phát triển Bộ phân tích cú pháp thẻ nhớ Markdown & Bộ nhớ đệm (Cache)",
+      "status": "done",
+      "completed_at": "2026-06-21",
+      "steps": [
+        "Tạo tệp package.json khởi động song hành",
+        "Viết bộ phân tích cú pháp Parser Separation server/parser.js",
+        "Lập trình API Server & Cơ chế Cache Ôn tập server/index.js",
+        "Commit lên git"
+      ]
+    },
+    {
+      "id": "T19",
+      "goal": "Xây dựng Giao diện Dashboard & Quizzer Ôn tập (Active Recall)",
+      "status": "done",
+      "completed_at": "2026-06-21",
+      "steps": [
+        "Tạo giao diện nền tảng Premium Glassmorphism index.css",
+        "Viết linh hồn giao diện trắc nghiệm Active Recall ActiveRecallQuizzer.jsx",
+        "Thiết lập Dashboard theo dõi tiến độ App.jsx",
+        "Commit lên git"
+      ]
+    },
+    {
+      "id": "T20",
+      "goal": "Triển khai Chế độ Luyện Nói Đàm Thoại (Speaking Mode - STT)",
+      "status": "done",
+      "completed_at": "2026-06-21",
+      "steps": [
+        "Viết Component xử lý Nhận diện giọng nói STT SpeakingMode.jsx",
+        "Nhúng Speaking Mode vào luồng hiển thị chính App.jsx",
+        "Commit lên git"
+      ]
+    },
+    {
+      "id": "T21",
+      "goal": "Lập trình Module Thi Cử & Chẩn đoán Lỗi Sai (Exam Simulator)",
+      "status": "done",
+      "completed_at": "2026-06-21",
+      "steps": [
+        "Tạo giao diện giả lập thi cử ExamSimulator.jsx",
+        "API Chấm điểm và phân tích lỗ hổng kiến thức server/index.js",
+        "Commit lên git"
+      ]
+    },
+    {
+      "id": "T22",
+      "goal": "Tạo tệp run-study-app.bat khởi chạy và dọn dẹp port tự động khi tắt trình duyệt",
+      "status": "done",
+      "completed_at": "2026-06-21",
+      "steps": [
+        "Soạn thảo mã nguồn cho kịch bản batch run-study-app.bat",
+        "Tối ưu hóa khả năng dọn dẹp cổng khi tắt trình duyệt bằng temp file và ping delay",
+        "Xác minh hoạt động qua API và Visual QA"
+      ]
+    },
+    {
+      "id": "T23",
+      "goal": "Xây dựng MD_english_learning Wiki và tích hợp toàn diện đa ngôn ngữ cho study-app",
+      "status": "done",
+      "completed_at": "2026-06-21",
+      "steps": [
+        "Chạy script sinh nội dung MD_english_learning Wiki",
+        "Khắc phục lỗi đơ màn hình chọn vai trong SpeakingMode",
+        "Bổ sung đa ngôn ngữ hóa giao diện Active Recall và TTS/STT tiếng Anh",
+        "Tự kiểm tra Visual QA và hoàn thành xác thực hệ thống"
+      ]
+    },
+    {
+      "id": "T24",
+      "goal": "Tổ chức tranh biện giả lập của Ban chuyên gia đánh giá và tối ưu hệ thống từ A-Z",
+      "status": "done",
+      "completed_at": "2026-06-21",
+      "steps": [
+        "Xác lập 6 vai trò chuyên gia phân tích chéo mã nguồn dự án",
+        "Lập báo cáo tranh luận chỉ ra các lỗ hổng kỹ thuật (Sync I/O, Levenshtein, Race Condition)",
+        "Đề xuất lộ trình hành động chi tiết nâng cấp tối ưu hóa hệ thống",
+        "Lưu báo cáo vào mục tri thức và lưu git"
+      ]
+    },
+    {
+      "id": "T25",
+      "goal": "Rà soát sư phạm chuyên sâu hệ thống và tài liệu bằng ban chuyên gia 10 người",
+      "status": "done",
+      "completed_at": "2026-06-21",
+      "steps": [
+        "Thiết lập ý kiến phản biện từ 10 chuyên gia ngôn ngữ và nhận thức",
+        "Tập trung rà soát tính hiệu quả của Spaced Repetition và Active Recall",
+        "Đề xuất các bản vá logic khớp mờ, phím tắt bàn phím và word-level Levenshtein",
+        "Xuất bản báo cáo đánh giá chi tiết lên thư mục artifacts"
+      ]
+    },
+    {
+      "id": "T26",
+      "goal": "Triển khai 3 cải tiến nâng cấp sư phạm (phím tắt, bỏ qua ngoặc đơn, word-level Levenshtein)",
+      "status": "done",
+      "completed_at": "2026-06-21",
+      "steps": [
+        "Cập nhật ActiveRecallQuizzer.jsx để loại bỏ ngoặc đơn khi chuẩn hóa từ",
+        "Thêm phím tắt bàn phím 1-4 trong ActiveRecallQuizzer.jsx khi đã checked",
+        "Cập nhật computeSimilarity trong SpeakingMode.jsx sang thuật toán Word-level Levenshtein",
+        "Chạy visual và functional QA bằng browser subagent thành công"
+      ]
+    },
+    {
+      "id": "T27",
+      "goal": "Tích hợp cơ chế Dual-Mode hỗ trợ lưu trữ Supabase Cloud và đồng bộ Obsidian",
+      "status": "done",
+      "completed_at": "2026-06-21",
+      "steps": [
+        "Cài đặt thư viện pg vào dependencies của package.json",
+        "Cập nhật Express server/index.js hỗ trợ chế độ kết nối cơ sở dữ liệu PostgreSQL",
+        "Cập nhật client API_BASE để đọc động từ VITE_API_BASE khi deploy",
+        "Tạo script sync_to_obsidian.js cho việc đồng bộ tiến trình học ngoại tuyến về local",
+        "Ủy thác và lưu các commit thay đổi lên Git thành công"
+      ]
+    }
+  ]
+}
