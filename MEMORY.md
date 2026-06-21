@@ -16,6 +16,8 @@ Language Learning Wiki Plugin and Study App fully operational. Added English voc
   - Sử dụng `rem` thay vì `::` cho chú thích để tránh các lỗi nhảy nhãn lạ.
   - Sử dụng lệnh `ping 127.0.0.1 -n <giây+1> >nul` thay thế cho lệnh `timeout` để đảm bảo trễ hoạt động trơn tru trong môi trường console không tương tác (không hỗ trợ Input redirection).
 - **Exclude Raw Files from Cache**: Raw files (`_raw_*.md`) do not contain Spaced Repetition flashcards and should be filtered out from synchronization and topics endpoints to prevent empty list renders on client.
+- **Batch Translation Rule**: Always translate external definitions in batches of 50+ using newline separators `\n` to prevent Google API rate-limiting blocks (HTTP 429) and reduce average generation latency by 90%+. Keep a fallback logic to individual calls in case of line-count mismatches.
+
 
 ## Architecture Decisions
 - **Karpathy-Style LLM Wiki**: Separating concerns into `wiki/concepts/grammar/` (individual grammars `g-*.md`) and `wiki/concepts/vocabulary/` (vocabulary topics `v-*.md`), and `wiki/queries/` (dynamic answers to user questions), enabling compounding knowledge.
