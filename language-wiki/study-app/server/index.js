@@ -154,7 +154,7 @@ function syncCache(lang = 'korean') {
 
   files.forEach(file => {
     const filePath = path.resolve(vocabDir, file);
-    const relativePath = path.relative(workspaceRoot, filePath).replace(/\\/g, '/');
+    const relativePath = `${VAULT_MAP[lang]}/wiki/concepts/vocabulary/${file}`;
     const stats = fs.statSync(filePath);
     const mtime = stats.mtimeMs;
 
