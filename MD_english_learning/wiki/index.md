@@ -70,7 +70,7 @@ _(Chưa có câu hỏi nào)_
 
 | Mục | Số lượng |
 |---|---|
-| Tổng từ vựng flashcard | ~1800+ |
+| Tổng từ vựng flashcard | 9.897 từ |
 | Chủ đề từ vựng nền tảng | 12 (v-01 đến v-12) |
 | Chủ đề IELTS | 12 (Cam 8-18, Mindset) |
 | Bài ngữ pháp | 4 (g-01 đến g-04) |

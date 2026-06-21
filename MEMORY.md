@@ -1,15 +1,9 @@
 ## Hot Context
-Language Learning Wiki Plugin and Study App fully operational after critical bugfixes.
-- **Bug fixed**: `/api/cards/by-topic` was failing because relPath was `wiki/concepts/vocabulary/...` but cache keys are `MD_korea_learning/wiki/concepts/vocabulary/...`. Fixed prefix.
-- **Bug fixed**: `parser.js` now strips `| #TOPIK-*` tags and `**bold**` markers from meanings.
-- **Bug fixed**: Topic titles now strip `**` markers for clean dropdown display.
-- **New feature**: Added 4th tab "📚 Học Từ Vựng" (VocabLearner component) for word-by-word vocabulary learning with TTS, pronunciation reveal, meaning reveal, progress tracking, and browse/test modes.
-- Study app now has 4 tabs: Học Từ Vựng, Ôn Tập (Active Recall), Luyện Nói (STT), Thi Thử (Exam Mode).
-All tasks verified and working.
+Language Learning Wiki Plugin and Study App fully operational. Added English vocabulary database expansion consisting of 12 core 4000 Words books files (1,200 words) and 12 IELTS/Mindset files (8,697 words), bringing the total database size to 9,897 active recall flashcards. Optimized Express server to ignore raw `_raw_*.md` files in cache sync and API routing to prevent empty topic select issues.
 
 ## Learned Constraints
 - PDF is a scanned image PDF. Extracted 100% of textbook words (17,031 raw occurrences) by rendering pages (16-293) and scanning using **Windows Native Media OCR via `winsdk`** in Python, avoiding external Tesseract-OCR dependencies and achieving a massive ~0.33s/page OCR speed.
-- All files are securely placed under `t:\Topik\giao trình kyung hee\MD_korea_learning\`.
+- All files are securely placed under `t:\Topik\giao trình kyung hee\MD_korea_learning\` and `t:\Topik\giao trình kyung hee\MD_english_learning\`.
 - Pronunciations use Vietnamese natural spellings (e.g. `xa-gwa`, `ga-t-xi`, `im-ni-da`) and chunking progressions are explicitly designed for Vietnamese native speakers.
 - Paragraph translations are strictly interlinear and gloss-oriented.
 - Vocabulary is organized as a Neural Word Association Network with Obsidian-friendly Spaced Repetition double colon (`::`) cards.
@@ -21,17 +15,23 @@ All tasks verified and working.
   - Trong các khối lệnh ngoặc đơn (như vòng lặp `for ... do ( ... )`), tuyệt đối tránh đặt dấu ngoặc đơn lồng trong chuỗi text hiển thị (ví dụ: `echo (PID: %%a)`), nếu không sẽ làm hỏng trình biên dịch.
   - Sử dụng `rem` thay vì `::` cho chú thích để tránh các lỗi nhảy nhãn lạ.
   - Sử dụng lệnh `ping 127.0.0.1 -n <giây+1> >nul` thay thế cho lệnh `timeout` để đảm bảo trễ hoạt động trơn tru trong môi trường console không tương tác (không hỗ trợ Input redirection).
+- **Exclude Raw Files from Cache**: Raw files (`_raw_*.md`) do not contain Spaced Repetition flashcards and should be filtered out from synchronization and topics endpoints to prevent empty list renders on client.
+
 ## Architecture Decisions
 - **Karpathy-Style LLM Wiki**: Separating concerns into `wiki/concepts/grammar/` (individual grammars `g-*.md`) and `wiki/concepts/vocabulary/` (vocabulary topics `v-*.md`), and `wiki/queries/` (dynamic answers to user questions), enabling compounding knowledge.
 - **INDEX.md dashboard**: A single entry point mapping the 50 grammars, vocabulary topics, and filed queries.
 - **AGENTS.md hiến pháp**: Establishes a permanent rule file so that future AI models and tools know exactly how to maintain and auto-update the wiki when the user asks questions.
 
 ## Wiki Index
-- [[MD_korea_learning/wiki/index.md]] — Main Index and Dashboard (Active ✅)
+- [[MD_korea_learning/wiki/index.md]] — Korean Index and Dashboard (Active ✅)
+- [[MD_english_learning/wiki/index.md]] — English Index and Dashboard (Active ✅)
 - [[MD_korea_learning/AGENTS.md]] — Wiki maintenance guidelines and automated update instructions (Active ✅)
 - [[MD_korea_learning/grammar_guide.md]] — Functional Grammar Directory (Active ✅)
-- [[MD_korea_learning/wiki/concepts/grammar/]] — 50 individual grammar concept files with Korean names, warning callouts, contrast sections, and interlinear gloss examples (Active ✅)
-- [[MD_korea_learning/wiki/concepts/vocabulary/]] — 24 massive neural vocabulary files containing 1,221 terms, "1 suy 10" antonyms, synonyms, irregular conjugation, and Spaced Repetition :: cards (Active ✅)
-- [[MD_korea_learning/wiki/situations/s-01-shopping-clothes-weather.md]] to [[MD_korea_learning/wiki/situations/s-13-hair-salon-haircut.md]] — 13 real communication situations in Korea (Active ✅)
+- [[MD_korea_learning/wiki/concepts/grammar/]] — 50 individual grammar concept files with Korean names (Active ✅)
+- [[MD_korea_learning/wiki/concepts/vocabulary/]] — 24 Korean vocabulary files (Active ✅)
+- [[MD_english_learning/wiki/concepts/vocabulary/]] — 24 English vocabulary files (12 fundamental topics + 12 IELTS topics with 9,897 cards) (Active ✅)
+- [[MD_korea_learning/wiki/situations/s-01-shopping-clothes-weather.md]] to [[MD_korea_learning/wiki/situations/s-13-hair-salon-haircut.md]] — 13 Korean life situations (Active ✅)
+
+
 
 

@@ -345,6 +345,18 @@
         "Cập nhật các hàm gọi API trong App.jsx để truyền tham số ?lang=...",
         "Truyền currentLang xuống VocabLearner và SpeakingMode làm props và tự động tải lại dữ liệu khi đổi ngôn ngữ"
       ]
+    },
+    {
+      "id": "T31",
+      "goal": "Mở rộng bộ cơ sở dữ liệu từ vựng tiếng Anh lên 9.890+ từ, cập nhật cấu hình API loại bỏ file thô và đồng bộ mã nguồn lên GitHub",
+      "status": "done",
+      "completed_at": "2026-06-21",
+      "steps": [
+        "Chạy script dịch theo lô build_ielts_vocab_fast.py để dịch thành công 12 tập IELTS/Mindset",
+        "Cập nhật Express server index.js để tự động loại bỏ các tệp _raw_*.md khi đồng bộ bộ nhớ đệm và hiển thị danh mục",
+        "Cập nhật bảng thống kê từ vựng trong index.md lên 9.897 từ",
+        "Xây dựng thành công ứng dụng React/Vite mà không gặp lỗi biên dịch"
+      ]
     }
   ]
 }

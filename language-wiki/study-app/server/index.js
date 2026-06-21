@@ -149,7 +149,7 @@ function syncCache(lang = 'korean') {
     return cache;
   }
 
-  const files = fs.readdirSync(vocabDir).filter(f => f.endsWith('.md'));
+  const files = fs.readdirSync(vocabDir).filter(f => f.endsWith('.md') && !f.startsWith('_'));
   let cacheUpdated = false;
 
   files.forEach(file => {
@@ -653,7 +653,7 @@ app.get('/api/topics', (req, res) => {
     const activeVaultPath = getVaultPathForLang(lang);
     const vocabDir = path.resolve(activeVaultPath, 'wiki/concepts/vocabulary');
     if (!fs.existsSync(vocabDir)) return res.json({ topics: [] });
-    const files = fs.readdirSync(vocabDir).filter(f => f.endsWith('.md'));
+    const files = fs.readdirSync(vocabDir).filter(f => f.endsWith('.md') && !f.startsWith('_'));
     const topics = files.map(file => {
       const id = file.replace('.md', '');
       const filePath = path.resolve(vocabDir, file);

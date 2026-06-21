@@ -1,28 +1,292 @@
 # Từ vựng IELTS: Cambridge IELTS 18 — Boost Your Vocabulary
 
 > Nguồn: A&M IELTS — Boost your vocabulary (Cambridge IELTS 18)
-> Tổng số từ: 10 từ | Trình độ: IELTS Band 4.5-7.5
+> Tổng số từ: 271 từ | Trình độ: IELTS Band 5.0-8.5
 
 ---
 
-## Phần 1: Bảng Flashcard Spaced Repetition
+## READING PASSAGE 1
 
-- sustainability /səˌsteɪnəˈbɪləti/ :: sự bền vững | #IELTS-6
-- biodegradable /ˌbaɪəʊdɪˈɡreɪdəbl/ :: có thể phân hủy sinh học | #IELTS-6
-- microplastics /ˌmaɪkrəʊˈplæstɪks/ :: hạt vi nhựa | #IELTS-7
-- toxin /ˈtɒksɪn/ :: chất độc | #IELTS-6
-- accumulation /əˌkjuːmjʊˈleɪʃn/ :: sự tích tụ, tích lũy | #IELTS-6
-- pollutant /pəˈluːtənt/ :: chất gây ô nhiễm | #IELTS-6
-- regulation /ˌreɡjʊˈleɪʃn/ :: quy định, luật lệ | #IELTS-5
-- alternative /ɔːlˈtɜːnətɪv/ :: giải pháp thay thế | #IELTS-5
-- recycle /ˌriːˈsaɪkl/ :: tái chế | #IELTS-5
-- consumer /kənˈsjuːmər/ :: người tiêu dùng | #IELTS-5
+### Flashcard Spaced Repetition
+- urban /ˈərbən/ :: đô thị, liên quan đến thành phố, thành phố | #IELTS-6
+- approach /əˈproʊʧ/ :: phương pháp, kỹ thuật, chiến lược | #IELTS-6
+- agriculture /ˈægrɪˌkəlʧər/ :: trồng trọt, trồng trọt, làm vườn | #IELTS-7
+- resource /ˈrisɔrs/ :: tài sản, vật chất, cung cấp | #IELTS-6
+- on top of /ɔn tɔp əv/ :: trên, trên, trên | #IELTS-7
+- striking /ˈstraɪkɪŋ/ :: ấn tượng, đáng chú ý, bắt mắt | #IELTS-6
+- exhibition /ˌɛksəˈbɪʃən/ :: trưng bày, trưng bày, trình bày | #IELTS-7
+- hall /hɔl/ :: một tòa nhà hoặc căn phòng lớn được sử dụng cho các sự kiện liên quan đến một | #IELTS-6
+- bear /bɛr/ :: sản xuất, sản xuất, tạo ra | #IELTS-6
+- intensely /ˌɪnˈtɛnsli/ :: mạnh mẽ, sâu sắc, rất nhiều | #IELTS-7
+- flavored /ˈfleɪvərd/ :: ngon, thơm, ngon | #IELTS-6
+- resplendent /riˈsplɛndənt/ :: rất sáng | #IELTS-7
+- sprout /spraʊt/ :: lớn lên, nổi lên, phát triển | #IELTS-6
+- abundant /əˈbəndənt/ :: dồi dào, phong phú, dồi dào | #IELTS-6
+- tube /tub/ :: xi lanh, đường ống, ống dẫn | #IELTS-6
+- peer /pɪr/ :: nhìn, nhìn, quan sát | #IELTS-6
+- hollow /ˈhɑloʊ/ :: trống rỗng, trống rỗng, trống rỗng | #IELTS-6
+- dangling /ˈdæŋgəlɪŋ/ :: treo, lơ lửng, lắc lư | #IELTS-6
+- identical /aɪˈdɛntɪkəl/ :: giống nhau, không thể phân biệt được, nhìn | #IELTS-7
+- vertical /ˈvərtɪkəl/ :: ngay thẳng, vuông góc, thẳng | #IELTS-6
+- burst /bərst/ :: mọc lên, nảy mầm, nổi lên | #IELTS-6
+- aromatic /ˌɛrəˈmætɪk/ :: có mùi thơm, có mùi thơm, có mùi thơm | #IELTS-6
+- herbs /ərbz/ :: một loại cây có lá dùng để nấu ăn | #IELTS-6
+- opposite /ˈɑpəzɪt/ :: đối diện, đối diện, ở phía bên kia của | #IELTS-6
+- horizontal /ˌhɔrəˈzɑntəl/ :: bằng phẳng, bằng phẳng, song song với mặt đất | #IELTS-7
+- tray /treɪ/ :: thùng, đĩa, đĩa | #IELTS-6
+- packed /pækt/ :: đầy, nhồi, nạp | #IELTS-6
+- fiber /ˈfaɪbər/ :: một sợi/sợi dài và mỏng | #IELTS-6
+- aubergine /aubergine/ :: cà tím, cà tím, melongene | #IELTS-7
+- chard /ʧɑrd/ :: củ cải Thụy Sĩ, củ cải lá, củ cải bó xôi | #IELTS-6
+- sustainable /səˈsteɪnəbəl/ :: thân thiện với môi trường, thân thiện với môi trường, | #IELTS-7
+- consultant /kənˈsəltənt/ :: cố vấn, chuyên gia, chuyên gia | #IELTS-7
+- experiment /ɪkˈspɛrəmənt/ :: thử nghiệm, thử nghiệm, thăm dò | #IELTS-7
+- vertical farming /ˈvərtɪkəl ˈfɑrmɪŋ/ :: thực hành trồng cây ở | #IELTS-8
+- aeroponic /aeroponic/ :: quá trình trồng cây trong không khí hoặc | #IELTS-7
+- somewhat /ˈsəmˈwət/ :: vừa phải, ở một mức độ nào đó, khá | #IELTS-6
+- pitch /pɪʧ/ :: cánh đồng, đấu trường, căn cứ | #IELTS-6
+- tend /tɛnd/ :: chăm sóc, quản lý, giám sát | #IELTS-6
+- pick /pɪk/ :: thu hoạch, thu thập, hái | #IELTS-6
+- punnet /punnet/ :: khay, thùng, giỏ | #IELTS-6
+- vast /væst/ :: to lớn, khổng lồ, đồ sộ | #IELTS-6
+- harvest /ˈhɑrvəst/ :: thu thập, gặt hái, thu thập | #IELTS-6
+- variety /vərˈaɪəti/ :: chủng loại, phạm vi, sự đa dạng | #IELTS-6
+- obviously /ˈɑbviəsli/ :: rõ ràng, hiển nhiên, rõ ràng | #IELTS-7
+- caution /ˈkɔʃən/ :: cảnh báo, khuyên bảo, báo động | #IELTS-6
+- practical /ˈpræktɪkəl/ :: có chức năng, có thể sử dụng, hiệu quả | #IELTS-7
+- constraint /kənˈstreɪnt/ :: hạn chế, hạn chế, trở ngại | #IELTS-7
+- eventually /ɪˈvɛnʧəwəli/ :: cuối cùng, cuối cùng, theo thời gian | #IELTS-7
+- target /ˈtərgət/ :: nhằm vào, tập trung vào, phấn đấu | #IELTS-6
+- consumption /kənˈsəmʃən/ :: sự sử dụng, sự sử dụng, sự sử dụng | #IELTS-7
+- significantly /sɪgˈnɪfɪkəntli/ :: quan trọng, đáng kể, đáng kể | #IELTS-8
+- showcase /ˈʃoʊˌkeɪs/ :: trưng bày, triển lãm, trình diễn | #IELTS-6
+- flourishing /ˈflərɪʃɪŋ/ :: thịnh vượng, thịnh vượng, nở hoa | #IELTS-7
+- consultancy /kənˈsəltənsi/ :: một công ty đưa ra lời khuyên về một | #IELTS-7
+- field /fild/ :: trả lời, giải quyết, xử lý | #IELTS-6
+- enquiry /ɪnkˈwaɪˌri/ :: sự hỏi thăm, câu hỏi, yêu cầu | #IELTS-6
+- equip /ɪkˈwɪp/ :: trang phục, cung cấp, trang bị | #IELTS-6
+- breed /brid/ :: trồng trọt, nuôi dưỡng, nhân giống | #IELTS-6
+- inner-city /inner-city/ :: đô thị, đô thị, trung tâm thành phố | #IELTS-7
+- advantage /ædˈvæntɪʤ/ :: lợi ích, lợi ích, mặt thuận lợi | #IELTS-7
+- treat /trit/ :: xử lý, giải quyết, giải quyết | #IELTS-6
+- pesticide /ˈpɛstəˌsaɪd/ :: thuốc trừ sâu, hóa chất dùng để diệt côn trùng | #IELTS-7
+- intensive /ˌɪnˈtɛnsɪv/ :: tập trung vào một khu vực hoặc chủ đề duy nhất hoặc | #IELTS-7
+- generator /ˈʤɛnərˌeɪtər/ :: nguồn, nhà sản xuất, người sáng tạo | #IELTS-7
+- refrigerated /rɪˈfrɪʤərˌeɪtɪd/ :: làm nguội, ướp lạnh, đông lạnh | #IELTS-8
+- quality /kˈwɑləti/ :: tiêu chuẩn | #IELTS-6
+- variety /vərˈaɪəti/ :: loại, loại, giống, loài | #IELTS-6
+- capacity /kəˈpæsɪti/ :: khả năng, khả năng, tiềm năng | #IELTS-6
+- withstand /wɪθˈstænd/ :: chịu đựng, chịu đựng, chịu đựng | #IELTS-7
+- substantial /səbˈstænʃəl/ :: đáng kể, đáng kể, đáng kể | #IELTS-7
+- wholesaler /ˈhoʊlˌseɪlər/ :: nhà phân phối, nhà cung cấp, người trung gian | #IELTS-7
+- produce /ˈproʊdus/ :: những thứ đã được sản xuất hoặc phát triển, | #IELTS-6
+- solely /ˈsoʊəli/ :: chỉ, duy nhất, thuần túy | #IELTS-6
+- quantity /kˈwɑntəti/ :: số lượng, số lượng, tổng cộng | #IELTS-6
+- enrich /ɪnˈrɪʧ/ :: nâng cao, cải thiện, làm phong phú thêm | #IELTS-6
+- organic /ɔrˈgænɪk/ :: tự nhiên, sinh thái, bền vững | #IELTS-6
+- nutrient /ˈnutriənt/ :: bất kỳ chất nào mà thực vật hoặc động vật cần trong | #IELTS-6
+- pump /pəmp/ :: tuần hoàn, đẩy, di chuyển | #IELTS-6
+- circuit /ˈsərkət/ :: hệ thống, mạng, thiết lập | #IELTS-6
+- barely /ˈbɛrli/ :: hầu như không, hầu như không, chỉ vừa thôi, gần như không | #IELTS-6
+- resistance /rɪˈzɪstəns/ :: khả năng phục hồi, khả năng miễn dịch, phòng thủ | #IELTS-7
+- storage chain /ˈstɔrɪʤ ʧeɪn/ :: chuỗi cung ứng, mạng lưới phân phối, | #IELTS-8
+- exhausted /ɪgˈzɔstɪd/ :: mệt mỏi, kiệt sức, kiệt sức | #IELTS-7
+- recycle /riˈsaɪkəl/ :: tái sử dụng, tái sử dụng, tái tạo | #IELTS-6
+- classic /ˈklæsɪk/ :: truyền thống, tiêu chuẩn, quy ước | #IELTS-6
+- yield /jild/ :: năng suất, sản lượng, thu hoạch | #IELTS-6
+- phenomenon /fəˈnɑməˌnɑn/ :: xu hướng, sự xuất hiện, hiện tượng | #IELTS-7
+- boom /bum/ :: sự tăng trưởng, sự tăng trưởng, sự mở rộng | #IELTS-6
+- disused /disused/ :: bị bỏ rơi, không được sử dụng, bị bỏ quên | #IELTS-6
+- virtuous /ˈvərʧuəs/ :: đúng đắn, đạo đức, đạo đức | #IELTS-6
+- install /ˌɪnˈstɔl/ :: thiết lập, thiết lập, vị trí | #IELTS-6
+- roughly /ˈrəfli/ :: khoảng, khoảng, xung quanh | #IELTS-6
+- consume /kənˈsum/ :: sử dụng, tận dụng, nuốt chửng | #IELTS-6
+- fraction /ˈfrækʃən/ :: phần, phần, đoạn | #IELTS-6
+- typically /ˈtɪpɪkəli/ :: thông thường, thông thường, thông thường | #IELTS-7
+- -based /-beɪst/ :: được sử dụng để mô tả tính năng cơ bản hoặc một phần của | #IELTS-6
+- option /ˈɔpʃən/ :: sự lựa chọn, sự thay thế, sự lựa chọn | #IELTS-6
+- take up /teɪk əp/ :: chiếm giữ, sử dụng, sử dụng | #IELTS-6
+- return /rɪˈtərn/ :: năng suất, sản lượng, lợi nhuận | #IELTS-6
+- nevertheless /ˌnɛvərðəˈlɛs/ :: tuy nhiên, tuy nhiên, bất kể | #IELTS-8
+- practice /ˈpræktɪs/ :: phương pháp, cách tiếp cận, kỹ thuật | #IELTS-6
+- fast-changing /fast-changing/ :: phát triển nhanh chóng, năng động, trôi chảy | #IELTS-8
 
----
+## READING PASSAGE 2
 
-## Phần 2: Đọc hiểu Ứng dụng & Dịch xen kẽ
+### Flashcard Spaced Repetition
+- management /ˈmænɪʤmənt/ :: sự giám sát, sự quản lý, sự kiểm soát | #IELTS-7
+- bioenergy /bioenergy/ :: nguồn năng lượng từ cây xanh | #IELTS-7
+- sustainable /səˈsteɪnəbəl/ :: thân thiện với môi trường, thân thiện với môi trường, | #IELTS-7
+- value /ˈvælju/ :: giá trị, tầm quan trọng, tầm quan trọng | #IELTS-6
+- factor /ˈfæktər/ :: yếu tố, khía cạnh, sự cân nhắc | #IELTS-6
+- species /ˈspiʃiz/ :: loại, loại, chủng loại | #IELTS-6
+- condition /kənˈdɪʃən/ :: trạng thái của một cái gì đó liên quan đến nó | #IELTS-7
+- quality /kˈwɑləti/ :: tiêu chuẩn, cấp độ, tầm cỡ | #IELTS-6
+- function /ˈfəŋkʃən/ :: mục đích, vai trò, sử dụng | #IELTS-6
+- accessibility /ˌæksɛsəˈbɪlɪti/ :: sự sẵn có, khả năng tiếp cận, sự dễ dàng | #IELTS-8
+- given /ˈgɪvɪn/ :: cung cấp, quy định, cấp | #IELTS-6
+- value /ˈvælju/ :: đánh giá, đánh giá, đánh giá | #IELTS-6
+- timber /ˈtɪmbər/ :: gỗ được chế biến để sử dụng trong xây dựng và | #IELTS-6
+- log /lɔg/ :: gỗ, thân cây, khối gỗ | #IELTS-6
+- furniture /ˈfərnɪʧər/ :: đồ đạc, đồ đạc, đồ trang trí | #IELTS-7
+- landowner /ˈlænˌdoʊnər/ :: chủ sở hữu tài sản, chủ sở hữu tài sản, chủ sở hữu tài sản | #IELTS-7
+- habitat /ˈhæbəˌtæt/ :: môi trường, hệ sinh thái, môi trường xung quanh | #IELTS-6
+- likewise /ˈlaɪkˌwaɪz/ :: tương tự, theo cách tương tự, tương ứng | #IELTS-6
+- suffer from /ˈsəfər frəm/ :: chịu đựng, trải qua, trải qua | #IELTS-7
+- woodworker /ˈwʊdˌwərkər/ :: thợ mộc, thợ thủ công, thợ thủ công | #IELTS-7
+- unique /juˈnik/ :: độc nhất, riêng biệt, độc nhất | #IELTS-6
+- solely /ˈsoʊəli/ :: chỉ, duy nhất, thuần túy | #IELTS-6
+- high-quality /ˌhaɪkˈwɑləti/ :: xuất sắc, tốt nhất, hạng nhất, vượt trội | #IELTS-8
+- practice /ˈpræktɪs/ :: điều gì đó thường được thực hiện thường xuyên, | #IELTS-6
+- legacy /ˈlɛgəsi/ :: thứ gì đó là một phần lịch sử của bạn hoặc thứ đó | #IELTS-6
+- abundant /əˈbəndənt/ :: dồi dào, phong phú, dồi dào | #IELTS-6
+- shade out /ʃeɪd aʊt/ :: làm cho một khu vực trở nên tối hơn bởi | #IELTS-7
+- regeneration /riˈʤɛnərˈeɪʃən/ :: đổi mới, tái sinh, trẻ hóa | #IELTS-8
+- stand /stænd/ :: trong bối cảnh này, "đứng" đề cập đến một nhóm | #IELTS-6
+- vulnerable /ˈvəlnərəbəl/ :: dễ bị tổn thương, mong manh, không có khả năng tự vệ | #IELTS-7
+- combustion /kəmˈbəsʧən/ :: đốt, đốt, đốt, đốt | #IELTS-7
+- facilities /fəˈsɪlɪtiz/ :: các tòa nhà, thiết bị và dịch vụ | #IELTS-7
+- incorporate /ˌɪnˈkɔrpərˌeɪt/ :: tích hợp, bao gồm, hợp nhất | #IELTS-7
+- gasified /gasified/ :: trở thành khí | #IELTS-6
+- generation /ˌʤɛnərˈeɪʃən/ :: sự hình thành, sự hình thành, sự sản xuất | #IELTS-7
+- liquid /ˈlɪkwɪd/ :: giống như nước, nó không phải là chất rắn hay chất khí và | #IELTS-6
+- lorry /ˈlɔri/ :: một chiếc xe cơ giới lớn, nặng để vận chuyển | #IELTS-6
+- goods or troops /gʊdz ər trups/ :: một chiếc xe tải. | #IELTS-8
+- approach /əˈproʊʧ/ :: một cách để làm điều gì đó | #IELTS-6
+- stems /stɛmz/ :: phần trung tâm giống như cây gậy của cây mọc lên | #IELTS-6
+- invasive /ˌɪnˈveɪsɪv/ :: xâm lấn, lấn chiếm, lấn chiếm | #IELTS-6
+- foliage /ˈfoʊlɪʤ/ :: lá cây | #IELTS-6
+- crown /kraʊn/ :: cành và tán lá ở ngọn cây, | #IELTS-6
+- top /tɔp/ :: phần trên của cây hoặc cây, bao gồm cả | #IELTS-6
+- regenerate /riˈʤɛnərˌeɪt/ :: tái tạo, làm mới, làm trẻ lại | #IELTS-7
+- tailor /ˈteɪlər/ :: tùy chỉnh, điều chỉnh, sửa đổi | #IELTS-6
+- pests /pɛsts/ :: phiền toái, sâu bọ, côn trùng | #IELTS-6
+- pathogens /ˈpæθəʤənz/ :: vi sinh vật, vi trùng, vi khuẩn | #IELTS-7
+- hemlock /ˈhɛmˌlɑk/ :: chất độc, chất độc, cây chết người | #IELTS-6
+- longhomed /longhomed/ :: cổ dài, mỏ, mõm dài | #IELTS-7
+- beetle /ˈbitəl/ :: một loại côn trùng | #IELTS-6
+- emerald /ˈɛmərrəld/ :: màu xanh tươi | #IELTS-6
+- ash borer /æʃ ˈbɔrər/ :: một loại côn trùng | #IELTS-7
+- gypsy moth /ˈʤɪpsi mɔθ/ :: một loại sâu bệnh | #IELTS-7
+- ease /iz/ :: làm nhẹ bớt, giảm nhẹ, giảm nhẹ | #IELTS-6
+- procedure /prəˈsiʤər/ :: phương pháp, kỹ thuật, giao thức | #IELTS-7
+- pest /pɛst/ :: một loài côn trùng phá hoại hoặc động vật khác tấn công | #IELTS-6
+- vigorous /ˈvɪgərəs/ :: khỏe mạnh, cường tráng, khỏe mạnh | #IELTS-6
+- outbreak /ˈaʊtˌbreɪk/ :: dịch bệnh, sự bùng phát, sự gia tăng | #IELTS-6
+- seedling /ˈsidlɪŋ/ :: cây non, cây con | #IELTS-6
+- established /ɪˈstæblɪʃt/ :: định cư, hình thành, thành lập | #IELTS-7
+- regenerated /riˈʤɛnərˌeɪtɪd/ :: làm mới, bổ sung, phục hồi | #IELTS-7
+- growth /groʊθ/ :: sự phát triển, sự tiến bộ, sự tiến bộ | #IELTS-6
+- harvest /ˈhɑrvəst/ :: thu thập, thu thập, cắt xén | #IELTS-6
+- spread out /sprɛd aʊt/ :: phân tán, rải rác, phân tán | #IELTS-7
+- dense /dɛns/ :: : dày, nhỏ gọn, đông đúc | #IELTS-6
+- low-use /low-use/ :: không được sử dụng đúng mức, ít được sử dụng, hiếm khi | #IELTS-6
+- retention /riˈtɛnʃən/ :: sự bảo tồn, sự bảo tồn, sự giữ gìn | #IELTS-7
+- classify /ˈklæsəˌfaɪ/ :: phân loại, nhóm, sắp xếp | #IELTS-6
+- soil /sɔɪl/ :: đất, mặt đất, bụi bẩn | #IELTS-6
+- cavities /ˈkævɪtiz/ :: lỗ, chỗ hở, chỗ trũng | #IELTS-6
+- insect predators /ˈɪnˌsɛkt ˈprɛdətərz/ :: ăn côn trùng, săn côn trùng, | #IELTS-8
+- resilience /rɪˈzɪljəns/ :: sức đề kháng, sức bền, tính linh hoạt | #IELTS-7
+- low-use /low-use/ :: không được sử dụng đúng mức, ít được sử dụng, hiếm khi | #IELTS-6
+- wildlife /ˈwaɪlˌdlaɪf/ :: động vật, sinh vật, động vật | #IELTS-6
+- rare /rɛr/ :: có nguy cơ tuyệt chủng, hiếm, hiếm | #IELTS-6
 
-Consumer goods (Hàng hóa tiêu dùng) generate waste. We need biodegradable alternatives (chúng ta cần các giải pháp phân hủy sinh học) to prevent the accumulation of microplastics (để ngăn chặn sự tích tụ hạt vi nhựa). Strict regulations (Các quy định nghiêm ngặt) against pollutants (chống lại chất gây ô nhiễm) are required.
+## READING PASSAGE 3
+
+### Flashcard Spaced Repetition
+- shard /ʃɑrd/ :: một mảnh kim loại, thủy tinh hoặc đá vỡ, thường | #IELTS-6
+- having sharp edges /ˈhævɪŋ ʃɑrp ˈɛʤɪz/ :: bộ phận bị hỏng | #IELTS-8
+- collision /kəˈlɪʒən/ :: va chạm, va chạm, tai nạn | #IELTS-7
+- debris /dəˈbri/ :: rác rưởi, rác rưởi, đống đổ nát | #IELTS-6
+- orbit /ˈɔrbət/ :: con đường không gian, quỹ đạo thiên thể, con đường quay vòng | #IELTS-6
+- threat /θrɛt/ :: nguy hiểm, rủi ro, mối đe dọa | #IELTS-6
+- commercial /kəˈmərʃəl/ :: kinh doanh, buôn bán, kiếm lời | #IELTS-7
+- civil /ˈsɪvəl/ :: liên quan đến công dân bình thường | #IELTS-6
+- department /dɪˈpɑrtmənt/ :: bộ phận, đơn vị, phần | #IELTS-7
+- amateur /ˈæməˌʧər/ :: không chuyên nghiệp, có sở thích, đam mê | #IELTS-6
+- sharply /ˈʃɑrpli/ :: dốc, đột ngột, đáng kể | #IELTS-6
+- leading /ˈlidɪŋ/ :: nổi bật, chính, chính | #IELTS-6
+- follow through on /ˈfɑloʊ θru ɔn/ :: tiếp tục | #IELTS-8
+- deploy /dɪˈplɔɪ/ :: thiết lập, cài đặt, định vị | #IELTS-6
+- constellations /ˌkɑnstəˈleɪʃənz/ :: nhóm, cụm, mảng | #IELTS-8
+- satellite /ˈsætəˌlaɪt/ :: tàu vũ trụ, tàu vũ trụ, tàu thăm dò không gian | #IELTS-7
+- traffic /ˈtræfɪk/ :: số lượng máy bay, xe lửa hoặc tàu di chuyển | #IELTS-6
+- disaster /dɪˈzæstər/ :: thảm họa, tai họa, bi kịch | #IELTS-6
+- smash into /smæʃ ˈɪntu/ :: đâm vào, lao vào | #IELTS-7
+- inactive /ˌɪˈnæktɪv/ :: nhàn rỗi, không sử dụng, không chạy | #IELTS-6
+- shrapnel /ʃˈræpnəl/ :: mảnh vụn, mảnh vỡ, mảnh vụn, mảnh vụn | #IELTS-6
+- threaten /θˈrɛtən/ :: gây nguy hiểm, đe dọa, gây nguy hiểm | #IELTS-6
+- altitude /ˈæltəˌtud/ :: chiều cao | #IELTS-6
+- human-made /human-made/ :: do con người tạo ra, nhân tạo, do con người tạo ra | #IELTS-7
+- operator /ˈɑpərˌeɪtər/ :: người điều khiển, người quản lý, người xử lý | #IELTS-6
+- steer away /stɪr əˈweɪ/ :: tránh, lảng tránh, chuyển hướng | #IELTS-7
+- otherwise /ˈəðərˌwaɪz/ :: cách khác, cách khác, theo cách khác | #IELTS-7
+- concern /kənˈsərn/ :: lo lắng, lo lắng, đau khổ | #IELTS-6
+- junk /ʤəŋk/ :: rác, rác, rác | #IELTS-6
+- objects /ˈɑbʤɛkts/ :: nhiều thứ | #IELTS-6
+- rising /ˈraɪzɪŋ/ :: tăng lên, tăng trưởng, leo thang | #IELTS-6
+- rapidly /ˈræpədli/ :: nhanh chóng, nhanh chóng, nhanh chóng | #IELTS-6
+- researcher /ˈrisərʧər/ :: nhà khoa học, học giả, nhà nghiên cứu | #IELTS-7
+- investigating /ˌɪnˈvɛstəˌgeɪtɪŋ/ :: tìm hiểu, khảo sát, nghiên cứu | #IELTS-8
+- attacking /əˈtækɪŋ/ :: giải quyết, giải quyết, giải quyết | #IELTS-7
+- assess /əˈsɛs/ :: đánh giá, phân tích, kiểm tra | #IELTS-6
+- efficiently /ɪˈfɪʃəntli/ :: một cách hiệu quả, năng suất, thành thạo | #IELTS-7
+- ever-more-crowded /ever-more-crowded/ :: ngày càng tắc nghẽn | #IELTS-8
+- compile /kəmˈpaɪl/ :: tập hợp, tập hợp, tập hợp | #IELTS-6
+- massive /ˈmæsɪv/ :: khổng lồ, to lớn, khổng lồ | #IELTS-6
+- taxonomies /taxonomies/ :: sự phân loại, sự phân loại. | #IELTS-7
+- properties /ˈprɑpərtiz/ :: phẩm chất | #IELTS-7
+- coming their way /ˈkəmɪŋ ðɛr weɪ/ :: sẽ xảy ra tiếp theo | #IELTS-8
+- alternative /ɔlˈtərnətɪv/ :: một lựa chọn khác, một lựa chọn khác | #IELTS-7
+- unthinkable /ənˈθɪŋkəbəl/ :: không thực tế, không thể tưởng tượng được, không thể | #IELTS-7
+- uncontrolled /ˌənkənˈtroʊld/ :: không được quản lý, mất kiểm soát, hỗn loạn | #IELTS-8
+- crash /kræʃ/ :: va chạm, va chạm, tai nạn | #IELTS-6
+- generate /ˈʤɛnərˌeɪt/ :: tạo ra, tạo ra, gây ra | #IELTS-6
+- set off /sɛt ɔf/ :: bắt đầu | #IELTS-6
+- runaway cascade /ˈrənəˌweɪ kæˈskeɪd/ :: có nghĩa là một khi có điều gì đó tồi tệ | #IELTS-8
+- fragments /ˈfrægmənts/ :: mảnh, mảnh, hạt | #IELTS-7
+- render /ˈrɛndər/ :: làm, biến đổi, thay đổi | #IELTS-6
+- monitor /ˈmɑnətər/ :: quan sát, theo dõi, theo dõi | #IELTS-6
+- collaborating /kəˈlæbərˌeɪtɪŋ/ :: làm việc cùng nhau, hợp tác, tham gia | #IELTS-8
+- shared /ʃɛrd/ :: chung, lẫn nhau | #IELTS-6
+- guideline /ˈgaɪˌdlaɪn/ :: hướng dẫn, quy tắc, khuyến nghị | #IELTS-7
+- inactivating /inactivating/ :: vô hiệu hóa, vô hiệu hóa, tắt | #IELTS-8
+- pressurized /ˈprɛʃərˌaɪzd/ :: bị nén, bị ép, bị ép | #IELTS-7
+- leftover /ˈlɛfˌtoʊvər/ :: phần còn lại của một cái gì đó là phần có | #IELTS-6
+- explosion /ɪkˈsploʊʒən/ :: vụ nổ, vụ nổ, sự phun trào | #IELTS-7
+- burn up /bərn əp/ :: đốt cháy, đốt cháy, đốt cháy | #IELTS-6
+- disintegrate /dɪˈsɪntəˌgreɪt/ :: vỡ vụn, vỡ vụn, xấu đi | #IELTS-8
+- abided by /əˈbaɪdɪd baɪ/ :: tuân theo, tuân theo, tuân theo | #IELTS-7
+- steward /stuərd/ :: người giám hộ, người giám hộ, người trông nom | #IELTS-6
+- enterprise /ˈɛnərˌpraɪz/ :: dự án, liên doanh, sáng kiến | #IELTS-7
+- bankrupt /ˈbæŋkrəpt/ :: vỡ nợ, không một xu dính túi, mắc nợ | #IELTS-6
+- vastness /ˈvæstnəs/ :: sự to lớn, sự bao la, sự rộng lớn, sự to lớn | #IELTS-6
+- tackle /ˈtækəl/ :: giải quyết, giải quyết, đối đầu | #IELTS-6
+- find out /faɪnd aʊt/ :: khám phá, phát hiện, xác định | #IELTS-6
+- precision /priˈsɪʒən/ :: sự chính xác, sự chính xác, sự chặt chẽ | #IELTS-7
+- alleviate /əˈliviˌeɪt/ :: giảm nhẹ, giảm nhẹ, giảm thiểu | #IELTS-7
+- maneuvers /məˈnuvərz/ :: thao tác, hành động, chuyển động | #IELTS-7
+- collisions /kəˈlɪʒənz/ :: va chạm, va chạm, tai nạn | #IELTS-7
+- specialist /ˈspɛʃəlɪst/ :: chuyên gia | #IELTS-7
+- astrodynamicist /astrodynamicist/ :: một người nghiên cứu động lực học thiên văn | #IELTS-8
+- astrodynamics /astrodynamics/ :: một cách nói về cách mọi thứ chuyển động | #IELTS-8
+- line up /laɪn əp/ :: sắp xếp thành một hàng thẳng. | #IELTS-6
+- land /lænd/ :: hạ cánh, đến, đi xuống | #IELTS-6
+- take off /teɪk ɔf/ :: khởi hành, cất cánh, phóng | #IELTS-6
+- choreographed /ˈkɔriəˌgræft/ :: có kế hoạch, có tổ chức, sắp xếp | #IELTS-8
+- accuracy /ˈækjərəsi/ :: độ chính xác, độ chính xác, độ tin cậy | #IELTS-6
+- tracked /trækt/ :: được theo dõi, theo dõi, theo dõi | #IELTS-6
+- consistently /kənˈsɪstəntli/ :: liên tục, đáng tin cậy, liên tục | #IELTS-8
+- authoritative catalog /əˈθɔrəˌteɪtɪv ˈkætəlɔg/ :: một danh sách chính thức và đáng tin cậy hoặc | #IELTS-8
+- illustrate /ˈɪləˌstreɪt/ :: chứng minh, thể hiện, miêu tả | #IELTS-7
+- database /ˈdætəˌbeɪs/ :: một tập hợp dữ liệu được lưu trữ | #IELTS-6
+- draw on /drɔ ɔn/ :: sử dụng cái gì đó | #IELTS-6
+- visualize /ˈvɪʒwəˌlaɪz/ :: hình thành một hình ảnh trong não; tưởng tượng | #IELTS-7
+- identifier /aɪˈdɛntəˌfaɪər/ :: nhãn, tên, mã | #IELTS-7
+- designate /ˈdɛzɪgˌneɪt/ :: chỉ định, xác định, dán nhãn | #IELTS-7
+- cross-correlate /cross-correlate/ :: so sánh, so sánh, căn chỉnh | #IELTS-8
+- environmentalist /ɪnˌvaɪrənˈmɛnəlɪst/ :: nhà bảo tồn, người ủng hộ xanh, | #IELTS-8
+- devolving /devolving/ :: suy thoái, suy thoái, thoái trào | #IELTS-7
 
 ---
 
