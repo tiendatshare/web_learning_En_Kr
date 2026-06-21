@@ -319,6 +319,17 @@
         "Hủy lịch sử Git cũ và khởi tạo Git mới sạch dung lượng thấp",
         "Liên kết remote origin và đẩy mã nguồn thành công lên GitHub"
       ]
+    },
+    {
+      "id": "T29",
+      "goal": "Khắc phục lỗi Vercel 404 và đóng gói tệp Markdown chạy Serverless hoàn chỉnh",
+      "status": "done",
+      "completed_at": "2026-06-21",
+      "steps": [
+        "Thêm script build vào package.json để Vite có thể đóng gói trên Vercel",
+        "Cập nhật vercel.json với includeFiles trỏ đến các thư mục chứa file Markdown",
+        "Đẩy thay đổi lên GitHub để Vercel tự động xây dựng lại dự án thành công"
+      ]
     }
   ]
 }
