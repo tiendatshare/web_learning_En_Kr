@@ -6,7 +6,7 @@ const API_BASE = import.meta.env.VITE_API_BASE || (
     : ''
 );
 
-export default function SpeakingMode() {
+export default function SpeakingMode({ currentLang }) {
   const [situations, setSituations] = useState([]);
   const [selectedId, setSelectedId] = useState('');
   const [situationData, setSituationData] = useState(null);
@@ -19,20 +19,23 @@ export default function SpeakingMode() {
   const [roles, setRoles] = useState([]);
   const recognitionRef = useRef(null);
 
-  const [currentLang, setCurrentLang] = useState('korean');
   const [roleSelected, setRoleSelected] = useState(false);
 
   useEffect(() => {
+    setSelectedId('');
+    setSituationData(null);
+    setCurrentTurnIdx(0);
+    setTranscript('');
+    setSimilarity(null);
+    setHistory([]);
+    setRoles([]);
+    setRoleSelected(false);
     fetchSituations();
-    fetch(`${API_BASE}/api/language`)
-      .then(res => res.json())
-      .then(data => setCurrentLang(data.language || 'korean'))
-      .catch(() => {});
-  }, []);
+  }, [currentLang]);
 
   const fetchSituations = async () => {
     try {
-      const res = await fetch(`${API_BASE}/api/situations`);
+      const res = await fetch(`${API_BASE}/api/situations?lang=${currentLang}`);
       if (res.ok) {
         const data = await res.json();
         setSituations(data.situations || []);
@@ -48,7 +51,7 @@ export default function SpeakingMode() {
   const handleLoadSituation = async () => {
     if (!selectedId) return;
     try {
-      const res = await fetch(`${API_BASE}/api/situations/${selectedId}`);
+      const res = await fetch(`${API_BASE}/api/situations/${selectedId}?lang=${currentLang}`);
       if (res.ok) {
         const data = await res.json();
         setSituationData(data);

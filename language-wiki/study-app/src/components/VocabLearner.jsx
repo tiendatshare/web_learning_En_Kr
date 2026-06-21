@@ -6,7 +6,7 @@ const API_BASE = import.meta.env.VITE_API_BASE || (
     : ''
 );
 
-export default function VocabLearner() {
+export default function VocabLearner({ currentLang }) {
   const [topics, setTopics] = useState([]);
   const [selectedTopic, setSelectedTopic] = useState('');
   const [cards, setCards] = useState([]);
@@ -18,21 +18,23 @@ export default function VocabLearner() {
   const [studyMode, setStudyMode] = useState('browse'); // 'browse' | 'test'
   const [testInput, setTestInput] = useState('');
   const [testResult, setTestResult] = useState(null);
-  const [currentLang, setCurrentLang] = useState('korean');
   const inputRef = useRef(null);
 
   useEffect(() => {
+    setSelectedTopic('');
+    setCards([]);
+    setCurrentIdx(0);
+    setShowMeaning(false);
+    setShowPronunciation(false);
+    setLearnedWords(new Set());
+    setTestInput('');
+    setTestResult(null);
     fetchTopics();
-    // Fetch current language
-    fetch(`${API_BASE}/api/language`)
-      .then(res => res.json())
-      .then(data => setCurrentLang(data.language || 'korean'))
-      .catch(() => {});
-  }, []);
+  }, [currentLang]);
 
   const fetchTopics = async () => {
     try {
-      const res = await fetch(`${API_BASE}/api/topics`);
+      const res = await fetch(`${API_BASE}/api/topics?lang=${currentLang}`);
       if (res.ok) {
         const data = await res.json();
         setTopics(data.topics || []);
@@ -50,7 +52,7 @@ export default function VocabLearner() {
     }
     setLoading(true);
     try {
-      const res = await fetch(`${API_BASE}/api/cards/by-topic?topic=${topicId}`);
+      const res = await fetch(`${API_BASE}/api/cards/by-topic?topic=${topicId}&lang=${currentLang}`);
       if (res.ok) {
         const data = await res.json();
         setCards(data.cards || []);

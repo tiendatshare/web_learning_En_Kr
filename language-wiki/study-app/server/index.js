@@ -19,14 +19,6 @@ const VAULT_MAP = {
   korean: 'MD_korea_learning',
   english: 'MD_english_learning'
 };
-let vaultPath = path.resolve(workspaceRoot, VAULT_MAP[LANG] || VAULT_MAP.korean);
-try {
-  if (!fs.existsSync(vaultPath)) {
-    vaultPath = path.resolve(__dirname, '../', VAULT_MAP[LANG] || VAULT_MAP.korean);
-  }
-} catch (e) {
-  vaultPath = path.resolve(__dirname, '../', VAULT_MAP[LANG] || VAULT_MAP.korean);
-}
 
 let cacheDir = path.resolve(workspaceRoot, '.superpowers');
 try {
@@ -39,7 +31,19 @@ try {
     fs.mkdirSync(cacheDir, { recursive: true });
   }
 }
-const cachePath = path.resolve(cacheDir, `.study-cache-${LANG}.json`);
+
+function getVaultPathForLang(lang) {
+  const activeVault = VAULT_MAP[lang] || VAULT_MAP.korean;
+  let targetPath = path.resolve(workspaceRoot, activeVault);
+  try {
+    if (!fs.existsSync(targetPath)) {
+      targetPath = path.resolve(__dirname, '../', activeVault);
+    }
+  } catch (e) {
+    targetPath = path.resolve(__dirname, '../', activeVault);
+  }
+  return targetPath;
+}
 
 // PostgreSQL Pool configuration (Supabase integration)
 const DATABASE_URL = process.env.DATABASE_URL;
@@ -100,45 +104,48 @@ async function getDBCardProgressMap(lang) {
 // In-memory queue of modified files for batch commits
 let modifiedFilesQueue = new Set();
 
-// Load or initialize cache
-function loadCache() {
-  if (fs.existsSync(cachePath)) {
+// Load or initialize cache for dynamic language
+function loadCache(lang = 'korean') {
+  const activeCachePath = path.resolve(cacheDir, `.study-cache-${lang}.json`);
+  if (fs.existsSync(activeCachePath)) {
     try {
-      return JSON.parse(fs.readFileSync(cachePath, 'utf8'));
+      return JSON.parse(fs.readFileSync(activeCachePath, 'utf8'));
     } catch (e) {
-      console.error('Failed to parse cache file, initializing clean cache:', e);
+      console.error(`Failed to parse cache file for ${lang}, initializing clean cache:`, e);
     }
   }
   return { files: {} };
 }
 
-// Save cache atomically
-function saveCache(cache) {
-  const tmpCachePath = cachePath + '.tmp';
+// Save cache atomically for dynamic language
+function saveCache(cache, lang = 'korean') {
+  const activeCachePath = path.resolve(cacheDir, `.study-cache-${lang}.json`);
+  const tmpCachePath = activeCachePath + '.tmp';
   try {
     fs.writeFileSync(tmpCachePath, JSON.stringify(cache, null, 2), 'utf8');
-    fs.renameSync(tmpCachePath, cachePath);
+    fs.renameSync(tmpCachePath, activeCachePath);
   } catch (e) {
-    console.error('Failed to save cache atomically:', e);
+    console.error(`Failed to save cache atomically for ${lang}:`, e);
   }
 }
 
-let memoryCache = null;
-let lastSyncTime = 0;
-const CACHE_TTL_MS = 5000; // 5-second TTL to avoid Event Loop Blocking
+let memoryCaches = { korean: null, english: null };
+let lastSyncTimes = { korean: 0, english: 0 };
+const CACHE_TTL_MS = 5000;
 
-// Incremental cache sync by reading mtime of vocabulary markdown files
-function syncCache() {
+// Incremental cache sync by reading mtime of vocabulary markdown files dynamically
+function syncCache(lang = 'korean') {
   const now = Date.now();
-  if (memoryCache && (now - lastSyncTime < CACHE_TTL_MS)) {
-    return memoryCache;
+  if (memoryCaches[lang] && (now - lastSyncTimes[lang] < CACHE_TTL_MS)) {
+    return memoryCaches[lang];
   }
 
-  const cache = loadCache();
-  const vocabDir = path.resolve(vaultPath, 'wiki/concepts/vocabulary');
+  const cache = loadCache(lang);
+  const activeVaultPath = getVaultPathForLang(lang);
+  const vocabDir = path.resolve(activeVaultPath, 'wiki/concepts/vocabulary');
   
   if (!fs.existsSync(vocabDir)) {
-    console.error('Vocabulary directory does not exist:', vocabDir);
+    console.error(`Vocabulary directory does not exist: ${vocabDir}`);
     return cache;
   }
 
@@ -153,7 +160,6 @@ function syncCache() {
 
     const cachedFile = cache.files[relativePath];
     if (!cachedFile || cachedFile.mtime !== mtime) {
-      // Parse file content
       const content = fs.readFileSync(filePath, 'utf8');
       const lines = content.split(/\r?\n/);
       const cards = [];
@@ -171,8 +177,6 @@ function syncCache() {
         }
       });
 
-      // Extract general cognitive contexts (essays/dialogues/Hanja) from file if needed
-      // (For now, we map the entire file content so the client can query context paragraphs)
       cache.files[relativePath] = {
         mtime,
         cards,
@@ -183,10 +187,10 @@ function syncCache() {
   });
 
   if (cacheUpdated) {
-    saveCache(cache);
+    saveCache(cache, lang);
   }
-  memoryCache = cache;
-  lastSyncTime = now;
+  memoryCaches[lang] = cache;
+  lastSyncTimes[lang] = now;
   return cache;
 }
 
@@ -219,12 +223,13 @@ setInterval(runGitBatchCommit, 10 * 60 * 1000);
 // API: Get all due cards
 app.get('/api/cards/due', async (req, res) => {
   try {
-    const cache = syncCache();
+    const lang = req.query.lang || 'korean';
+    const cache = syncCache(lang);
     const todayStr = new Date().toISOString().split('T')[0];
     const dueCards = [];
 
     // Fetch database progress overrides if active
-    const dbProgressMap = await getDBCardProgressMap(LANG);
+    const dbProgressMap = await getDBCardProgressMap(lang);
 
     Object.keys(cache.files).forEach(relPath => {
       const fileData = cache.files[relPath];
@@ -234,7 +239,7 @@ app.get('/api/cards/due', async (req, res) => {
         if (isDue) {
           // Provide cognitive context sections
           // Find paragraphs related to the word in the full markdown file
-          const paragraphContext = extractWordContext(card.word, fileData.fullContent);
+          const paragraphContext = extractWordContext(card.word, fileData.fullContent, lang);
 
           dueCards.push({
             filePath: relPath,
@@ -244,8 +249,8 @@ app.get('/api/cards/due', async (req, res) => {
             sr: activeSr,
             cognitiveData: {
               phonetics: `Phát âm gợi ý: ${card.pronunciation}`,
-              hanja: paragraphContext.hanja || (LANG === 'korean' ? "Không tìm thấy thông tin gốc Hán-Hàn." : "Không có thông tin từ nguyên."),
-              dialogue: paragraphContext.dialogue || (LANG === 'korean' ? "Không có kịch bản đàm thoại mẫu." : "Không có ngữ cảnh hội thoại mẫu.")
+              hanja: paragraphContext.hanja || (lang === 'korean' ? "Không tìm thấy thông tin gốc Hán-Hàn." : "Không có thông tin từ nguyên."),
+              dialogue: paragraphContext.dialogue || (lang === 'korean' ? "Không có kịch bản đàm thoại mẫu." : "Không có ngữ cảnh hội thoại mẫu.")
             }
           });
         }
@@ -270,7 +275,8 @@ app.post('/api/cards/review', async (req, res) => {
   }
 
   try {
-    const cache = loadCache();
+    const lang = filePath.includes('MD_english_learning') ? 'english' : 'korean';
+    const cache = loadCache(lang);
     const relPath = filePath.replace(/\\/g, '/');
     const fileData = cache.files[relPath];
 
@@ -286,7 +292,7 @@ app.post('/api/cards/review', async (req, res) => {
     const card = fileData.cards[cardIndex];
     
     // Fetch override database progress if active
-    const dbProgressMap = await getDBCardProgressMap(LANG);
+    const dbProgressMap = await getDBCardProgressMap(lang);
     const activeSr = dbProgressMap[word] || card.sr || { due: null, interval: 1, ease: 250, streak: 0 };
     
     // SM-2 calculations
@@ -335,7 +341,7 @@ app.post('/api/cards/review', async (req, res) => {
           VALUES ($1, $2, $3, $4, $5, $6, NOW())
           ON CONFLICT (word, lang)
           DO UPDATE SET due = EXCLUDED.due, interval = EXCLUDED.interval, ease = EXCLUDED.ease, streak = EXCLUDED.streak, updated_at = NOW();
-        `, [word, LANG, dueStr, interval, ease, streak]);
+        `, [word, lang, dueStr, interval, ease, streak]);
         return res.json({ success: true, updatedSr: newSr });
       } catch (dbErr) {
         console.error('Failed to save progress to PostgreSQL database:', dbErr);
@@ -380,7 +386,7 @@ app.post('/api/cards/review', async (req, res) => {
     fileData.mtime = updatedStats.mtimeMs;
     fileData.fullContent = newContent;
 
-    saveCache(cache);
+    saveCache(cache, lang);
 
     // Queue file for git batch commit
     modifiedFilesQueue.add(relPath);
@@ -403,11 +409,11 @@ app.post('/api/session/end', (req, res) => {
 });
 
 // Helper function to extract cognitive text paragraphs (Hanja root & dialogues)
-function extractWordContext(word, fullContent) {
+function extractWordContext(word, fullContent, lang = 'korean') {
   const result = { hanja: '', dialogue: '' };
   const lines = fullContent.split(/\r?\n/);
 
-  if (LANG === 'english') {
+  if (lang === 'english') {
     let chunkingLines = [];
     let associationLines = [];
     let captureMode = null; // 'chunking' or 'association'
@@ -490,10 +496,12 @@ function extractWordContext(word, fullContent) {
   return result;
 }
 
-// API: List situations
+// API: List situations dynamically
 app.get('/api/situations', (req, res) => {
+  const lang = req.query.lang || 'korean';
   try {
-    const situationsDir = path.resolve(vaultPath, 'wiki/situations');
+    const activeVaultPath = getVaultPathForLang(lang);
+    const situationsDir = path.resolve(activeVaultPath, 'wiki/situations');
     if (!fs.existsSync(situationsDir)) {
       return res.json({ situations: [] });
     }
@@ -516,11 +524,13 @@ app.get('/api/situations', (req, res) => {
   }
 });
 
-// API: Get situation dialogue turns
+// API: Get situation dialogue turns dynamically
 app.get('/api/situations/:id', (req, res) => {
   const { id } = req.params;
+  const lang = req.query.lang || 'korean';
   try {
-    const filePath = path.resolve(vaultPath, `wiki/situations/${id}.md`);
+    const activeVaultPath = getVaultPathForLang(lang);
+    const filePath = path.resolve(activeVaultPath, `wiki/situations/${id}.md`);
     if (!fs.existsSync(filePath)) {
       return res.status(404).json({ error: 'Situation not found' });
     }
@@ -636,10 +646,12 @@ app.post('/api/exams/submit', (req, res) => {
   });
 });
 
-// API: List all vocabulary topics
+// API: List all vocabulary topics dynamically
 app.get('/api/topics', (req, res) => {
+  const lang = req.query.lang || 'korean';
   try {
-    const vocabDir = path.resolve(vaultPath, 'wiki/concepts/vocabulary');
+    const activeVaultPath = getVaultPathForLang(lang);
+    const vocabDir = path.resolve(activeVaultPath, 'wiki/concepts/vocabulary');
     if (!fs.existsSync(vocabDir)) return res.json({ topics: [] });
     const files = fs.readdirSync(vocabDir).filter(f => f.endsWith('.md'));
     const topics = files.map(file => {
@@ -657,25 +669,26 @@ app.get('/api/topics', (req, res) => {
   }
 });
 
-// API: Get cards filtered by specific vocabulary topic file
+// API: Get cards filtered by specific vocabulary topic file dynamically
 app.get('/api/cards/by-topic', async (req, res) => {
   const { topic } = req.query;
+  const lang = req.query.lang || 'korean';
   if (!topic) return res.status(400).json({ error: 'Missing topic parameter' });
   
   try {
-    const cache = syncCache();
-    const relPath = `${VAULT_MAP[LANG]}/wiki/concepts/vocabulary/${topic}.md`;
+    const cache = syncCache(lang);
+    const relPath = `${VAULT_MAP[lang]}/wiki/concepts/vocabulary/${topic}.md`;
     const fileData = cache.files[relPath];
     if (!fileData) {
       return res.status(404).json({ error: 'Topic not found in cache' });
     }
 
     // Fetch database progress overrides if active
-    const dbProgressMap = await getDBCardProgressMap(LANG);
+    const dbProgressMap = await getDBCardProgressMap(lang);
 
     const cards = fileData.cards.map(card => {
       const activeSr = dbProgressMap[card.word] || card.sr || { due: null, interval: 1, ease: 250, streak: 0 };
-      const paragraphContext = extractWordContext(card.word, fileData.fullContent);
+      const paragraphContext = extractWordContext(card.word, fileData.fullContent, lang);
       return {
         filePath: relPath,
         word: card.word,
@@ -684,8 +697,8 @@ app.get('/api/cards/by-topic', async (req, res) => {
         sr: activeSr,
         cognitiveData: {
           phonetics: `Phát âm gợi ý: ${card.pronunciation}`,
-          hanja: paragraphContext.hanja || (LANG === 'korean' ? "Không tìm thấy thông tin gốc Hán-Hàn." : "Không có thông tin từ nguyên."),
-          dialogue: paragraphContext.dialogue || (LANG === 'korean' ? "Không có kịch bản đàm thoại mẫu." : "Không có ngữ cảnh hội thoại mẫu.")
+          hanja: paragraphContext.hanja || (lang === 'korean' ? "Không tìm thấy thông tin gốc Hán-Hàn." : "Không có thông tin từ nguyên."),
+          dialogue: paragraphContext.dialogue || (lang === 'korean' ? "Không có kịch bản đàm thoại mẫu." : "Không có ngữ cảnh hội thoại mẫu.")
         }
       };
     });
@@ -701,12 +714,13 @@ app.get('/api/cards/by-topic', async (req, res) => {
 app.get('/api/language', (req, res) => {
   let diag = {};
   try {
+    const activeVaultPath = getVaultPathForLang(LANG);
     diag = {
       __dirname,
       workspaceRoot,
-      vaultPath,
-      vaultPathExists: fs.existsSync(vaultPath),
-      vocabDirExists: fs.existsSync(path.resolve(vaultPath, 'wiki/concepts/vocabulary')),
+      vaultPath: activeVaultPath,
+      vaultPathExists: fs.existsSync(activeVaultPath),
+      vocabDirExists: fs.existsSync(path.resolve(activeVaultPath, 'wiki/concepts/vocabulary')),
       taskFiles: fs.existsSync('/var/task') ? fs.readdirSync('/var/task') : [],
       mcdKoreanFiles: fs.existsSync(path.resolve(__dirname, '../MD_korea_learning')) ? fs.readdirSync(path.resolve(__dirname, '../MD_korea_learning')) : [],
     };

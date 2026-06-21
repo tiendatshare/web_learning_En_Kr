@@ -27,14 +27,13 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [mode, setMode] = useState('medium'); // medium or hard
   const [sessionFinished, setSessionFinished] = useState(false);
-  const [currentLang, setCurrentLang] = useState('korean');
+  const [currentLang, setCurrentLang] = useState(() => localStorage.getItem('study_lang') || 'korean');
 
-  // Load language, due cards and topics on mount
+  // Load due cards and topics on language switch or mount
   useEffect(() => {
-    fetchLanguage();
     fetchDueCards();
     fetchTopics();
-  }, []);
+  }, [currentLang]);
 
   const fetchLanguage = async () => {
     try {
@@ -50,19 +49,16 @@ export default function App() {
 
   const switchLanguage = async () => {
     const newLang = currentLang === 'korean' ? 'english' : 'korean';
+    setCurrentLang(newLang);
+    localStorage.setItem('study_lang', newLang);
     try {
-      const res = await fetch(`${API_BASE}/api/language/switch`, {
+      await fetch(`${API_BASE}/api/language/switch`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ language: newLang })
       });
-      if (res.ok) {
-        const config = LANG_CONFIG[newLang];
-        alert(`Đã chuyển sang ${config.flag} ${config.label}.\nVui lòng đóng và mở lại ứng dụng (chạy lại file .bat) để áp dụng.`);
-      }
     } catch (e) {
-      console.error('Failed to switch language:', e);
-      alert('Không thể kết nối đến server để chuyển ngôn ngữ.');
+      console.warn('Background language switch sync failed:', e);
     }
   };
 
@@ -70,7 +66,7 @@ export default function App() {
   const fetchDueCards = async () => {
     setLoading(true);
     try {
-      const res = await fetch(`${API_BASE}/api/cards/due`);
+      const res = await fetch(`${API_BASE}/api/cards/due?lang=${currentLang}`);
       if (res.ok) {
         const data = await res.json();
         setDueCards(data.cards || []);
@@ -87,7 +83,7 @@ export default function App() {
 
   const fetchTopics = async () => {
     try {
-      const res = await fetch(`${API_BASE}/api/topics`);
+      const res = await fetch(`${API_BASE}/api/topics?lang=${currentLang}`);
       if (res.ok) {
         const data = await res.json();
         setTopics(data.topics || []);
@@ -105,7 +101,7 @@ export default function App() {
     }
     setLoading(true);
     try {
-      const res = await fetch(`${API_BASE}/api/cards/by-topic?topic=${topicId}`);
+      const res = await fetch(`${API_BASE}/api/cards/by-topic?topic=${topicId}&lang=${currentLang}`);
       if (res.ok) {
         const data = await res.json();
         setDueCards(data.cards || []);
@@ -235,7 +231,7 @@ export default function App() {
       {/* Main Content Area */}
       <main className="glass-panel">
         {activeTab === 'vocab' && (
-          <VocabLearner />
+          <VocabLearner currentLang={currentLang} />
         )}
         {activeTab === 'flashcard' && (
           <div className="fade-in">
@@ -335,7 +331,7 @@ export default function App() {
         )}
 
         {activeTab === 'speaking' && (
-          <SpeakingMode />
+          <SpeakingMode currentLang={currentLang} />
         )}
 
         {activeTab === 'exam' && (
