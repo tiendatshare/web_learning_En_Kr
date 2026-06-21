@@ -20,10 +20,25 @@ const VAULT_MAP = {
   english: 'MD_english_learning'
 };
 let vaultPath = path.resolve(workspaceRoot, VAULT_MAP[LANG] || VAULT_MAP.korean);
-if (!fs.existsSync(vaultPath)) {
+try {
+  if (!fs.existsSync(vaultPath)) {
+    vaultPath = path.resolve(__dirname, '../', VAULT_MAP[LANG] || VAULT_MAP.korean);
+  }
+} catch (e) {
   vaultPath = path.resolve(__dirname, '../', VAULT_MAP[LANG] || VAULT_MAP.korean);
 }
-const cacheDir = path.resolve(workspaceRoot, '.superpowers');
+
+let cacheDir = path.resolve(workspaceRoot, '.superpowers');
+try {
+  if (!fs.existsSync(cacheDir)) {
+    fs.mkdirSync(cacheDir, { recursive: true });
+  }
+} catch (e) {
+  cacheDir = path.resolve('/tmp', '.superpowers');
+  if (!fs.existsSync(cacheDir)) {
+    fs.mkdirSync(cacheDir, { recursive: true });
+  }
+}
 const cachePath = path.resolve(cacheDir, `.study-cache-${LANG}.json`);
 
 // PostgreSQL Pool configuration (Supabase integration)
@@ -80,9 +95,7 @@ async function getDBCardProgressMap(lang) {
 }
 
 // Ensure cache directory exists
-if (!fs.existsSync(cacheDir)) {
-  fs.mkdirSync(cacheDir, { recursive: true });
-}
+// Cache directory is ensured in the boot configuration block
 
 // In-memory queue of modified files for batch commits
 let modifiedFilesQueue = new Set();
