@@ -20,51 +20,51 @@ Các từ vựng chỉ vị trí không gian giúp hỏi đường và định v
 > Export sang **Anki** để nhận notification ôn tập trên điện thoại.
 
 ### 📊 Level 1 — #TOPIK-1
-- 가운데 (**ga-un-de**) :: chính giữa không gian | #TOPIK-1
-- 거기 (**gơ-gi**) :: ở đó | #TOPIK-1
-- 건너편 (**gơn-nơ-phyơn**) :: phía đối diện/bên kia đường | #TOPIK-1
-- 건물 (**gơn-mul**) :: tòa nhà | #TOPIK-1
-- 계단 (**gye-dan**) :: cầu thang | #TOPIK-1
-- 근처 (**gưn-chơ**) :: gần đây | #TOPIK-1
-- 동쪽 (**dông-jjok**) :: phía Đông | #TOPIK-1
-- 뒤 (**dwi**) :: phía sau | #TOPIK-1
-- 뒤쪽 (**dwi-jjok**) :: hướng đằng sau | #TOPIK-1
-- 밑 (**mit**) :: phía dưới gầm | #TOPIK-1
-- 바로 옆 (**ba-ro yơp**) :: ngay sát cạnh | #TOPIK-1
-- 밖 (**bak**) :: bên ngoài | #TOPIK-1
-- 방향 (**bang-hyang**) :: phương hướng | #TOPIK-1
-- 빌딩 (**bil-ding**) :: tòa nhà cao tầng | #TOPIK-1
-- 사이 (**xa-i**) :: ở giữa (**2 vật**) | #TOPIK-1
-- 사잇길 (**xa-it-gil**) :: con đường hẻm nhỏ ở giữa | #TOPIK-1
-- 실내 (**xil-nae**) :: trong nhà | #TOPIK-1
-- 실외 (**xil-we**) :: ngoài trời | #TOPIK-1
-- 아래 (**a-rae**) :: bên dưới | #TOPIK-1
-- 아래쪽 (**a-rae-jjok**) :: hướng bên dưới | #TOPIK-1
-- 안 (**an**) :: bên trong | #TOPIK-1
-- 안내 센터 (**an-nae xen-thơ**) :: trung tâm hướng dẫn | #TOPIK-1
-- 앞 (**ap**) :: phía trước | #TOPIK-1
-- 앞에 (**a-phe**) :: phía trước | #TOPIK-1
-- 앞쪽 (**ap-jjok**) :: hướng đằng trước | #TOPIK-1
-- 에스컬레이터 (**e-xư-khơl-le-i-thơ**) :: thang cuốn | #TOPIK-1
-- 엘리베이터 (**el-li-be-i-thơ**) :: thang máy | #TOPIK-1
-- 여기 (**yơ-gi**) :: ở đây | #TOPIK-1
-- 여기저기 (**yơ-gi-jơ-gi**) :: chỗ này chỗ kia | #TOPIK-1
-- 옆 (**yơp**) :: bên cạnh | #TOPIK-1
-- 옆방 (**yơp-bang**) :: phòng bên cạnh | #TOPIK-1
-- 옆집 (**yơp-jip**) :: nhà bên hàng xóm | #TOPIK-1
-- 오른손 (**o-rưn-xôn**) :: tay phải | #TOPIK-1
-- 오른쪽 (**o-rưn-jjok**) :: bên phải | #TOPIK-1
-- 와이파이 (**wa-i-pha-i**) :: wifi | #TOPIK-1
-- 왼손 (**wen-xôn**) :: tay trái | #TOPIK-1
-- 왼쪽 (**wen-jjok**) :: bên trái | #TOPIK-1
-- 우측 (**u-chưk**) :: phía bên phải | #TOPIK-1
-- 우회전하다 (**u-hwe-jơn-ha-da**) :: rẽ phải | #TOPIK-1
-- 위 (**wi**) :: phía trên | #TOPIK-1
-- 장소 (**jang-xo**) :: địa điểm | #TOPIK-1
-- 좌측 (**jwa-chưk**) :: phía bên trái | #TOPIK-1
-- 좌회전하다 (**jwa-hwe-jơn-ha-da**) :: rẽ trái | #TOPIK-1
-- 중간 (**jung-gan**) :: khoảng giữa | #TOPIK-1
-- 출구 (**chul-gu**) :: lối ra | #TOPIK-1
+- 가운데 (**ga-un-de**) :: chính giữa không gian | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 가운데", "vi": "**ga-un-de: chính giữa không gian**", "pos": "danh từ", "syn": "중급 (trung gian), 심장 (trái tim)", "ant": "높다 (cao), 오프셋 (bù đắp)", "rel": "나이 (lứa tuổi), 등쪽 (lưng), 쥬라기의 (kỷ Jura)"} -->
+- 거기 (**gơ-gi**) :: ở đó | #TOPIK-1 <!-- cognitive: {"ex": "여보세요, 거기 교촌치킨입니까? 배달을 하고 싶어서 전화했습니다.", "vi": "Alo, ở đó có phải là tiệm gà rán Kyochon không ạ? Tôi muốn đặt giao hàng nên đã gọi điện thoại ạ.", "pos": "danh từ", "syn": "저쪽으로 (ở đó), 그 장소에서 (ở nơi đó)", "ant": "여기 (ở đây), 여기 (ở đây)", "rel": ""} -->
+- 건너편 (**gơn-nơ-phyơn**) :: phía đối diện/bên kia đường | #TOPIK-1 <!-- cognitive: {"ex": "길 건너편이라는 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề bên kia đường.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 건물 (**gơn-mul**) :: tòa nhà | #TOPIK-1 <!-- cognitive: {"ex": "🔍 Từ hiện tại: 건물", "vi": "**Kiến vật - Tòa nhà**", "pos": "danh từ", "syn": "건물 (dinh thự), 증가 (ngày càng tăng)", "ant": "", "rel": "가장 높은 (cao nhất), 정면 (mặt tiền), 개조된 (đã được cải tạo)"} -->
+- 계단 (**gye-dan**) :: cầu thang | #TOPIK-1 <!-- cognitive: {"ex": "🧱 계단을 올라가다", "vi": "**Đi lên cầu thang**", "pos": "danh từ", "syn": "단계 (bước), 계단 (cầu thang)", "ant": "", "rel": "계단 (cầu thang), 중이층 (gác lửng), 베란다 (hiên nhà)"} -->
+- 근처 (**gưn-chơ**) :: gần đây | #TOPIK-1 <!-- cognitive: {"ex": "안녕하세요, 방을 좀 구하고 싶습니다. 대학교 근처에 좋은 원룸이 있습니까?", "vi": "Xin chào ạ, tôi muốn tìm thuê một căn phòng trọ. Gần trường đại học có phòng đơn (one-room) nào tốt không ạ?", "pos": "tính từ", "syn": "닫기 (đóng), 가까운 (gần)", "ant": "", "rel": "가장 가까운 (gần nhất), 정착지 (khu định cư), 마을 (làng)"} -->
+- 동쪽 (**dông-jjok**) :: phía Đông | #TOPIK-1 <!-- cognitive: {"ex": "대성당의 동쪽 정면", "vi": "mặt tiền phía đông của một nhà thờ", "pos": "danh từ", "syn": "가장 동쪽의 (cực đông), 동쪽으로 (về phía đông)", "ant": "서쪽 (hướng Tây)", "rel": "티모르 (timor), 프로이센 (nước Phổ), 인디 (indie)"} -->
+- 뒤 (**dwi**) :: phía sau | #TOPIK-1 <!-- cognitive: {"ex": "아, 지금 비가 오고 바람이 부니까 우산을 쓰세요. 역은 바로 저기 은행 뒤에 있습니다.", "vi": "À, bây giờ trời đang mưa và gió thổi nên hãy che ô vào nhé. Nhà ga nằm ngay phía sau ngân hàng kia kìa.", "pos": "danh từ", "syn": "지원하다 (hỗ trợ), 지지하다 (xác nhận)", "ant": "사전 (tiến lên), 봐 (nhìn)", "rel": "앞으로 (ra), 터치다운 (chạm trán)"} -->
+- 뒤쪽 (**dwi-jjok**) :: hướng đằng sau | #TOPIK-1 <!-- cognitive: {"ex": "내 등을 긁어 주시겠어요?", "vi": "Bạn có thể vui lòng gãi lưng cho tôi được không?", "pos": "danh từ", "syn": "지원하다 (hỗ trợ), 지지하다 (xác nhận)", "ant": "사전 (tiến lên), 봐 (nhìn)", "rel": "앞으로 (ra), 터치다운 (chạm trán)"} -->
+- 밑 (**mit**) :: phía dưới gầm | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 밑", "vi": "**mit: phía dưới gầm**", "pos": "danh từ", "syn": "엄격한 (nghiêm khắc), 엉덩이 (mông)", "ant": "상단 (hàng đầu), 이닝의 최고 (đỉnh của hiệp đấu)", "rel": "이닝 (hiệp đấu), 강등됨 (xuống hạng), 브래킷 (dấu ngoặc)"} -->
+- 바로 옆 (**ba-ro yơp**) :: ngay sát cạnh | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 바로 옆", "vi": "**ba-ro yơp: ngay sát cạnh**", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 밖 (**bak**) :: bên ngoài | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 밖", "vi": "**bak: bên ngoài**", "pos": "danh từ", "syn": "관계없는 (ngoại lai), 외인적인 (bên ngoài)", "ant": "이내에 (bên trong), 내부 (bên trong)", "rel": "라인배커 (hậu vệ), 벽 (bức tường), 내부 (bên trong)"} -->
+- 방향 (**bang-hyang**) :: phương hướng | #TOPIK-1 <!-- cognitive: {"ex": "같은 방향으로 계속 가세요.", "vi": "Hãy tiếp tục đi theo cùng một hướng.", "pos": "danh từ", "syn": "요금 (tính phí), 조언 (lời khuyên)", "ant": "", "rel": "수직 (vuông góc), 방향 (chỉ đường), 회전 (sự xoay vòng)"} -->
+- 빌딩 (**bil-ding**) :: tòa nhà cao tầng | #TOPIK-1 <!-- cognitive: {"ex": "다리 건설은 몇 주 안에 완료될 예정이다.", "vi": "Việc xây dựng cây cầu sẽ được hoàn thành trong vài tuần nữa.", "pos": "danh từ", "syn": "건물 (dinh thự), 증가 (ngày càng tăng)", "ant": "", "rel": "가장 높은 (cao nhất), 정면 (mặt tiền), 개조된 (đã được cải tạo)"} -->
+- 사이 (**xa-i**) :: ở giữa (2 vật) | #TOPIK-1 <!-- cognitive: {"ex": "Trí 씨, 저의 가족사진을 보세요. 우리 아버지는 은행원이고 어머니는 병원 의사이십니다.", "vi": "Bạn Trí ơi, hãy xem bức ảnh gia đình của tôi này. Bố tôi là nhân viên ngân hàng còn mẹ tôi là bác sĩ bệnh viện đấy.", "pos": "danh từ", "syn": "사이에 (ở giữa)", "ant": "", "rel": ""} -->
+- 사잇길 (**xa-it-gil**) :: con đường hẻm nhỏ ở giữa | #TOPIK-1 <!-- cognitive: {"ex": "측면 도로 주제에 초점을 맞추겠습니다.", "vi": "Hãy tập trung vào chủ đề đường phụ.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 실내 (**xil-nae**) :: trong nhà | #TOPIK-1 <!-- cognitive: {"ex": "이 불꽃놀이는 실내용이 아닙니다!", "vi": "Những pháo hoa này không được sử dụng trong nhà!", "pos": "tính từ", "syn": "내부 (bên trong), 인테리어 (nội thất)", "ant": "", "rel": "야외 (ngoài trời), 카펫 (thảm), 5종 경기 (năm môn phối hợp)"} -->
+- 실외 (**xil-we**) :: ngoài trời | #TOPIK-1 <!-- cognitive: {"ex": "야외 주제에 중점을 두겠습니다.", "vi": "Hãy tập trung vào chủ đề ngoài trời.", "pos": "động từ", "syn": "외부 (bên ngoài), 옥외 (ngoài cửa)", "ant": "", "rel": "원형 극장 (giảng đường), 실내 (trong nhà), 그릇 (bát)"} -->
+- 아래 (**a-rae**) :: bên dưới | #TOPIK-1 <!-- cognitive: {"ex": "밑에 누워있는 땅꾼들", "vi": "những người chủ đất nằm bên dưới", "pos": "trạng từ", "syn": "아래에 (bên dưới), 아래 (dưới)", "ant": "위 (ở trên), 위에 (ở trên)", "rel": "빈곤 (nghèo đói), 흘수선 (đường nước), 괄호 (dấu ngoặc đơn)"} -->
+- 아래쪽 (**a-rae-jjok**) :: hướng bên dưới | #TOPIK-1 <!-- cognitive: {"ex": "나는 내 직업의 거의 모든 것을 좋아합니다. 유일한 단점은 토요일에 휴가를 낼 수 없다는 것입니다.", "vi": "Tôi yêu hầu hết mọi thứ về công việc của mình. Nhược điểm duy nhất là tôi không thể nghỉ thứ Bảy.", "pos": "danh từ", "syn": "파란색 (màu xanh), 우울한 (chán nản)", "ant": "위로 (lên), 위쪽으로 (trở lên)", "rel": "계단 (cầu thang), 증후군 (hội chứng), 마당 (sân)"} -->
+- 안 (**an**) :: bên trong | #TOPIK-1 <!-- cognitive: {"ex": "걱정하지 마세요. 불고기는 안 매워요. 김치찌개는 매워서 제가 다 먹을게요!", "vi": "Đừng lo lắng nhé. Thịt nướng Bulgo-gi không cay đâu. Canh kim chi vì cay nên tôi sẽ ăn hết cho!", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 안내 센터 (**an-nae xen-thơ**) :: trung tâm hướng dẫn | #TOPIK-1 <!-- cognitive: {"ex": "정보 센터 주제에 중점을 두겠습니다.", "vi": "Hãy tập trung vào chủ đề của trung tâm thông tin.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 앞 (**ap**) :: phía trước | #TOPIK-1 <!-- cognitive: {"ex": "은행 뒤요? 은행 앞으로 가야 합니까?", "vi": "Phía sau ngân hàng ạ? Tôi có phải đi hướng về phía trước ngân hàng không?", "pos": "danh từ", "syn": "봐 (nhìn), 존재 (sự hiện diện)", "ant": "뒤로 (trở lại), 후방 (phía sau)", "rel": "범퍼 (bội thu), 그릴 (lưới tản nhiệt), 현관 (hiên nhà)"} -->
+- 앞에 (**a-phe**) :: phía trước | #TOPIK-1 <!-- cognitive: {"ex": "앞의 주제에 집중합시다.", "vi": "Hãy tập trung vào chủ đề phía trước.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 앞쪽 (**ap-jjok**) :: hướng đằng trước | #TOPIK-1 <!-- cognitive: {"ex": "공식적으로는 세탁소지만, 마피아의 앞잡이인 것은 모두가 알고 있다.", "vi": "Chính thức thì đó là một tiệm giặt khô nhưng ai cũng biết đó là bình phong cho mafia.", "pos": "danh từ", "syn": "봐 (nhìn), 존재 (sự hiện diện)", "ant": "뒤로 (trở lại), 후방 (phía sau)", "rel": "범퍼 (bội thu), 그릴 (lưới tản nhiệt), 현관 (hiên nhà)"} -->
+- 에스컬레이터 (**e-xư-khơl-le-i-thơ**) :: thang cuốn | #TOPIK-1 <!-- cognitive: {"ex": "그들은 생활비 에스컬레이터에 동의했습니다.", "vi": "Họ đồng ý sử dụng thang cuốn để giảm chi phí sinh hoạt.", "pos": "danh từ", "syn": "움직이는 계단 (cầu thang di chuyển), 움직이는 계단 (cầu thang di chuyển)", "ant": "", "rel": "코네 (kone), 난간 (lan can), 중이층 (gác lửng)"} -->
+- 엘리베이터 (**el-li-be-i-thơ**) :: thang máy | #TOPIK-1 <!-- cognitive: {"ex": "엘리베이터 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề thang máy.", "pos": "danh từ", "syn": "리프트 (nâng)", "ant": "", "rel": "에스컬레이터 (thang cuốn), 방향타 (bánh lái), 샤프트 (trục)"} -->
+- 여기 (**yơ-gi**) :: ở đây | #TOPIK-1 <!-- cognitive: {"ex": "실례합니다, 길을 좀 묻겠습니다. 여기서 지하철역까지 어떻게 갑니까?", "vi": "Xin lỗi cho tôi hỏi đường một chút ạ. Từ đây đến ga tàu điện ngầm đi như thế nào ạ?", "pos": "danh từ", "syn": "헤라 (cô ấy), 여기 (ở đây)", "ant": "거기 (ở đó), 저쪽으로 (ở đó)", "rel": "온다 (đến)"} -->
+- 여기저기 (**yơ-gi-jơ-gi**) :: chỗ này chỗ kia | #TOPIK-1 <!-- cognitive: {"ex": "여기저기의 주제에 집중해보자.", "vi": "Hãy tập trung vào chủ đề ở đây và ở đó.", "pos": "trạng từ", "syn": "", "ant": "", "rel": ""} -->
+- 옆 (**yơp**) :: bên cạnh | #TOPIK-1 <!-- cognitive: {"ex": "두 시 삼십 분에 만납시다. 도서관 옆 카페에서 커피도 같이 마셔요.", "vi": "Chúng ta hãy gặp nhau lúc 2 giờ 30 phút nhé. Ở quán cà phê bên cạnh thư viện, chúng ta cũng cùng uống cà phê nữa.", "pos": "danh từ", "syn": "위치 (vị trí), 얼굴 (đối mặt)", "ant": "걸터앉다 (ngồi trên chân)", "rel": "분화구 (miệng núi lửa), 플랫폼 (nền tảng), 빙하 (sông băng)"} -->
+- 옆방 (**yơp-bang**) :: phòng bên cạnh | #TOPIK-1 <!-- cognitive: {"ex": "다음 방의 주제에 집중합시다.", "vi": "Hãy tập trung vào chủ đề của phòng tiếp theo.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 옆집 (**yơp-jip**) :: nhà bên hàng xóm | #TOPIK-1 <!-- cognitive: {"ex": "옆집에 가보세요.", "vi": "Hãy thử địa điểm bên cạnh.", "pos": "tính từ", "syn": "", "ant": "", "rel": ""} -->
+- 오른손 (**o-rưn-xôn**) :: tay phải | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 오른손", "vi": "**o-rưn-xôn: tay phải**", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 오른쪽 (**o-rưn-jjok**) :: bên phải | #TOPIK-1 <!-- cognitive: {"ex": "아니요, 이 길로 똑바로 가십시오. 사거리에서 오른쪽으로 돌면 지하철역 입구가 보입니다.", "vi": "Không, hãy đi thẳng theo con đường này. Ở ngã tư rẽ hướng sang bên phải là sẽ thấy lối vào ga tàu điện ngầm.", "pos": "tính từ", "syn": "좋아 (tốt), 강력한 (mạnh mẽ)", "ant": "항구 (hải cảng), 틀렸어 (sai)", "rel": "정렬 (căn chỉnh), 하프백 (lưng chừng), 투표율 (số cử tri đi bỏ phiếu)"} -->
+- 와이파이 (**wa-i-pha-i**) :: wifi | #TOPIK-1 <!-- cognitive: {"ex": "Wi-Fi를 사용하여 파일을 보내 드리겠습니다.", "vi": "Tôi sẽ gửi tệp bằng Wi-Fi.", "pos": "danh từ", "syn": "", "ant": "", "rel": "블루투스 (bluetooth), 폰 (yêu thích), 핫스팟 (điểm nóng)"} -->
+- 왼손 (**wen-xôn**) :: tay trái | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 왼손", "vi": "**wen-xôn: tay trái**", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 왼쪽 (**wen-jjok**) :: bên trái | #TOPIK-1 <!-- cognitive: {"ex": "정치적 좌파가 너무 많은 권력을 쥐고 있다.", "vi": "Cánh tả chính trị đang nắm giữ quá nhiều quyền lực.", "pos": "danh từ", "syn": "항구 (hải cảng), 이상한 (kỳ quặc)", "ant": "맞아 (đúng), 우현 (mạn phải)", "rel": "하프백 (lưng chừng), 정렬 (căn chỉnh), 태클 (giải quyết)"} -->
+- 우측 (**u-chưk**) :: phía bên phải | #TOPIK-1 <!-- cognitive: {"ex": "올바른 선", "vi": "một dòng bên phải", "pos": "tính từ", "syn": "좋아 (tốt), 강력한 (mạnh mẽ)", "ant": "항구 (hải cảng), 틀렸어 (sai)", "rel": "정렬 (căn chỉnh), 하프백 (lưng chừng), 투표율 (số cử tri đi bỏ phiếu)"} -->
+- 우회전하다 (**u-hwe-jơn-ha-da**) :: rẽ phải | #TOPIK-1 <!-- cognitive: {"ex": "우회전이라는 주제에 집중합시다.", "vi": "Hãy tập trung vào chủ đề rẽ phải.", "pos": "động từ/tính từ", "syn": "", "ant": "", "rel": ""} -->
+- 위 (**wi**) :: phía trên | #TOPIK-1 <!-- cognitive: {"ex": "B: `책상 위에 지갑이 있어요.`", "vi": "**Trên bàn có cái ví đó.**", "pos": "danh từ", "syn": "위 (ở trên), 더 높이 (cao hơn)", "ant": "아래에 (bên dưới), 더 낮은 곳에서 (ở nơi thấp hơn)", "rel": "아스팔트 (nhựa đường), 바다 (biển), 레벨 (cấp độ)"} -->
+- 장소 (**jang-xo**) :: địa điểm | #TOPIK-1 <!-- cognitive: {"ex": "나는 지금 이상한 곳에 있다.", "vi": "Lúc này tôi đang ở một nơi xa lạ.", "pos": "danh từ", "syn": "베이스 (căn cứ), 주문 (đặt hàng)", "ant": "벗기다 (thoái vốn)", "rel": "예배 (tôn sùng)"} -->
+- 좌측 (**jwa-chưk**) :: phía bên trái | #TOPIK-1 <!-- cognitive: {"ex": "정치적 좌파가 너무 많은 권력을 쥐고 있다.", "vi": "Cánh tả chính trị đang nắm giữ quá nhiều quyền lực.", "pos": "danh từ", "syn": "항구 (hải cảng), 이상한 (kỳ quặc)", "ant": "맞아 (đúng), 우현 (mạn phải)", "rel": "하프백 (lưng chừng), 정렬 (căn chỉnh), 태클 (giải quyết)"} -->
+- 좌회전하다 (**jwa-hwe-jơn-ha-da**) :: rẽ trái | #TOPIK-1 <!-- cognitive: {"ex": "좌회전 주제에 집중합시다.", "vi": "Hãy tập trung vào chủ đề rẽ trái.", "pos": "động từ/tính từ", "syn": "", "ant": "", "rel": ""} -->
+- 중간 (**jung-gan**) :: khoảng giữa | #TOPIK-1 <!-- cognitive: {"ex": "원의 중심은 원의 모든 점까지의 거리가 같은 점입니다.", "vi": "Tâm của đường tròn là điểm có khoảng cách bằng nhau đến mọi điểm của đường tròn.", "pos": "danh từ", "syn": "중급 (trung gian), 심장 (trái tim)", "ant": "높다 (cao), 오프셋 (bù đắp)", "rel": "나이 (lứa tuổi), 등쪽 (lưng), 쥬라기의 (kỷ Jura)"} -->
+- 출구 (**chul-gu**) :: lối ra | #TOPIK-1 <!-- cognitive: {"ex": "그는 적절한 시간에 퇴장했습니다.", "vi": "Anh ấy đã ra đi vào thời điểm thích hợp.", "pos": "danh từ", "syn": "문제 (vấn đề), 죽다 (chết)", "ant": "들어오다 (đi vào), 들어가다 (đi vào)", "rel": "고속도로 (xuyên qua), 클로버잎 (lá cỏ ba lá), 경사로 (đường dốc)"} -->
 
 > 📊 **Tổng: 45 flashcards** trong chủ đề này.
 

@@ -20,43 +20,43 @@ Chủ đề mở rộng về các loại quần áo, váy vóc, giày dép thờ
 > Export sang **Anki** để nhận notification ôn tập trên điện thoại.
 
 ### 📊 Level 1 — #TOPIK-1
-- 가방 (**ga-bang**) :: túi xách/ba lô | #TOPIK-1
-- 겉옷 (**gơt-ot**) :: áo khoác bên ngoài | #TOPIK-1
-- 구두 (**gu-du**) :: giày da/giày cao gót | #TOPIK-1
-- 귀걸이 (**gwi-gơ-ri**) :: bông tai | #TOPIK-1
-- 긴바지 (**gin-ba-ji**) :: quần dài | #TOPIK-1
-- 모자 (**mo-ja**) :: mũ/nón | #TOPIK-1
-- 목걸이 (**mok-gơ-ri**) :: vòng cổ | #TOPIK-1
-- 미니스커트 (**mi-ni-xư-khơ-thư**) :: váy ngắn | #TOPIK-1
-- 바지 (**ba-ji**) :: quần | #TOPIK-1
-- 반바지 (**ban-ba-ji**) :: quần đùi/quần ngắn | #TOPIK-1
-- 배낭 (**bae-nang**) :: ba lô phượt | #TOPIK-1
-- 비닐우산 (**bi-nil-u-xan**) :: ô nilon | #TOPIK-1
-- 샌들 (**xaen-dưl**) :: giày xăng-đan | #TOPIK-1
-- 속옷 (**sok-ot**) :: đồ lót | #TOPIK-1
-- 스타킹 (**xư-tha-khing**) :: tất đùi/quần tất | #TOPIK-1
-- 슬리퍼 (**xưl-li-phơ**) :: dép lê | #TOPIK-1
-- 신다 (**xin-da**) :: mang/đi (**giày**) | #TOPIK-1
-- 신발 (**xin-bal**) :: giày dép | #TOPIK-1
-- 안경 (**an-gyơng**) :: kính mắt | #TOPIK-1
-- 액세서리 (**aek-xe-xơ-ri**) :: phụ kiện | #TOPIK-1
-- 양말 (**yang-mal**) :: tất/vớ | #TOPIK-1
-- 양말을 신다 (**yang-mal-ưl xin-da**) :: đi tất | #TOPIK-1
-- 양산 (**yang-xan**) :: ô che nắng | #TOPIK-1
-- 옷 (**ot**) :: quần áo | #TOPIK-1
-- 우비를 입다 (**u-bi-rưl ip-da**) :: mặc áo mưa | #TOPIK-1
-- 우산 (**u-xan**) :: cái ô/dù | #TOPIK-1
-- 운동화 (**un-dông-hwa**) :: giày thể thao | #TOPIK-1
-- 원피스 (**wơn-phi-xư**) :: đầm liền | #TOPIK-1
-- 입다 (**ip-da**) :: mặc (**quần áo, váy, quần jean**) | #TOPIK-1
-- 잠옷 (**jam-ot**) :: đồ ngủ | #TOPIK-1
-- 지갑 (**ji-gap**) :: ví tiền | #TOPIK-1
-- 청바지 (**chơng-ba-ji**) :: quần jean | #TOPIK-1
-- 치마 (**chi-ma**) :: váy | #TOPIK-1
-- 치마바지 (**chi-ma-ba-ji**) :: quần giả váy | #TOPIK-1
-- 코트 (**kho-thư**) :: áo khoác dạ dáng dài | #TOPIK-1
-- 털양말 (**thơl-yang-mal**) :: tất len ấm | #TOPIK-1
-- 핸드백 (**haen-dư-baek**) :: túi xách tay nữ | #TOPIK-1
+- 가방 (**ga-bang**) :: túi xách/ba lô | #TOPIK-1 <!-- cognitive: {"ex": "A: `이 가방 어때요?`", "vi": "**Cái túi này thế nào?**", "pos": "danh từ", "syn": "베이스 (căn cứ), 그립 (nắm chặt)", "ant": "", "rel": "바지 (túi xách), 수하물 (hành lý), 자루 (bao tải)"} -->
+- 겉옷 (**gơt-ot**) :: áo khoác bên ngoài | #TOPIK-1 <!-- cognitive: {"ex": "겉옷 주제에 집중합시다.", "vi": "Hãy tập trung vào chủ đề áo khoác ngoài.", "pos": "danh từ", "syn": "겉옷 (quần áo mặc ngoài)", "ant": "", "rel": "안경 (kính mắt), 스카프 (khăn quàng cổ), 신발류 (giày dép)"} -->
+- 구두 (**gu-du**) :: giày da/giày cao gót | #TOPIK-1 <!-- cognitive: {"ex": "지금 신발을 신으세요. 그렇지 않으면 학교에 늦을 것입니다.", "vi": "Hãy mang giày vào ngay nếu không sẽ muộn học.", "pos": "danh từ", "syn": "장소 (địa điểm)", "ant": "", "rel": "발바닥 (đế), 슬리퍼 (dép đi trong nhà), 샌들 (dép xăng đan)"} -->
+- 귀걸이 (**gwi-gơ-ri**) :: bông tai | #TOPIK-1 <!-- cognitive: {"ex": "귀걸이 주제에 집중합시다.", "vi": "Hãy tập trung vào chủ đề bông tai.", "pos": "danh từ", "syn": "", "ant": "", "rel": "귓불 (dái tai), 귀걸이 (bông tai), 매달리다 (lủng lẳng)"} -->
+- 긴바지 (**gin-ba-ji**) :: quần dài | #TOPIK-1 <!-- cognitive: {"ex": "긴바지 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề quần dài.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 모자 (**mo-ja**) :: mũ/nón | #TOPIK-1 <!-- cognitive: {"ex": "Phân tích: 모자까지", "vi": "**đến cả chiếc mũ**", "pos": "danh từ", "syn": "샤포 (chapeau), 뚜껑 (nắp)", "ant": "", "rel": "가장자리 (vành), 트릭 (thủ thuật), 페도라 (mũ phớt)"} -->
+- 목걸이 (**mok-gơ-ri**) :: vòng cổ | #TOPIK-1 <!-- cognitive: {"ex": "산호섬의 목걸이", "vi": "vòng cổ của đảo san hô", "pos": "danh từ", "syn": "", "ant": "", "rel": "귀걸이 (bông tai), 하모니아 (hoà âm), 펜던트 (mặt dây chuyền)"} -->
+- 미니스커트 (**mi-ni-xư-khơ-thư**) :: váy ngắn | #TOPIK-1 <!-- cognitive: {"ex": "미니스커트에 대해 집중적으로 살펴보겠습니다.", "vi": "Hãy tập trung vào chủ đề váy ngắn.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 바지 (**ba-ji**) :: quần | #TOPIK-1 <!-- cognitive: {"ex": "이 빨간 청바지와 두꺼운 티셔츠 세 벌을 사고 싶어요. 얼마입니까?", "vi": "Tôi muốn mua chiếc quần jean màu đỏ này và ba chiếc áo thun dày này. Giá bao nhiêu vậy ạ?", "pos": "danh từ", "syn": "바지 (quần), 서랍 (ngăn kéo)", "ant": "", "rel": "벨루어 (nhung), 양말 (vớ), 바지 (quần)"} -->
+- 반바지 (**ban-ba-ji**) :: quần đùi/quần ngắn | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 반바지", "vi": "**ban-ba-ji: quần đùi/quần ngắn**", "pos": "danh từ", "syn": "서랍 (ngăn kéo), 트렁크 (rương)", "ant": "", "rel": "양말 (vớ), 셔츠 (áo sơ mi), 뉴스영화 (phim thời sự)"} -->
+- 배낭 (**bae-nang**) :: ba lô phượt | #TOPIK-1 <!-- cognitive: {"ex": "배낭 주제에 중점을 두겠습니다.", "vi": "Hãy tập trung vào chủ đề ba lô.", "pos": "danh từ", "syn": "팩 (gói), 배낭 (cái bao đựng đồ)", "ant": "", "rel": "배낭 (ba lô), 화염방사기 (súng phun lửa), 스트랩 (dây đai)"} -->
+- 비닐우산 (**bi-nil-u-xan**) :: ô nilon | #TOPIK-1 <!-- cognitive: {"ex": "비닐우산에 대해 집중적으로 살펴보겠습니다.", "vi": "Hãy tập trung vào chủ đề ô nhựa.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 샌들 (**xaen-dưl**) :: giày xăng-đan | #TOPIK-1 <!-- cognitive: {"ex": "샌들 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề dép.", "pos": "danh từ", "syn": "", "ant": "", "rel": "샌들 (dép xăng đan), 게타 (được), 모카신 (giày da đanh)"} -->
+- 속옷 (**sok-ot**) :: đồ lót | #TOPIK-1 <!-- cognitive: {"ex": "속옷 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề đồ lót.", "pos": "danh từ", "syn": "속옷 (quần áo lót), 속옷 (quần áo lót)", "ant": "", "rel": "수영복 (đồ bơi), 허리띠 (dây thắt lưng), 가죽끈 (quần lót)"} -->
+- 스타킹 (**xư-tha-khing**) :: tất đùi/quần tất | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 스타킹", "vi": "**xư-tha-khing: tất đùi/quần tất**", "pos": "danh từ", "syn": "", "ant": "", "rel": "팬티스타킹 (quần tất), 멜빵 (dây treo), 버클이 달린 (oằn)"} -->
+- 슬리퍼 (**xưl-li-phơ**) :: dép lê | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 슬리퍼", "vi": "**xưl-li-phơ: dép lê**", "pos": "danh từ", "syn": "", "ant": "", "rel": "그와인 (rượu ngon), 샌들 (dép xăng đan), 슬리퍼 (dép)"} -->
+- 신다 (**xin-da**) :: mang/đi (giày) | #TOPIK-1 <!-- cognitive: {"ex": "신발; 야외복; 출산복", "vi": "giày dép; mặc ngoài trời; quần áo bà bầu", "pos": "danh từ", "syn": "휴식 (phá vỡ), 견디다 (chịu đựng)", "ant": "새로 고침 (làm mới), 상쾌하게 하다 (tươi mát)", "rel": "히잡 (khăn trùm đầu), 베레모 (mũ nồi), 블라우스 (áo cánh)"} -->
+- 신발 (**xin-bal**) :: giày dép | #TOPIK-1 <!-- cognitive: {"ex": "B: `저는 예쁜 신발을 받고 싶어요.`", "vi": "**Tớ muốn nhận một đôi giày đẹp.**", "pos": "danh từ", "syn": "장소 (địa điểm)", "ant": "", "rel": "발바닥 (đế), 슬리퍼 (dép đi trong nhà), 샌들 (dép xăng đan)"} -->
+- 안경 (**an-gyơng**) :: kính mắt | #TOPIK-1 <!-- cognitive: {"ex": "🧱 안경을 쓰다", "vi": "**Đeo kính**", "pos": "động từ", "syn": "사양 (thông số kỹ thuật), 안경 (kính mắt)", "ant": "", "rel": "애너글리프 (chữ tương tự), 안경 (kính mắt), 안경 (kính mắt)"} -->
+- 액세서리 (**aek-xe-xơ-ri**) :: phụ kiện | #TOPIK-1 <!-- cognitive: {"ex": "휴대폰 액세서리", "vi": "các phụ kiện của điện thoại di động", "pos": "danh từ", "syn": "", "ant": "", "rel": "스카프 (khăn quàng cổ), 신발류 (giày dép), 액세서리 (phụ kiện)"} -->
+- 양말 (**yang-mal**) :: tất/vớ | #TOPIK-1 <!-- cognitive: {"ex": "양말 주제에 집중합시다.", "vi": "Hãy tập trung vào chủ đề tất.", "pos": "danh từ", "syn": "", "ant": "", "rel": "구부정한 (đi nặng nề), 양말 (tất), 샌들 (dép xăng đan)"} -->
+- 양말을 신다 (**yang-mal-ưl xin-da**) :: đi tất | #TOPIK-1 <!-- cognitive: {"ex": "양말 착용 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề mang tất.", "pos": "động từ/tính từ", "syn": "", "ant": "", "rel": ""} -->
+- 양산 (**yang-xan**) :: ô che nắng | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 양산", "vi": "**yang-xan: ô che nắng**", "pos": "danh từ", "syn": "양산 (tấm che nắng)", "ant": "", "rel": "단일 비행기 (máy bay đơn), 뒤뚱거리다 (lạch bạch), 두랄루민 (duralumin)"} -->
+- 옷 (**ot**) :: quần áo | #TOPIK-1 <!-- cognitive: {"ex": "오늘 날씨가 너무 춥고 바람이 많이 부네요. Trí 씨, 따뜻한 옷이 있습니까?", "vi": "Hôm nay thời tiết quá lạnh và gió thổi nhiều thật đấy. Bạn Trí có quần áo ấm chưa?", "pos": "danh từ", "syn": "의복 (lễ phục), 의류 (may mặc)", "ant": "", "rel": "건조기 (máy sấy), 액세서리 (phụ kiện), 드레스 (váy)"} -->
+- 우비를 입다 (**u-bi-rưl ip-da**) :: mặc áo mưa | #TOPIK-1 <!-- cognitive: {"ex": "비옷을 입는 주제에 집중합시다.", "vi": "Hãy tập trung vào chủ đề mặc áo mưa.", "pos": "động từ/tính từ", "syn": "", "ant": "", "rel": ""} -->
+- 우산 (**u-xan**) :: cái ô/dù | #TOPIK-1 <!-- cognitive: {"ex": "아, 지금 비가 오고 바람이 부니까 우산을 쓰세요. 역은 바로 저기 은행 뒤에 있습니다.", "vi": "À, bây giờ trời đang mưa và gió thổi nên hãy che ô vào nhé. Nhà ga nằm ngay phía sau ngân hàng kia kìa.", "pos": "danh từ", "syn": "포괄적인 (toàn diện)", "ant": "", "rel": "조직 (tổ chức), 조직 (tổ chức), 브랜딩 (xây dựng thương hiệu)"} -->
+- 운동화 (**un-dông-hwa**) :: giày thể thao | #TOPIK-1 <!-- cognitive: {"ex": "운동화 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề giày thể thao.", "pos": "danh từ", "syn": "", "ant": "", "rel": "운동화 (giày thể thao), 이발 (cắt tóc), 끈 (dây buộc)"} -->
+- 원피스 (**wơn-phi-xư**) :: đầm liền | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 원피스", "vi": "**wơn-phi-xư: đầm liền**", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 입다 (**ip-da**) :: mặc (quần áo, váy, quần jean) | #TOPIK-1 <!-- cognitive: {"ex": "💡 입다", "vi": "mặc", "pos": "động từ", "syn": "", "ant": "", "rel": ""} -->
+- 잠옷 (**jam-ot**) :: đồ ngủ | #TOPIK-1 <!-- cognitive: {"ex": "📚 Từ liên quan: 잠옷", "vi": "**jam-ot: đồ ngủ**", "pos": "danh từ", "syn": "잠옷 (đồ ngủ), 잠옷 (đồ ngủ)", "ant": "", "rel": "잠옷 (đồ ngủ), 삼베 (vải bố), 슬리퍼 (dép đi trong nhà)"} -->
+- 지갑 (**ji-gap**) :: ví tiền | #TOPIK-1 <!-- cognitive: {"ex": "A: `지갑이 어디에 있어요?`", "vi": "**Cái ví ở đâu rồi?**", "pos": "danh từ", "syn": "지갑 (gấp tiền), 메모장 (va li đựng giấy tờ)", "ant": "", "rel": "차변 (ghi nợ), 지갑 (ví), NFC (nfc)"} -->
+- 청바지 (**chơng-ba-ji**) :: quần jean | #TOPIK-1 <!-- cognitive: {"ex": "이 빨간 청바지와 두꺼운 티셔츠 세 벌을 사고 싶어요. 얼마입니까?", "vi": "Tôi muốn mua chiếc quần jean màu đỏ này và ba chiếc áo thun dày này. Giá bao nhiêu vậy ạ?", "pos": "danh từ", "syn": "", "ant": "", "rel": "데님 (vải jean), 운동화 (giày thể thao), 아르마니 (Armani)"} -->
+- 치마 (**chi-ma**) :: váy | #TOPIK-1 <!-- cognitive: {"ex": "평원은 줄지어 늘어선 나무들로 둘러싸여 있었습니다.", "vi": "Đồng bằng được bao quanh bởi những hàng cây.", "pos": "danh từ", "syn": "피하다 (trốn tránh), 하녀 (gái điếm)", "ant": "", "rel": "블라우스 (áo cánh), 몸통 (vạt áo), 스타킹 (quần bó)"} -->
+- 치마바지 (**chi-ma-ba-ji**) :: quần giả váy | #TOPIK-1 <!-- cognitive: {"ex": "스커트바지 주제를 집중적으로 살펴보겠습니다.", "vi": "Hãy tập trung vào chủ đề quần váy.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 코트 (**kho-thư**) :: áo khoác dạ dáng dài | #TOPIK-1 <!-- cognitive: {"ex": "🔄 Đồng nghĩa: 코트", "vi": "**áo khoác dài**", "pos": "danh từ", "syn": "케이크 (bánh ngọt), 코팅 (lớp phủ)", "ant": "", "rel": "언더코트 (lớp lót), 빨간색 (vết loét), 은빛 (màu argentina)"} -->
+- 털양말 (**thơl-yang-mal**) :: tất len ấm | #TOPIK-1 <!-- cognitive: {"ex": "양모 양말 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề tất len.", "pos": "danh từ", "syn": "", "ant": "", "rel": ""} -->
+- 핸드백 (**haen-dư-baek**) :: túi xách tay nữ | #TOPIK-1 <!-- cognitive: {"ex": "핸드백 주제에 집중해 보겠습니다.", "vi": "Hãy tập trung vào chủ đề túi xách.", "pos": "danh từ", "syn": "가방 (túi), 지갑 (ví)", "ant": "", "rel": "헤름 (herm), 소설 (tiểu thuyết nhỏ), 샤넬 (chanel)"} -->
 
 > 📊 **Tổng: 37 flashcards** trong chủ đề này.
 
