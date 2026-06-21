@@ -327,8 +327,9 @@
       "completed_at": "2026-06-21",
       "steps": [
         "Thêm script build vào package.json để Vite có thể đóng gói trên Vercel",
-        "Cập nhật vercel.json với includeFiles trỏ đến các thư mục chứa file Markdown",
-        "Sửa lỗi định dạng includeFiles từ mảng thành chuỗi glob khớp đặc tả Vercel",
+        "Tạo build-copier.js để sao chép Markdown vào thư mục dự án cục bộ khi build",
+        "Cấu hình lại vercel.json đóng gói tệp Markdown trong phạm vi thư mục gốc",
+        "Cập nhật server/index.js hỗ trợ đường dẫn dự phòng khi chạy online",
         "Đẩy thay đổi lên GitHub để Vercel tự động xây dựng lại dự án thành công"
       ]
     }
