@@ -744,10 +744,14 @@ app.get('/api/tts', (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`Express API Server running on port ${PORT}`);
-  console.log(`Language: ${LANG} | Vault: ${VAULT_MAP[LANG]}`);
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Express API Server running on port ${PORT}`);
+    console.log(`Language: ${LANG} | Vault: ${VAULT_MAP[LANG]}`);
+  });
+}
+
+module.exports = app;
 
 
 

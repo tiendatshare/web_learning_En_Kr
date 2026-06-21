@@ -52,7 +52,11 @@ export default function ActiveRecallQuizzer({ card, onReviewSubmitted, mode, set
     }
 
     const ttsLang = currentLang === 'english' ? 'english' : 'korean';
-    const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:3001';
+    const API_BASE = import.meta.env.VITE_API_BASE || (
+      (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
+        ? 'http://localhost:3001'
+        : ''
+    );
     const audioUrl = `${API_BASE}/api/tts?text=${encodeURIComponent(textToSpeak)}&lang=${ttsLang}`;
     const audio = new Audio(audioUrl);
     audio.play().catch(err => {
