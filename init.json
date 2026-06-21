@@ -333,6 +333,18 @@
         "Bổ sung cơ chế bảo vệ try-catch ngăn chặn sập serverless khi phân giải thư mục và ghi đĩa",
         "Đẩy thay đổi lên GitHub để Vercel tự động xây dựng lại dự án thành công"
       ]
+    },
+    {
+      "id": "T30",
+      "goal": "Triển khai chuyển đổi ngôn ngữ động ở phía Client và truyền tham số ngôn ngữ cho API",
+      "status": "done",
+      "completed_at": "2026-06-21",
+      "steps": [
+        "Khởi tạo currentLang từ localStorage trong App.jsx",
+        "Sửa đổi switchLanguage() để chuyển đổi ngôn ngữ không cần tải lại trang và cập nhật localStorage",
+        "Cập nhật các hàm gọi API trong App.jsx để truyền tham số ?lang=...",
+        "Truyền currentLang xuống VocabLearner và SpeakingMode làm props và tự động tải lại dữ liệu khi đổi ngôn ngữ"
+      ]
     }
   ]
 }
