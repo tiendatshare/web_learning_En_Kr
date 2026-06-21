@@ -308,6 +308,17 @@
         "Tạo script sync_to_obsidian.js cho việc đồng bộ tiến trình học ngoại tuyến về local",
         "Ủy thác và lưu các commit thay đổi lên Git thành công"
       ]
+    },
+    {
+      "id": "T28",
+      "goal": "Dọn dẹp lịch sử Git và đẩy thành công toàn bộ mã nguồn sạch lên GitHub",
+      "status": "done",
+      "completed_at": "2026-06-21",
+      "steps": [
+        "Cập nhật tệp .gitignore để loại bỏ các tệp tin media và tài liệu PDF nặng",
+        "Hủy lịch sử Git cũ và khởi tạo Git mới sạch dung lượng thấp",
+        "Liên kết remote origin và đẩy mã nguồn thành công lên GitHub"
+      ]
     }
   ]
 }
