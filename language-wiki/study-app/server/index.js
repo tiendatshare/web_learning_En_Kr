@@ -684,9 +684,28 @@ app.get('/api/cards/by-topic', async (req, res) => {
   }
 });
 
-// API: Get current language
+// API: Get current language with filesystem diagnostics
 app.get('/api/language', (req, res) => {
-  res.json({ language: LANG, vault: VAULT_MAP[LANG], availableLanguages: Object.keys(VAULT_MAP) });
+  let diag = {};
+  try {
+    diag = {
+      __dirname,
+      workspaceRoot,
+      vaultPath,
+      vaultPathExists: fs.existsSync(vaultPath),
+      vocabDirExists: fs.existsSync(path.resolve(vaultPath, 'wiki/concepts/vocabulary')),
+      taskFiles: fs.existsSync('/var/task') ? fs.readdirSync('/var/task') : [],
+      mcdKoreanFiles: fs.existsSync(path.resolve(__dirname, '../MD_korea_learning')) ? fs.readdirSync(path.resolve(__dirname, '../MD_korea_learning')) : [],
+    };
+  } catch (err) {
+    diag = { error: err.message };
+  }
+  res.json({ 
+    language: LANG, 
+    vault: VAULT_MAP[LANG], 
+    availableLanguages: Object.keys(VAULT_MAP),
+    diagnostics: diag 
+  });
 });
 
 // API: Switch language (writes to file for launcher to read on restart)
